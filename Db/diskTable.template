@@ -1,0 +1,8 @@
+record(longin, "$(P):dskPercent")
+{
+  field(DESC, "Disk used percentage")
+  field(SCAN, "5 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)dskPercent.$(CHAN) INTEGER: 100 i")
+}
+
