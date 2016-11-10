@@ -1,4 +1,0 @@
-file "diskTable.template" { pattern
-{P,  DEV,  PASSWD, CHAN}
-{"test-vm2", "disk", "freia_secret", 1}
-}

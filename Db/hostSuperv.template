@@ -1,0 +1,198 @@
+record(waveform, "$(P):System:Descr")
+{
+  field(DESC, "System description")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) sysDescr.0 STRING: 100 s")
+  field(NELM, "100")
+  field(FTVL, "STRING")
+}
+
+
+record(stringin, "$(P):System:Name")
+{
+  field(DESC, "System name")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) sysName.0 STRING: 100 s")
+}
+
+record(stringin, "$(P):System:Date")
+{
+  field(DESC, "System date")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) hrSystemDate.0 STRING: 100 s")
+}
+
+record(stringin, "$(P):System:upTime")
+{
+  field(DESC, "System up-time")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) sysUpTimeInstance ) 100 s")
+}
+
+record(longin, "$(P):System:upTime-ticks")
+{
+  field(DESC, "System up-time.")
+  field(EGU, "ticks")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) sysUpTimeInstance ( 100 i")
+}
+
+record(longin, "$(P):System:numUsers")
+{
+  field(DESC, "System - number of users logged in")
+  field(EGU, "")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) hrSystemNumUsers.0 Gauge32: 100 i")
+}
+
+record(longin, "$(P):System:numProcesses")
+{
+  field(DESC, "System - number of processes")
+  field(EGU, "")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) hrSystemProcesses.0 Gauge32: 100 i")
+}
+
+record(longin, "$(P):LoadAvg:1min")
+{
+  field(DESC, "The 1 minute load average.")
+  field(EGU, "%")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)laLoadInt.1 INTEGER: 100 i")
+}
+
+record(longin, "$(P):LoadAvg:5min")
+{
+  field(DESC, "The 5 minute load average.")
+  field(EGU, "%")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)laLoadInt.2 INTEGER: 100 i")
+}
+
+record(longin, "$(P):LoadAvg:15min")
+{
+  field(DESC, "The 15 minute load average.")
+  field(EGU, "%")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)laLoadInt.3 INTEGER: 100 i")
+}
+
+record(longin, "$(P):CpuRaw:User")
+{
+  field(DESC, "Time spent processing user-level code.")
+  field(EGU, "ticks")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)ssCpuRawUser.0 INTEGER: 100 i")
+}
+
+
+record(longin, "$(P):CpuRaw:Nice")
+{
+  field(DESC, "Time spent processing reduced-prio code.")
+  field(EGU, "ticks")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)ssCpuRawNice.0 INTEGER: 100 i")
+}
+
+record(longin, "$(P):CpuRaw:System")
+{
+  field(DESC, "Time spent processing system-level code.")
+  field(EGU, "ticks")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)ssCpuRawSystem.0 INTEGER: 100 i")
+}
+
+record(longin, "$(P):Cpu:Idle")
+{
+  field(DESC, "No of ticks spent idle.")
+  field(EGU, "ticks")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)ssCpuIdle.0 INTEGER: 100 i")
+}
+
+record(longin, "$(P):CpuRaw:Wait")
+{
+  field(DESC, "No of ticks spent waiting for IO.")
+  field(EGU, "ticks")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)ssCpuRawWait.0 INTEGER: 100 i")
+}
+
+record(longin, "$(P):CpuRaw:Kernel")
+{
+  field(DESC, "Time spent processing kernel-level code.")
+  field(EGU, "ticks")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)ssCpuRawKernel.0 INTEGER: 100 i")
+}
+
+record(longin, "$(P):CpuRaw:Interrupt")
+{
+  field(DESC, "Time spent processing hrdwr interrupts.")
+  field(EGU, "ticks")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)ssCpuRawInterrupt.0 INTEGER: 100 i")
+}
+
+record(longin, "$(P):Memory:TotalSwap")
+{
+  field(DESC, "The swap space configured for this host.")
+  field(EGU, "kB")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)memTotalSwap.0 INTEGER: 100 i")
+}
+
+record(longin, "$(P):Memory:AvailSwap")
+{
+  field(DESC, "The swap space currently available.")
+  field(EGU, "kB")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)memAvailSwap.0 INTEGER: 100 i")
+}
+
+record(longin, "$(P):Memory:TotalReal")
+{
+  field(DESC, "The real/physical memory installed.")
+  field(EGU, "kB")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)memTotalReal.0 INTEGER: 100 i")
+}
+
+record(longin, "$(P):Memory:availlReal")
+{
+  field(DESC, "The real/physical mem. currently unused.")
+  field(EGU, "kB")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)memTotalReal.0 INTEGER: 100 i")
+}
+
+record(longin, "$(P):Memory:TotalFree")
+{
+  field(DESC, "The total memory available.")
+  field(EGU, "kB")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)memTotalFree.0 INTEGER: 100 i")
+}
+

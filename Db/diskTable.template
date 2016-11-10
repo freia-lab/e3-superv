@@ -1,8 +1,61 @@
-record(longin, "$(P):dskPercent")
+record(longin, "$(P):$(PART):dskPercent")
 {
-  field(DESC, "Disk used percentage")
-  field(SCAN, "5 second")
+  field(DESC, "Percentage of space used on disk.")
+  field(EGU, "%")
+  field(SCAN, "10 second")
   field(DTYP, "Snmp")
   field(INP, "@$(H) $(PASSWD) %(D)dskPercent.$(CHAN) INTEGER: 100 i")
+}
+
+record(longin, "$(P):$(PART):dskPercentNode")
+{
+  field(DESC, "Percentage of inodes used on disk.")
+  field(EGU, "%")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)dskPercentNode.$(CHAN) INTEGER: 100 i")
+}
+
+record(longin, "$(P):$(PART):dskTotal")
+{
+  field(DESC, "Total size of the disk/partion (kBytes)")
+  field(EGU, "kB")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)dskTotal.$(CHAN) INTEGER: 100 i")
+}
+
+record(longin, "$(P):$(PART):dskAvail")
+{
+  field(DESC, "Available space on the disk.")
+  field(EGU, "kB")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)dskAvail.$(CHAN) INTEGER: 100 i")
+}
+
+record(longin, "$(P):$(PART):dskUsed")
+{
+  field(DESC, "Used space on the disk.")
+  field(EGU, "kB")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)dskUsed.$(CHAN) INTEGER: 100 i")
+}
+
+record(stringin, "$(P):$(PART):dskPath")
+{
+  field(DESC, "Path where the disk is mounted.")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)dskPath.$(CHAN) STRING: 100 s")
+}
+
+record(stringin, "$(P):$(PART):dskDevice")
+{
+  field(DESC, "Path of the device for the partition")
+  field(SCAN, "10 second")
+  field(DTYP, "Snmp")
+  field(INP, "@$(H) $(PASSWD) %(D)dskDevice.$(CHAN) STRING: 100 s")
 }
 
