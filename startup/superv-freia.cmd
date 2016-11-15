@@ -1,4 +1,5 @@
 require snmp
+require autosave
 epicsEnvSet("AUTOSAVE_SYSM_PV_PREFIX","superv:")
 epicsEnvSet("MIBDIRS", "+$(REQUIRE_ioc_superv_freia_PATH)/misc")
 epicsEnvSet("D", "UCD-SNMP-MIB::")
@@ -22,38 +23,42 @@ devSnmpSetSnmpVersion($(HOST_6),SNMP_VERSION_2c)
 #devSnmpSetParam("DebugLevel",10)
 
 # HOST_1 (freia-srv1)
-dbLoadRecords("diskTable.template","P=Ctrl-freiaSrv1,PART=disk-root,PASSWD=freia_secret,H=$(HOST_1),CHAN=1")
-dbLoadRecords("diskTable.template","P=Ctrl-freiaSrv1,PART=disk-data1,PASSWD=freia_secret,H=$(HOST_1),CHAN=7")
+dbLoadRecords("diskTable.template","P=Ctrl-freiaSrv1,PART=disk-root,PASSWD=freia_secret,H=$(HOST_1),CHAN=1,HI=85,HH=95")
+dbLoadRecords("diskTable.template","P=Ctrl-freiaSrv1,PART=disk-data1,PASSWD=freia_secret,H=$(HOST_1),CHAN=7,HI=85,HH=95")
 dbLoadRecords("hostSuperv.template","P=Ctrl-freiaSrv1,PASSWD=freia_secret,H=$(HOST_1)")
 
 # HOST_2 (centos-srv1)
-dbLoadRecords("diskTable.template","P=Ctrl-centosSrv1,PART=disk-root,PASSWD=freia_secret,H=$(HOST_2),CHAN=1")
-dbLoadRecords("diskTable.template","P=Ctrl-centosSrv1,PART=disk-boot,PASSWD=freia_secret,H=$(HOST_2),CHAN=2")
-dbLoadRecords("diskTable.template","P=Ctrl-centosSrv1,PART=disk-data1,PASSWD=freia_secret,H=$(HOST_2),CHAN=3")
+dbLoadRecords("diskTable.template","P=Ctrl-centosSrv1,PART=disk-root,PASSWD=freia_secret,H=$(HOST_2),CHAN=1,HI=85,HH=95")
+dbLoadRecords("diskTable.template","P=Ctrl-centosSrv1,PART=disk-boot,PASSWD=freia_secret,H=$(HOST_2),CHAN=2,HI=85,HH=95")
+dbLoadRecords("diskTable.template","P=Ctrl-centosSrv1,PART=disk-data1,PASSWD=freia_secret,H=$(HOST_2),CHAN=3,HI=85,HH=95")
 dbLoadRecords("hostSuperv.template","P=Ctrl-centosSrv1,PASSWD=freia_secret,H=$(HOST_2)")
 
 # HOST_3 (freia-arcapl1)
-dbLoadRecords("diskTable.template","P=Ctrl-arcApl1,PART=disk-root,PASSWD=freia_secret,H=$(HOST_3),CHAN=1")
-dbLoadRecords("diskTable.template","P=Ctrl-arcApl1,PART=disk-boot,PASSWD=freia_secret,H=$(HOST_3),CHAN=2")
-dbLoadRecords("diskTable.template","P=Ctrl-arcApl1,PART=disk-data1,PASSWD=freia_secret,H=$(HOST_3),CHAN=3")
+dbLoadRecords("diskTable.template","P=Ctrl-arcApl1,PART=disk-root,PASSWD=freia_secret,H=$(HOST_3),CHAN=1,HI=85,HH=95")
+dbLoadRecords("diskTable.template","P=Ctrl-arcApl1,PART=disk-boot,PASSWD=freia_secret,H=$(HOST_3),CHAN=2,HI=85,HH=95")
+dbLoadRecords("diskTable.template","P=Ctrl-arcApl1,PART=disk-data1,PASSWD=freia_secret,H=$(HOST_3),CHAN=3,HI=85,HH=95")
 dbLoadRecords("hostSuperv.template","P=Ctrl-arcApl1,PASSWD=freia_secret,H=$(HOST_3)")
 
 # HOST_4 (vm-codac-1)
-dbLoadRecords("diskTable.template","P=Ctrl-vmCodac1,PART=disk-root,PASSWD=freia_secret,H=$(HOST_4),CHAN=1")
-dbLoadRecords("diskTable.template","P=Ctrl-vmCodac1,PART=disk-boot,PASSWD=freia_secret,H=$(HOST_4),CHAN=2")
+dbLoadRecords("diskTable.template","P=Ctrl-vmCodac1,PART=disk-root,PASSWD=freia_secret,H=$(HOST_4),CHAN=1,HI=85,HH=95")
+dbLoadRecords("diskTable.template","P=Ctrl-vmCodac1,PART=disk-boot,PASSWD=freia_secret,H=$(HOST_4),CHAN=2,HI=85,HH=95")
 dbLoadRecords("hostSuperv.template","P=Ctrl-vmCodac1,PASSWD=freia_secret,H=$(HOST_4)")
 
 # HOST_5 (freia-arch1)
-dbLoadRecords("diskTable.template","P=Ctrl-freiaArch1,PART=disk-root,PASSWD=freia_secret,H=$(HOST_5),CHAN=1")
-dbLoadRecords("diskTable.template","P=Ctrl-freiaArch1,PART=disk-boot,PASSWD=freia_secret,H=$(HOST_5),CHAN=2")
-dbLoadRecords("diskTable.template","P=Ctrl-freiaArch1,PART=disk-data1,PASSWD=freia_secret,H=$(HOST_5),CHAN=3")
+dbLoadRecords("diskTable.template","P=Ctrl-freiaArch1,PART=disk-root,PASSWD=freia_secret,H=$(HOST_5),CHAN=1,HI=85,HH=95")
+dbLoadRecords("diskTable.template","P=Ctrl-freiaArch1,PART=disk-boot,PASSWD=freia_secret,H=$(HOST_5),CHAN=2,HI=85,HH=95")
+dbLoadRecords("diskTable.template","P=Ctrl-freiaArch1,PART=disk-data1,PASSWD=freia_secret,H=$(HOST_5),CHAN=3,HI=85,HH=95")
 dbLoadRecords("hostSuperv.template","P=Ctrl-freiaArch1,PASSWD=freia_secret,H=$(HOST_5)")
 
 # HOST_6 ()
-#dbLoadRecords("diskTable.template","P=Ctrl-freiavm2,PART=disk-root,PASSWD=freia_secret,H=$(HOST_6),CHAN=1")
+#dbLoadRecords("diskTable.template","P=Ctrl-freiavm2,PART=disk-root,PASSWD=freia_secret,H=$(HOST_6),CHAN=1,HI=85,HH=95")
 #dbLoadRecords("hostSuperv.template","P=Ctrl-freiavm2,PASSWD=freia_secret,H=$(HOST_6)")
+
+requireSnippet(superv-freia-preSaveRestore.cmd)
 
 #############################################
 ## IOC initialization                      ##
 #############################################
 iocInit
+
+requireSnippet(superv-freia-postSaveRestore.cmd)

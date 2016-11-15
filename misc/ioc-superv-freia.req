@@ -1,0 +1,32 @@
+####################
+# Save alarm limits
+####################
+#
+# Disks
+#
+Ctrl-arcApl1:disk-boot:dskPercent.HIHI
+Ctrl-arcApl1:disk-boot:dskPercent.HIGH
+Ctrl-arcApl1:disk-data1:dskPercent.HIHI
+Ctrl-arcApl1:disk-data1:dskPercent.HIGH
+Ctrl-arcApl1:disk-root:dskPercent.HIHI
+Ctrl-arcApl1:disk-root:dskPercent.HIGH
+Ctrl-centosSrv1:disk-boot:dskPercent.HIHI
+Ctrl-centosSrv1:disk-boot:dskPercent.HIGH
+Ctrl-centosSrv1:disk-data1:dskPercent.HIHI
+Ctrl-centosSrv1:disk-data1:dskPercent.HIGH
+Ctrl-centosSrv1:disk-root:dskPercent.HIHI
+Ctrl-centosSrv1:disk-root:dskPercent.HIGH
+Ctrl-freiaArch1:disk-boot:dskPercent.HIHI
+Ctrl-freiaArch1:disk-boot:dskPercent.HIGH
+Ctrl-freiaArch1:disk-data1:dskPercent.HIHI
+Ctrl-freiaArch1:disk-data1:dskPercent.HIGH
+Ctrl-freiaArch1:disk-root:dskPercent.HIHI
+Ctrl-freiaArch1:disk-root:dskPercent.HIGH
+Ctrl-freiaSrv1:disk-data1:dskPercent.HIHI
+Ctrl-freiaSrv1:disk-data1:dskPercent.HIGH
+Ctrl-freiaSrv1:disk-root:dskPercent.HIHI
+Ctrl-freiaSrv1:disk-root:dskPercent.HIGH
+Ctrl-vmCodac1:disk-boot:dskPercent.HIHI
+Ctrl-vmCodac1:disk-boot:dskPercent.HIGH
+Ctrl-vmCodac1:disk-root:dskPercent.HIHI
+Ctrl-vmCodac1:disk-root:dskPercent.HIGH

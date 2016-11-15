@@ -51,7 +51,7 @@
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>303</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -105,7 +105,7 @@
       <fill_color>
         <color red="0" green="0" blue="255" />
       </fill_color>
-      <fillcolor_alarm_sensitive>false</fillcolor_alarm_sensitive>
+      <fillcolor_alarm_sensitive>true</fillcolor_alarm_sensitive>
       <font>
         <opifont.name fontName="Cantarell" height="9" style="0">Fine Print</opifont.name>
       </font>
@@ -141,12 +141,12 @@
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <show_hi>false</show_hi>
-      <show_hihi>false</show_hihi>
+      <show_hi>true</show_hi>
+      <show_hihi>true</show_hihi>
       <show_label>false</show_label>
       <show_lo>false</show_lo>
       <show_lolo>false</show_lolo>
-      <show_markers>false</show_markers>
+      <show_markers>true</show_markers>
       <show_minor_ticks>true</show_minor_ticks>
       <show_scale>true</show_scale>
       <tooltip>$(pv_name)
