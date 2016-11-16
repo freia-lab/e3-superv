@@ -11,7 +11,7 @@ epicsEnvSet("HOST_2" "$(SUPERV_FREIA_2=192.168.10.62)")
 epicsEnvSet("HOST_3" "$(SUPERV_FREIA_3=192.168.10.64)")
 epicsEnvSet("HOST_4" "$(SUPERV_FREIA_4=192.168.10.107)")
 epicsEnvSet("HOST_5" "$(SUPERV_FREIA_5=192.168.10.108)")
-epicsEnvSet("HOST_6" "$(SUPERV_FREIA_6=192.168.10.120)")
+epicsEnvSet("HOST_6" "$(SUPERV_FREIA_6=130.238.199.246)")
 
 devSnmpSetSnmpVersion($(HOST_1),SNMP_VERSION_2c)
 devSnmpSetSnmpVersion($(HOST_2),SNMP_VERSION_2c)
@@ -50,9 +50,9 @@ dbLoadRecords("diskTable.template","P=Ctrl-freiaArch1,PART=disk-boot,PASSWD=frei
 dbLoadRecords("diskTable.template","P=Ctrl-freiaArch1,PART=disk-data1,PASSWD=freia_secret,H=$(HOST_5),CHAN=3,HI=85,HH=95")
 dbLoadRecords("hostSuperv.template","P=Ctrl-freiaArch1,PASSWD=freia_secret,H=$(HOST_5)")
 
-# HOST_6 ()
-#dbLoadRecords("diskTable.template","P=Ctrl-freiavm2,PART=disk-root,PASSWD=freia_secret,H=$(HOST_6),CHAN=1,HI=85,HH=95")
-#dbLoadRecords("hostSuperv.template","P=Ctrl-freiavm2,PASSWD=freia_secret,H=$(HOST_6)")
+# HOST_6 (freia.physics.uu.se)
+dbLoadRecords("diskTable.template","P=Ctrl-freia,PART=disk-root,PASSWD=freia_secret,H=$(HOST_6),CHAN=1,HI=85,HH=95")
+dbLoadRecords("hostSuperv.template","P=Ctrl-freia,PASSWD=freia_secret,H=$(HOST_6)")
 
 requireSnippet(superv-freia-preSaveRestore.cmd)
 
