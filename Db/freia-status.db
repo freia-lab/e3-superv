@@ -1,0 +1,257 @@
+# Linde cryo-system status
+#
+record(calc, "Cryo-System:Operation:VisuState-in") {
+   field (INPA, "Cryo-CBox:LP:TI3280 MSS")
+   field (INPB, "Cryo-CBox:HP:TI3155 MSS")
+   field (INPC, "10")
+   field (INPD, "Cryo-CBox:CoolMode:VisuState")
+   field (CALC, "A<C&&B<C?3:(D>0?2:1)")
+   field (SCAN, "1 second")
+   field (FLNK, "Cryo-System:Operation:VisuState")
+}
+
+record(mbbi, "Cryo-System:Operation:VisuState") {
+  field (INP,  "Cryo-System:Operation:VisuState-in MSS")
+  field (DTYP, "Raw Soft Channel") 
+  field (NOBT, "16") 
+  field (ONVL, "1")
+  field (TWVL, "2")
+  field (THVL, "3")
+  field (ONST, "Off")
+  field (TWST, "Standby")
+  field (THST, "Liquifying")
+  field (ZRSV, "MINOR")
+  field (UNSV, "MINOR")
+  field (DESC, "Liquifier visual states")
+}
+
+# HNOSS status
+#
+record(calc, "CstatH-Ctrl:SQs-1") {
+   field (INPA, "CstatH-Ctrl:SQ0:sRun MSS")
+   field (INPB, "CstatH-Ctrl:SQ1:sRun MSS")
+   field (INPC, "CstatH-Ctrl:SQ2:sRun MSS")
+   field (INPD, "CstatH-Ctrl:SQ3A:sRun MSS")
+   field (INPE, "CstatH-Ctrl:SQ3B:sRun MSS")
+   field (INPF, "CstatH-Ctrl:SQ4:sRun MSS")
+   field (INPG, "CstatH-Ctrl:SQ5:sRun MSS")
+   field (INPH, "CstatH-Ctrl:SQ6:sRun MSS")
+   field (INPI, "CstatH-Ctrl:SQ7:sRun MSS")
+   field (INPJ, "CstatH-Ctrl:SQ10:sRun MSS")
+   field (INPK, "CstatH-Ctrl:SQ11:sRun MSS")
+   field (INPL, "CstatH-Ctrl:SQ12A:sRun MSS")
+   field (CALC, "A||B||C||D||E||F||G||H||I||J||K||L")
+   field (SCAN, "1 second")
+   field (FLNK, "CstatH-Ctrl:SQs-2 MSS")
+}
+record(calc, "CstatH-Ctrl:SQs-2") {
+   field (INPA, "CstatH-Ctrl:SQs-1 MSS")
+   field (INPB, "CstatH-Ctrl:SQ12B:sRun MSS")
+   field (INPC, "CstatH-Ctrl:SQ13:sRun MSS")
+   field (INPD, "CstatH-Ctrl:SQ20:sRun MSS")
+   field (INPE, "CstatH-Ctrl:SQ7:sRun MSS")
+   field (INPF, "CstatH-Ctrl:SQ8:sRun MSS")
+   field (CALC, "(A||B||C||D||E||F)?(E||F?3:2):0")
+   field (FLNK, "CstatH-Ctrl:SQ:VisuState")
+}
+record(mbbi, "CstatH-Ctrl:SQ:VisuState") {
+  field (INP,  "CstatH-Ctrl:SQs-2 MSS")
+  field (DTYP, "Raw Soft Channel") 
+  field (NOBT, "16") 
+  field (ZRVL, "0")
+  field (TWVL, "2")
+  field (THVL, "3")
+  field (ZRST, "Off") 
+  field (TWST, "In preparation")
+  field (THST, "Cold")
+  field (UNSV, "MINOR")
+  field (DESC, "HNOSS visual states")
+}
+
+# RF Interlock
+#
+record(mbbi, "IntlkF-cRio1:Intlk:VisuState") {
+  field (INP,  "IntlkF-cRio1:Intlk:sTriggered-1 MSS")
+  field (DTYP, "Raw Soft Channel") 
+  field (SCAN, "1 second")
+  field (NOBT, "1") 
+  field (ZRVL, "2")
+  field (ONVL, "1")
+  field (ONST, "Fault")
+  field (TWVL, "2")
+  field (THVL, "0")
+  field (THST, "OK")
+  field (UNSV, "MINOR")
+  field (DESC, "RF interlock status")
+}
+
+# DBE RF station status
+#
+record(calc, "HPE-DBE:Ampl:VisuState-in") {
+   field (INPA, "HPRF-DBE:Mains:sOn MSS")
+   field (INPB, "HPRF-DBE1:Ampl:sOn MSS")
+   field (INPC, "HPRF-DBE2:Ampl:sOn MSS")
+   field (INPD, "HPRF-DBE1:APS:sOn MSS")
+   field (INPE, "HPRF-DBE2:APS:sOn MSS")
+   field (CALC, "A?(B+(C<<1)+(D<<2)+(E<<3)):16")
+   field (SCAN, "1 second")
+   field (FLNK, "HPE-DBE:Ampl:VisuState")
+}
+
+record(mbbi, "HPE-DBE:Ampl:VisuState") {
+  field (INP,  "HPE-DBE:Ampl:VisuState-in MSS")
+  field (DTYP, "Raw Soft Channel") 
+  field (NOBT, "5") 
+  field (ZRVL, "16")
+  field (ZRST, "Mains OFF")
+  field (ONVL, "0")
+  field (ONST, "Off")
+  field (TWVL, "3")
+  field (TWST, "Standby")
+  field (THVL, "15")
+  field (THST, "On")
+  field (UNSV, "MINOR")
+  field (DESC, "DBE RF station visual states")
+}
+
+
+# Electrosys RF station status
+#
+record(calc, "HPE-Esys:Ampl:VisuState-in") {
+   field (INPA, "HPRF-Esys:Mains:sOn MSS")
+   field (INPB, "HPRF-Esys:hpa1:sStart MSS")
+   field (INPC, "HPRF-Esys:hpa2:sStart MSS")
+   field (INPD, "HPRF-Esys:hpa1:sPwrOn MSS")
+   field (INPE, "HPRF-Esys:hpa2:sPwrOn MSS")
+   field (CALC, "A?(B+(C<<1)+(D<<2)+(E<<3)):16")
+   field (SCAN, "1 second")
+   field (FLNK, "HPE-Esys:Ampl:VisuState")
+}
+
+record(mbbi, "HPE-Esys:Ampl:VisuState") {
+  field (INP,  "HPE-Esys:Ampl:VisuState-in MSS")
+  field (DTYP, "Raw Soft Channel") 
+  field (NOBT, "5") 
+  field (ZRVL, "16")
+  field (ZRST, "Mains OFF")
+  field (ONVL, "0")
+  field (ONST, "Off")
+  field (TWVL, "3")
+  field (TWST, "Standby")
+  field (THVL, "15")
+  field (THST, "On")
+  field (UNSV, "MINOR")
+  field (DESC, "Esys RF station visual states")
+}
+
+# FREIA bunker status
+#
+record(calc, "Env-Safety:Bunker1:VisuState-in") {
+   field (INPA, "RadProt-Bunker1:Clearing:sState MSS")
+   field (CALC, "A>4?1:0")
+   field (SCAN, "1 second")
+   field (FLNK, "Env-Safety:Bunker1:VisuState")
+}
+
+record(mbbi, "Env-Safety:Bunker1:VisuState") {
+  field (INP,  "Env-Safety:Bunker1:VisuState-in MSS")
+  field (DTYP, "Raw Soft Channel") 
+  field (NOBT, "1") 
+  field (ZRVL, "2")
+  field (ONVL, "1")
+  field (ONST, "No Access")
+  field (TWVL, "2")
+  field (THVL, "0")
+  field (THST, "Free Access")
+  field (UNSV, "MINOR")
+  field (DESC, "FREIA bunker access status")
+}
+
+
+# Radiation monitors status
+#
+record(calc, "Env-Safety:Rad_Monitors:VisuState-1") {
+   field (INPA, "RadProt-Bunker1:Clearing:sState MSS")
+   field (INPB, "RadProt-Office:GD-01:sDoseRt.SEVR MSS")
+   field (INPC, "RadProt-Bunker1:GD-01:sDoseRt.SEVR MSS")
+   field (INPD, "RadProt-Bunker1:GD-02:sDoseRt.SEVR MSS")
+   field (INPE, "RadProt-Bunker1:GD-03:sDoseRt.SEVR MSS")
+   field (CALC, "A>8?B==1||C==1||E==1:B==1||C==1||D==1||E==1")
+   field (SCAN, "1 second")
+   field (FLNK, "Env-Safety:Rad_Monitors:VisuState-2")
+}
+record(calc, "Env-Safety:Rad_Monitors:VisuState-2") {
+   field (INPA, "RadProt-Bunker1:Clearing:sState MSS")
+   field (INPB, "RadProt-Office:GD-01:sDoseRt.SEVR MSS")
+   field (INPC, "RadProt-Bunker1:GD-01:sDoseRt.SEVR MSS")
+   field (INPD, "RadProt-Bunker1:GD-02:sDoseRt.SEVR MSS")
+   field (INPE, "RadProt-Bunker1:GD-03:sDoseRt.SEVR MSS")
+   field (CALC, "A>8?B==2||C==2||E==2:B==2||C==2||D==2||E==2")
+   field (FLNK, "Env-Safety:Rad_Monitors:VisuState-3")
+}
+record(calc, "Env-Safety:Rad_Monitors:VisuState-3") {
+   field (INPA, "Env-Safety:Rad_Monitors:VisuState-1 MSI")
+   field (INPB, "Env-Safety:Rad_Monitors:VisuState-2 MSI")
+   field (CALC, "A+(B<<1)")
+   field (FLNK, "Env-Safety:Rad_Monitors:VisuState")
+}
+
+record(mbbi, "Env-Safety:Rad_Monitors:VisuState") {
+  field (INP,  "Env-Safety:Rad_Monitors:VisuState-3 MSS")
+  field (DTYP, "Raw Soft Channel") 
+  field (NOBT, "2") 
+  field (ZRVL, "4")
+  field (ONVL, "2")
+  field (ONST, "Alarm")
+  field (TWVL, "4")
+  field (THVL, "0")
+  field (THST, "OK")
+  field (FRVL, "1")   
+  field (FRST, "Warning")   
+  field (UNSV, "MINOR")
+  field (DESC, "FREIA bunker access status")
+}
+
+# Oxygen monitors status
+#
+record(calc, "Env-Safety:O2_Monitors:VisuState-1") {
+   field (INPA, "Env-Bunker1:QT001:sRdV.SEVR MSS")
+   field (INPB, "Env-CmpRoom:QT002:sRdV.SEVR MSS")
+   field (CALC, "(A==1||B==1)+((A==2||B==2)<<1)")
+   field (SCAN, "1 second")
+   field (FLNK, "Env-Safety:O2_Monitors:VisuState")
+}
+
+record(mbbi, "Env-Safety:O2_Monitors:VisuState") {
+  field (INP,  "Env-Safety:O2_Monitors:VisuState-1 MSS")
+  field (DTYP, "Raw Soft Channel") 
+  field (NOBT, "2") 
+  field (ZRVL, "4")
+  field (ONVL, "2")
+  field (ONST, "Alarm")
+  field (TWVL, "4")
+  field (THVL, "0")
+  field (THST, "OK")
+  field (FRVL, "1")   
+  field (FRST, "Warning")   
+  field (UNSV, "MINOR")
+  field (DESC, "Oxygen level status")
+}
+
+# RF leakage monitors status
+#
+record(mbbi, "Env-Safety:RF_Leakage:VisuState") {
+  field (INP,  "Env-Safety:RF_Leakage:VisuState-1 MSS")
+  field (DTYP, "Raw Soft Channel") 
+  field (NOBT, "2") 
+  field (ZRVL, "4")
+  field (ONVL, "2")
+  field (ONST, "Alarm")
+  field (TWVL, "4")
+  field (THVL, "0")
+  field (THST, "OK")
+  field (FRVL, "1")   
+  field (FRST, "Warning")   
+  field (UNSV, "MINOR")
+  field (DESC, "RF leakage level status")
+}
