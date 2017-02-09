@@ -87,7 +87,7 @@ record(mbbi, "IntlkF-cRio1:Intlk:VisuState") {
 
 # DBE RF station status
 #
-record(calc, "HPE-DBE:Ampl:VisuState-in") {
+record(calc, "HPRF-DBE:Ampl:VisuState-in") {
    field (INPA, "HPRF-DBE:Mains:sOn MSS")
    field (INPB, "HPRF-DBE1:Ampl:sOn MSS")
    field (INPC, "HPRF-DBE2:Ampl:sOn MSS")
@@ -95,11 +95,11 @@ record(calc, "HPE-DBE:Ampl:VisuState-in") {
    field (INPE, "HPRF-DBE2:APS:sOn MSS")
    field (CALC, "A?(B+(C<<1)+(D<<2)+(E<<3)):16")
    field (SCAN, "1 second")
-   field (FLNK, "HPE-DBE:Ampl:VisuState")
+   field (FLNK, "HPRF-DBE:Ampl:VisuState")
 }
 
-record(mbbi, "HPE-DBE:Ampl:VisuState") {
-  field (INP,  "HPE-DBE:Ampl:VisuState-in MSS")
+record(mbbi, "HPRF-DBE:Ampl:VisuState") {
+  field (INP,  "HPRF-DBE:Ampl:VisuState-in MSS")
   field (DTYP, "Raw Soft Channel") 
   field (NOBT, "5") 
   field (ZRVL, "16")
@@ -117,7 +117,7 @@ record(mbbi, "HPE-DBE:Ampl:VisuState") {
 
 # Electrosys RF station status
 #
-record(calc, "HPE-Esys:Ampl:VisuState-in") {
+record(calc, "HPRF-Esys:Ampl:VisuState-in") {
    field (INPA, "HPRF-Esys:Mains:sOn MSS")
    field (INPB, "HPRF-Esys:hpa1:sStart MSS")
    field (INPC, "HPRF-Esys:hpa2:sStart MSS")
@@ -125,11 +125,11 @@ record(calc, "HPE-Esys:Ampl:VisuState-in") {
    field (INPE, "HPRF-Esys:hpa2:sPwrOn MSS")
    field (CALC, "A?(B+(C<<1)+(D<<2)+(E<<3)):16")
    field (SCAN, "1 second")
-   field (FLNK, "HPE-Esys:Ampl:VisuState")
+   field (FLNK, "HPRF-Esys:Ampl:VisuState")
 }
 
-record(mbbi, "HPE-Esys:Ampl:VisuState") {
-  field (INP,  "HPE-Esys:Ampl:VisuState-in MSS")
+record(mbbi, "HPRF-Esys:Ampl:VisuState") {
+  field (INP,  "HPRF-Esys:Ampl:VisuState-in MSS")
   field (DTYP, "Raw Soft Channel") 
   field (NOBT, "5") 
   field (ZRVL, "16")
