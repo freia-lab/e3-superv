@@ -255,3 +255,12 @@ record(mbbi, "Env-Safety:RF_Leakage:VisuState") {
   field (UNSV, "MINOR")
   field (DESC, "RF leakage level status")
 }
+
+# General FREIA status
+#
+record (waveform, "FREIA-Info:News:txt") {
+  field (NELM, 256)
+  field(DTYP,"Soft Channel")
+  field(FTVL,"CHAR")
+  field (DESC, "FREIA news on the web status page")
+}
