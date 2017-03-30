@@ -49,8 +49,8 @@ record(calc, "CstatH-Ctrl:SQs-2") {
    field (INPB, "CstatH-Ctrl:SQ12B:sRun MSS")
    field (INPC, "CstatH-Ctrl:SQ13:sRun MSS")
    field (INPD, "CstatH-Ctrl:SQ20:sRun MSS")
-   field (INPE, "CstatH-Ctrl:SQ7:sRun MSS")
-   field (INPF, "CstatH-Ctrl:SQ8:sRun MSS")
+   field (INPE, "CstatH-Ctrl:SQ8:sRun MSS")
+   field (INPF, "CstatH-Ctrl:SQ9:sRun MSS")
    field (CALC, "(A||B||C||D||E||F)?(E||F?3:2):0")
    field (FLNK, "CstatH-Ctrl:SQ:VisuState")
 }
@@ -148,7 +148,7 @@ record(mbbi, "HPRF-Esys:Ampl:VisuState") {
 #
 record(calc, "Env-Safety:Bunker1:VisuState-in") {
    field (INPA, "RadProt-Bunker1:Clearing:sState MSS")
-   field (CALC, "A>4?1:0")
+   field (CALC, "A=10?0:1")
    field (SCAN, "1 second")
    field (FLNK, "Env-Safety:Bunker1:VisuState")
 }
@@ -159,10 +159,10 @@ record(mbbi, "Env-Safety:Bunker1:VisuState") {
   field (NOBT, "1") 
   field (ZRVL, "2")
   field (ONVL, "1")
-  field (ONST, "No Access")
+  field (ONST, "Not Cleared")
   field (TWVL, "2")
   field (THVL, "0")
-  field (THST, "Free Access")
+  field (THST, "Cleared")
   field (UNSV, "MINOR")
   field (DESC, "FREIA bunker access status")
 }
