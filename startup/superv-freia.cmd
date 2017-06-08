@@ -1,5 +1,5 @@
-require snmp
-require autosave
+#require snmp
+#require autosave
 epicsEnvSet("AUTOSAVE_SYSM_PV_PREFIX","superv:")
 epicsEnvSet("MIBDIRS", "+$(REQUIRE_ioc_superv_freia_PATH)/misc")
 epicsEnvSet("D", "UCD-SNMP-MIB::")
