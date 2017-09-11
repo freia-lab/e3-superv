@@ -80,3 +80,4 @@ Ctrl-freia:Cpu:Idle.LOW
 Ctrl-freia:Cpu:Idle.LOLO
 Ctrl-freia:Memory:AvailSwap.LOW
 Ctrl-freia:Memory:AvailSwap.LOLO
+FREIA-Info:News:txt

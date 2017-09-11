@@ -240,8 +240,90 @@ record(mbbi, "Env-Safety:O2_Monitors:VisuState") {
 
 # RF leakage monitors status
 #
+# Det 0
+record(calc, "Env-Safety:RF_Leakage:VisuState-01") {
+   field (INPA, "Env-RFleakage:RFdet-0:RFAVG1.SEVR MSS")
+   field (INPB, "Env-RFleakage:RFdet-0:RFAVG2.SEVR MSS")
+   field (INPC, "Env-RFleakage:RFdet-0:RFAVG3.SEVR MSS")
+   field (INPD, "Env-RFleakage:RFdet-0:RFPEAK1.SEVR MSS")
+   field (INPE, "Env-RFleakage:RFdet-0:RFPEAK2.SEVR MSS")
+   field (INPF, "Env-RFleakage:RFdet-0:RFPEAK3.SEVR MSS")
+   field (CALC, "(A==1||B==1||C==1||D==1||E==1||F==1)")
+   field (SCAN, "1 second")
+}
+
+record(calc, "Env-Safety:RF_Leakage:VisuState-02") {
+   field (INPA, "Env-RFleakage:RFdet-0:RFAVG1.SEVR MSS")
+   field (INPB, "Env-RFleakage:RFdet-0:RFAVG2.SEVR MSS")
+   field (INPC, "Env-RFleakage:RFdet-0:RFAVG3.SEVR MSS")
+   field (INPD, "Env-RFleakage:RFdet-0:RFPEAK1.SEVR MSS")
+   field (INPE, "Env-RFleakage:RFdet-0:RFPEAK2.SEVR MSS")
+   field (INPF, "Env-RFleakage:RFdet-0:RFPEAK3.SEVR MSS")
+   field (INPG, "Env-Safety:RF_Leakage:VisuState-01 MSS")
+   field (CALC, "((A==2||B==2||C==2||D==2||E==2||F==2)<<1)")
+   field (SCAN, "1 second")
+}
+
+# Det 1
+record(calc, "Env-Safety:RF_Leakage:VisuState-11") {
+   field (INPA, "Env-RFleakage:RFdet-1:RFAVG1.SEVR MSS")
+   field (INPB, "Env-RFleakage:RFdet-1:RFAVG2.SEVR MSS")
+   field (INPC, "Env-RFleakage:RFdet-1:RFAVG3.SEVR MSS")
+   field (INPD, "Env-RFleakage:RFdet-1:RFPEAK1.SEVR MSS")
+   field (INPE, "Env-RFleakage:RFdet-1:RFPEAK2.SEVR MSS")
+   field (INPF, "Env-RFleakage:RFdet-1:RFPEAK3.SEVR MSS")
+   field (CALC, "(A==1||B==1||C==1||D==1||E==1||F==1)")
+   field (SCAN, "1 second")
+}
+
+record(calc, "Env-Safety:RF_Leakage:VisuState-12") {
+   field (INPA, "Env-RFleakage:RFdet-1:RFAVG1.SEVR MSS")
+   field (INPB, "Env-RFleakage:RFdet-1:RFAVG2.SEVR MSS")
+   field (INPC, "Env-RFleakage:RFdet-1:RFAVG3.SEVR MSS")
+   field (INPD, "Env-RFleakage:RFdet-1:RFPEAK1.SEVR MSS")
+   field (INPE, "Env-RFleakage:RFdet-1:RFPEAK2.SEVR MSS")
+   field (INPF, "Env-RFleakage:RFdet-1:RFPEAK3.SEVR MSS")
+   field (CALC, "((A==2||B==2||C==2||D==2||E==2||F==2)<<1)")
+   field (SCAN, "1 second")
+}
+
+# Det 2
+record(calc, "Env-Safety:RF_Leakage:VisuState-21") {
+   field (INPA, "Env-RFleakage:RFdet-2:RFAVG1.SEVR MSS")
+   field (INPB, "Env-RFleakage:RFdet-2:RFAVG2.SEVR MSS")
+   field (INPC, "Env-RFleakage:RFdet-2:RFAVG3.SEVR MSS")
+   field (INPD, "Env-RFleakage:RFdet-2:RFPEAK1.SEVR MSS")
+   field (INPE, "Env-RFleakage:RFdet-2:RFPEAK2.SEVR MSS")
+   field (INPF, "Env-RFleakage:RFdet-2:RFPEAK3.SEVR MSS")
+   field (CALC, "(A==1||B==1||C==1||D==1||E==1||F==1)")
+   field (SCAN, "1 second")
+}
+
+record(calc, "Env-Safety:RF_Leakage:VisuState-22") {
+   field (INPA, "Env-RFleakage:RFdet-2:RFAVG1.SEVR MSS")
+   field (INPB, "Env-RFleakage:RFdet-2:RFAVG2.SEVR MSS")
+   field (INPC, "Env-RFleakage:RFdet-2:RFAVG3.SEVR MSS")
+   field (INPD, "Env-RFleakage:RFdet-2:RFPEAK1.SEVR MSS")
+   field (INPE, "Env-RFleakage:RFdet-2:RFPEAK2.SEVR MSS")
+   field (INPF, "Env-RFleakage:RFdet-2:RFPEAK3.SEVR MSS")
+   field (CALC, "((A==2||B==2||C==2||D==2||E==2||F==2)<<1)")
+   field (SCAN, "1 second")
+}
+
+record(calc, "Env-Safety:RF_Leakage:VisuState-All") {
+   field (INPA, "Env-Safety:RF_Leakage:VisuState-01 MSS")
+   field (INPB, "Env-Safety:RF_Leakage:VisuState-02 MSS")
+   field (INPC, "Env-Safety:RF_Leakage:VisuState-11 MSS")
+   field (INPD, "Env-Safety:RF_Leakage:VisuState-12 MSS")
+   field (INPE, "Env-Safety:RF_Leakage:VisuState-21 MSS")
+   field (INPF, "Env-Safety:RF_Leakage:VisuState-22 MSS")
+   field (CALC, "(A==1||C==1||E==1)+((B==2||D==2||F==2)<<1)")
+   field (SCAN, "1 second")
+   field (FLNK, "Env-Safety:RF_Leakage:VisuState")
+}
+
 record(mbbi, "Env-Safety:RF_Leakage:VisuState") {
-  field (INP,  "Env-Safety:RF_Leakage:VisuState-1 MSS")
+  field (INP,  "Env-Safety:RF_Leakage:VisuState-All MSS")
   field (DTYP, "Raw Soft Channel") 
   field (NOBT, "2") 
   field (ZRVL, "4")
