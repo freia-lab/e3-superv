@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <width>1000</width>
+  <height>800</height>
+  <background_color>
+    <color red="240" green="240" blue="240">
+    </color>
+  </background_color>
+  <actions>
+  </actions>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>Control System Supervisor</text>
+    <x>12</x>
+    <y>16</y>
+    <width>967</width>
+    <font>
+      <font name="Header 1" family="Liberation Sans" style="BOLD" size="22.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="tabs" version="2.0.0">
+    <name>Tabbed Container</name>
+    <x>10</x>
+    <y>60</y>
+    <width>801</width>
+    <height>601</height>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <tabs>
+      <tab>
+        <name>freia-srv1</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <macros>
+              <P>Ctrl-freiaSrv1</P>
+            </macros>
+            <width>799</width>
+            <height>559</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container</name>
+              <file>helper-opi-files/server_overview.bob</file>
+              <width>799</width>
+              <height>559</height>
+              <actions>
+              </actions>
+            </widget>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container_1</name>
+              <file>helper-opi-files/disk_usage.bob</file>
+              <macros>
+                <PART>data1</PART>
+              </macros>
+              <x>160</x>
+              <y>235</y>
+              <width>131</width>
+              <height>311</height>
+              <actions>
+              </actions>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>centos-srv1</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <macros>
+              <P>Ctrl-centosSrv1</P>
+            </macros>
+            <width>799</width>
+            <height>559</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container</name>
+              <file>helper-opi-files/server_overview.bob</file>
+              <width>799</width>
+              <height>559</height>
+              <actions>
+              </actions>
+            </widget>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container_1</name>
+              <file>helper-opi-files/disk_usage.bob</file>
+              <macros>
+                <PART>boot</PART>
+              </macros>
+              <x>160</x>
+              <y>235</y>
+              <width>131</width>
+              <height>311</height>
+              <actions>
+              </actions>
+            </widget>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container_2</name>
+              <file>helper-opi-files/disk_usage.bob</file>
+              <macros>
+                <PART>data1</PART>
+              </macros>
+              <x>300</x>
+              <y>235</y>
+              <width>131</width>
+              <height>311</height>
+              <actions>
+              </actions>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>vm-codac-1</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <macros>
+              <P>Ctrl-vmCodac1</P>
+            </macros>
+            <width>799</width>
+            <height>559</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container</name>
+              <file>helper-opi-files/server_overview.bob</file>
+              <width>799</width>
+              <height>559</height>
+              <actions>
+              </actions>
+            </widget>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container_1</name>
+              <file>helper-opi-files/disk_usage.bob</file>
+              <macros>
+                <PART>boot</PART>
+              </macros>
+              <x>160</x>
+              <y>235</y>
+              <width>131</width>
+              <height>311</height>
+              <actions>
+              </actions>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>freia-arch1</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <macros>
+              <P>Ctrl-freiaArch1</P>
+            </macros>
+            <width>799</width>
+            <height>559</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container</name>
+              <file>helper-opi-files/server_overview.opi</file>
+              <width>799</width>
+              <height>559</height>
+              <actions>
+              </actions>
+            </widget>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container_1</name>
+              <file>helper-opi-files/disk_usage.bob</file>
+              <macros>
+                <PART>boot</PART>
+              </macros>
+              <x>160</x>
+              <y>235</y>
+              <width>131</width>
+              <height>311</height>
+              <actions>
+              </actions>
+            </widget>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container_2</name>
+              <file>helper-opi-files/disk_usage.bob</file>
+              <macros>
+                <PART>data1</PART>
+              </macros>
+              <x>300</x>
+              <y>235</y>
+              <width>131</width>
+              <height>311</height>
+              <actions>
+              </actions>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>freia-arcapl1</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <macros>
+              <P>Ctrl-arcApl1</P>
+            </macros>
+            <width>799</width>
+            <height>559</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container</name>
+              <file>helper-opi-files/server_overview.opi</file>
+              <width>799</width>
+              <height>559</height>
+              <actions>
+              </actions>
+            </widget>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container_1</name>
+              <file>helper-opi-files/disk_usage.bob</file>
+              <macros>
+                <PART>boot</PART>
+              </macros>
+              <x>160</x>
+              <y>235</y>
+              <width>131</width>
+              <height>311</height>
+              <actions>
+              </actions>
+            </widget>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container_2</name>
+              <file>helper-opi-files/disk_usage.bob</file>
+              <macros>
+                <PART>data1</PART>
+              </macros>
+              <x>300</x>
+              <y>235</y>
+              <width>131</width>
+              <height>311</height>
+              <actions>
+              </actions>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>freia</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <macros>
+              <P>Ctrl-freia</P>
+            </macros>
+            <width>799</width>
+            <height>559</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container</name>
+              <file>helper-opi-files/server_overview.opi</file>
+              <width>799</width>
+              <height>559</height>
+              <actions>
+              </actions>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>cRIO-1</name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Linking Container</name>
+            <file>helper-opi-files/cRio1_overview.opi</file>
+            <width>799</width>
+            <height>559</height>
+            <resize>1</resize>
+            <actions>
+            </actions>
+          </widget>
+        </children>
+      </tab>
+    </tabs>
+    <tab_height>10</tab_height>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="digital_clock" version="2.0.0">
+    <name>Digital Clock</name>
+    <x>720</x>
+    <y>16</y>
+    <width>90</width>
+    <height>54</height>
+  </widget>
+</display>
