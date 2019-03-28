@@ -68,6 +68,40 @@ record(mbbi, "CstatH-Ctrl:SQ:VisuState") {
   field (DESC, "HNOSS visual states")
 }
 
+# Cryomodule status
+#
+record(calc, "CM-Ctrl:SQs-1") {
+   field (INPA, "CM-Ctrl:Grafcet:sState2 MSS")
+   field (INPB, "CM-Ctrl:Grafcet:sState3 MSS")
+   field (INPC, "CM-Ctrl:Grafcet:sState4 MSS")
+   field (INPD, "CM-Ctrl:Grafcet:sState5 MSS")
+   field (INPE, "CM-Ctrl:Grafcet:sState7 MSS")
+   field (INPF, "CM-Ctrl:Grafcet:sState10 MSS")
+   field (CALC, "A||B||C||D||E||F")
+   field (SCAN, "1 second")
+   field (FLNK, "CM-Ctrl:SQs-2 MSS")
+}
+record(calc, "CM-Ctrl:SQs-2") {
+   field (INPA, "CM-Ctrl:SQs-1 MSS")
+   field (INPE, "CM-Ctrl:Grafcet:sState6 MSS")
+   field (INPF, "CM-Ctrl:Grafcet:sState8 MSS")
+   field (CALC, "(A||E||F)?(E||F?3:2):0")
+   field (FLNK, "CM-Ctrl:SQ:VisuState")
+}
+record(mbbi, "CM-Ctrl:SQ:VisuState") {
+  field (INP,  "CM-Ctrl:SQs-2 MSS")
+  field (DTYP, "Raw Soft Channel") 
+  field (NOBT, "16") 
+  field (ZRVL, "0")
+  field (TWVL, "2")
+  field (THVL, "3")
+  field (ZRST, "Off") 
+  field (TWST, "In preparation")
+  field (THST, "Cold")
+  field (UNSV, "MINOR")
+  field (DESC, "Cryomodule visual states")
+}
+
 # RF Interlock
 #
 record(mbbi, "IntlkF-cRio1:Intlk:VisuState") {
@@ -83,6 +117,48 @@ record(mbbi, "IntlkF-cRio1:Intlk:VisuState") {
   field (THST, "OK")
   field (UNSV, "MINOR")
   field (DESC, "RF interlock status")
+}
+
+# Gersemi status
+#
+record(calc, "CstatV-Ctrl:SQs-1") {
+   field (INPA, "CstatV-Ctrl:SQ1:sRun MSS")
+   field (INPB, "CstatV-Ctrl:SQ2:sRun MSS")
+   field (INPC, "CstatV-Ctrl:SQ3:sRun MSS")
+   field (INPD, "CstatV-Ctrl:SQ5:sRun MSS")
+   field (INPE, "CstatV-Ctrl:SQ6:sRun MSS")
+   field (INPF, "CstatV-Ctrl:SQ7:sRun MSS")
+   field (INPG, "CstatV-Ctrl:SQ20:sRun MSS")
+   field (INPH, "CstatV-Ctrl:SQ21:sRun MSS")
+   field (INPI, "CstatV-Ctrl:SQ22:sRun MSS")
+   field (INPJ, "CstatV-Ctrl:SQ23:sRun MSS")
+   field (INPK, "CstatV-Ctrl:SQ24:sRun MSS")
+   field (INPL, "CstatV-Ctrl:SQ25:sRun MSS")
+   field (CALC, "A||B||C||D||E||F||G||H||I||J||K||L")
+   field (SCAN, "1 second")
+   field (FLNK, "CstatV-Ctrl:SQs-2 MSS")
+}
+record(calc, "CstatV-Ctrl:SQs-2") {
+   field (INPA, "CstatV-Ctrl:SQs-1 MSS")
+   field (INPB, "CstatV-Ctrl:SQ12:sRun MSS")
+   field (INPC, "CstatV-Ctrl:SQ13:sRun MSS")
+   field (INPD, "CstatV-Ctrl:SQ16:sRun MSS")
+   field (INPE, "CstatV-Ctrl:SQ17:sRun MSS")
+   field (CALC, "(A||B||C||D||E)?(B||C||D||E?3:2):0")
+   field (FLNK, "CstatV-Ctrl:SQ:VisuState")
+}
+record(mbbi, "CstatV-Ctrl:SQ:VisuState") {
+  field (INP,  "CstatV-Ctrl:SQs-2 MSS")
+  field (DTYP, "Raw Soft Channel") 
+  field (NOBT, "16") 
+  field (ZRVL, "0")
+  field (TWVL, "2")
+  field (THVL, "3")
+  field (ZRST, "Off") 
+  field (TWST, "In preparation")
+  field (THST, "Cold")
+  field (UNSV, "MINOR")
+  field (DESC, "HNOSS visual states")
 }
 
 # DBE RF station status
