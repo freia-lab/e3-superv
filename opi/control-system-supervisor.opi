@@ -10,7 +10,7 @@
   <background_color>
     <color red="240" green="240" blue="240" />
   </background_color>
-  <boy_version>5.1.0.201703221304</boy_version>
+  <boy_version>5.1.0</boy_version>
   <foreground_color>
     <color red="192" green="192" blue="192" />
   </foreground_color>
@@ -185,7 +185,19 @@
     </tab_6_foreground_color>
     <tab_6_icon_path></tab_6_icon_path>
     <tab_6_title>cRIO-1</tab_6_title>
-    <tab_count>7</tab_count>
+    <tab_7_background_color>
+      <color red="255" green="255" blue="255" />
+    </tab_7_background_color>
+    <tab_7_enabled>true</tab_7_enabled>
+    <tab_7_font>
+      <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+    </tab_7_font>
+    <tab_7_foreground_color>
+      <color red="0" green="0" blue="0" />
+    </tab_7_foreground_color>
+    <tab_7_icon_path></tab_7_icon_path>
+    <tab_7_title>Profibus DP</tab_7_title>
+    <tab_count>8</tab_count>
     <tooltip></tooltip>
     <visible>true</visible>
     <widget_type>Tabbed Container</widget_type>
@@ -211,7 +223,7 @@
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
-      <height>561</height>
+      <height>567</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -375,7 +387,7 @@
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
-      <height>561</height>
+      <height>567</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -580,7 +592,7 @@
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
-      <height>561</height>
+      <height>567</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -744,7 +756,7 @@
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
-      <height>561</height>
+      <height>567</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -949,7 +961,7 @@
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
-      <height>561</height>
+      <height>567</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -1154,7 +1166,7 @@
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
-      <height>561</height>
+      <height>567</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -1277,7 +1289,7 @@
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
-      <height>561</height>
+      <height>567</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -1293,7 +1305,7 @@
       <show_scrollbar>true</show_scrollbar>
       <tooltip></tooltip>
       <transparent>true</transparent>
-      <visible>true</visible>
+      <visible>false</visible>
       <widget_type>Grouping Container</widget_type>
       <width>799</width>
       <wuid>3847a8c6:15c9b885289:-7e30</wuid>
@@ -1336,6 +1348,87 @@
         <widget_type>Linking Container</widget_type>
         <width>799</width>
         <wuid>3847a8c6:15c9b885289:-7e24</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>567</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Profibus DP</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>true</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>799</width>
+      <wuid>-45cbd5ac:16a4e844b40:-6312</wuid>
+      <x>1</x>
+      <y>1</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>3</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <group_name></group_name>
+        <height>567</height>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <name>Linking Container</name>
+        <opi_file>helper-opi-files/Profibus_DP.opi</opi_file>
+        <resize_behaviour>2</resize_behaviour>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip></tooltip>
+        <visible>true</visible>
+        <widget_type>Linking Container</widget_type>
+        <width>799</width>
+        <wuid>-45cbd5ac:16a4e844b40:-630e</wuid>
         <x>0</x>
         <y>0</y>
       </widget>
