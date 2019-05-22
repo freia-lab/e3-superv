@@ -104,7 +104,7 @@ record(mbbi, "CM-Ctrl:SQ:VisuState") {
 
 # RF Interlock
 #
-record(mbbi, "IntlkF-cRio1:Intlk:VisuState") {
+record(mbbi, "IntlkF-cRio1:Intlk-1:VisuState") {
   field (INP,  "IntlkF-cRio1:Intlk:sTriggered-1 MSS")
   field (DTYP, "Raw Soft Channel") 
   field (SCAN, "1 second")
@@ -116,7 +116,50 @@ record(mbbi, "IntlkF-cRio1:Intlk:VisuState") {
   field (THVL, "0")
   field (THST, "OK")
   field (UNSV, "MINOR")
-  field (DESC, "RF interlock status")
+  field (DESC, "RF interlock Ch# 1 status")
+}
+
+record(mbbi, "IntlkF-cRio1:Intlk-2:VisuState") {
+  field (INP,  "IntlkF-cRio1:Intlk:sTriggered-2 MSS")
+  field (DTYP, "Raw Soft Channel") 
+  field (SCAN, "1 second")
+  field (NOBT, "1") 
+  field (ZRVL, "2")
+  field (ONVL, "1")
+  field (ONST, "Fault")
+  field (TWVL, "2")
+  field (THVL, "0")
+  field (THST, "OK")
+  field (UNSV, "MINOR")
+  field (DESC, "RF interlock Ch# 2 status")
+}
+record(mbbi, "IntlkF-cRio1:Intlk-3:VisuState") {
+  field (INP,  "IntlkF-cRio1:Intlk:sTriggered-3 MSS")
+  field (DTYP, "Raw Soft Channel") 
+  field (SCAN, "1 second")
+  field (NOBT, "1") 
+  field (ZRVL, "2")
+  field (ONVL, "1")
+  field (ONST, "Fault")
+  field (TWVL, "2")
+  field (THVL, "0")
+  field (THST, "OK")
+  field (UNSV, "MINOR")
+  field (DESC, "RF interlock Ch# 3 status")
+}
+record(mbbi, "IntlkF-cRio1:Intlk-4:VisuState") {
+  field (INP,  "IntlkF-cRio1:Intlk:sTriggered-4 MSS")
+  field (DTYP, "Raw Soft Channel") 
+  field (SCAN, "1 second")
+  field (NOBT, "1") 
+  field (ZRVL, "2")
+  field (ONVL, "1")
+  field (ONST, "Fault")
+  field (TWVL, "2")
+  field (THVL, "0")
+  field (THST, "OK")
+  field (UNSV, "MINOR")
+  field (DESC, "RF interlock Ch# 4 status")
 }
 
 # Gersemi status
