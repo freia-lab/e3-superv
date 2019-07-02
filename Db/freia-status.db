@@ -465,3 +465,26 @@ record (waveform, "FREIA-Info:News:txt") {
   field(FTVL,"CHAR")
   field (DESC, "FREIA news on the web status page")
 }
+
+# Diskless NUCs /var parition usage
+#
+record (ao, "Ctrl-nuc01:disk-var:dskPercent") {
+  field (DESC, "Used space in /var partition")
+  field (DTYP, "Soft Channel")
+  field (EGU, "%")
+  field (HIGH, "$(HI)")
+  field (HIHI, "$(HH)")
+  field (HSV, "MINOR")
+  field (HHSV, "MAJOR")
+}
+
+record (ao, "Ctrl-nuc02:disk-var:dskPercent") {
+  field (DESC, "Used space in /var partition")
+  field (DTYP, "Soft Channel")
+  field (EGU, "%")
+  field (HIGH, "$(HI)")
+  field (HIHI, "$(HH)")
+  field (HSV, "MINOR")
+  field (HHSV, "MAJOR")
+}
+

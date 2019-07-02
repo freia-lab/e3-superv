@@ -54,8 +54,8 @@ dbLoadRecords("hostSuperv.template","P=Ctrl-freiaArch1,PASSWD=freia_secret,H=$(H
 dbLoadRecords("diskTable.template","P=Ctrl-freia,PART=disk-root,PASSWD=freia_secret,H=$(HOST_6),CHAN=1,HI=85,HH=95")
 dbLoadRecords("hostSuperv.template","P=Ctrl-freia,PASSWD=freia_secret,H=$(HOST_6)")
 
-# FREIA general status
-dbLoadRecords("freia-status.db")
+# FREIA general status and NUC's ram disk usage
+dbLoadRecords("freia-status.db","HI=70,HH=90")
 
 requireSnippet(superv-freia-preSaveRestore.cmd)
 

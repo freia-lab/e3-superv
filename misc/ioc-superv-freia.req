@@ -81,3 +81,7 @@ Ctrl-freia:Cpu:Idle.LOLO
 Ctrl-freia:Memory:AvailSwap.LOW
 Ctrl-freia:Memory:AvailSwap.LOLO
 FREIA-Info:News:txt
+Ctrl-nuc01:disk-var:dskPercent.HIHI
+Ctrl-nuc01:disk-var:dskPercent.HIGH
+Ctrl-nuc02:disk-var:dskPercent.HIHI
+Ctrl-nuc02:disk-var:dskPercent.HIGH
