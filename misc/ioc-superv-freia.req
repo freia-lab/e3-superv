@@ -85,3 +85,17 @@ Ctrl-nuc01:disk-var:dskPercent.HIHI
 Ctrl-nuc01:disk-var:dskPercent.HIGH
 Ctrl-nuc02:disk-var:dskPercent.HIHI
 Ctrl-nuc02:disk-var:dskPercent.HIGH
+Ctrl-centosSrv2:disk-boot:dskPercent.HIHI
+Ctrl-centosSrv2:disk-boot:dskPercent.HIGH
+Ctrl-centosSrv2:disk-home:dskPercent.HIHI
+Ctrl-centosSrv2:disk-home:dskPercent.HIGH
+Ctrl-centosSrv2:disk-root:dskPercent.HIHI
+Ctrl-centosSrv2:disk-root:dskPercent.HIGH
+Ctrl-centosSrv2:Cpu:System.HIHI
+Ctrl-centosSrv2:Cpu:System.HIGH
+Ctrl-centosSrv2:Cpu:User.HIHI
+Ctrl-centosSrv2:Cpu:User.HIGH
+Ctrl-centosSrv2:Cpu:Idle.LOW
+Ctrl-centosSrv2:Cpu:Idle.LOLO
+Ctrl-centosSrv2:Memory:AvailSwap.LOW
+Ctrl-centosSrv2:Memory:AvailSwap.LOLO
