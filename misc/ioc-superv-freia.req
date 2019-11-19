@@ -85,6 +85,8 @@ Ctrl-nuc01:disk-var:dskPercent.HIHI
 Ctrl-nuc01:disk-var:dskPercent.HIGH
 Ctrl-nuc02:disk-var:dskPercent.HIHI
 Ctrl-nuc02:disk-var:dskPercent.HIGH
+Ctrl-nuc03:disk-var:dskPercent.HIHI
+Ctrl-nuc03:disk-var:dskPercent.HIGH
 Ctrl-centosSrv2:disk-boot:dskPercent.HIHI
 Ctrl-centosSrv2:disk-boot:dskPercent.HIGH
 Ctrl-centosSrv2:disk-home:dskPercent.HIHI

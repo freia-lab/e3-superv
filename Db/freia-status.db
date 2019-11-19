@@ -471,6 +471,7 @@ record (waveform, "FREIA-Info:News:txt") {
 record (ao, "Ctrl-nuc01:disk-var:dskPercent") {
   field (DESC, "Used space in /var partition")
   field (DTYP, "Soft Channel")
+  field (HOPR, "100")
   field (EGU, "%")
   field (HIGH, "$(HI)")
   field (HIHI, "$(HH)")
@@ -481,6 +482,18 @@ record (ao, "Ctrl-nuc01:disk-var:dskPercent") {
 record (ao, "Ctrl-nuc02:disk-var:dskPercent") {
   field (DESC, "Used space in /var partition")
   field (DTYP, "Soft Channel")
+  field (HOPR, "100")
+  field (EGU, "%")
+  field (HIGH, "$(HI)")
+  field (HIHI, "$(HH)")
+  field (HSV, "MINOR")
+  field (HHSV, "MAJOR")
+}
+
+record (ao, "Ctrl-nuc03:disk-var:dskPercent") {
+  field (DESC, "Used space in /var partition")
+  field (DTYP, "Soft Channel")
+  field (HOPR, "100")
   field (EGU, "%")
   field (HIGH, "$(HI)")
   field (HIHI, "$(HH)")
