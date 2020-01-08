@@ -41,10 +41,10 @@ dbLoadRecords("diskTable.template","P=Ctrl-arcApl1,PART=disk-boot,PASSWD=freia_s
 dbLoadRecords("diskTable.template","P=Ctrl-arcApl1,PART=disk-data1,PASSWD=freia_secret,H=$(HOST_3),CHAN=3,HI=85,HH=95")
 dbLoadRecords("hostSuperv.template","P=Ctrl-arcApl1,PASSWD=freia_secret,H=$(HOST_3)")
 
-# HOST_4 (vm-codac-1)
-dbLoadRecords("diskTable.template","P=Ctrl-vmCodac1,PART=disk-root,PASSWD=freia_secret,H=$(HOST_4),CHAN=1,HI=85,HH=95")
-dbLoadRecords("diskTable.template","P=Ctrl-vmCodac1,PART=disk-boot,PASSWD=freia_secret,H=$(HOST_4),CHAN=2,HI=85,HH=95")
-dbLoadRecords("hostSuperv.template","P=Ctrl-vmCodac1,PASSWD=freia_secret,H=$(HOST_4)")
+# HOST_4 (centos7-dm)
+dbLoadRecords("diskTable.template","P=Ctrl-centos7DM,PART=disk-root,PASSWD=freia_secret,H=$(HOST_4),CHAN=1,HI=85,HH=95")
+dbLoadRecords("diskTable.template","P=Ctrl-centos7DM,PART=disk-boot,PASSWD=freia_secret,H=$(HOST_4),CHAN=2,HI=85,HH=95")
+dbLoadRecords("hostSuperv.template","P=Ctrl-centos7DM,PASSWD=freia_secret,H=$(HOST_4)")
 
 # HOST_5 (freia-arch1)
 dbLoadRecords("diskTable.template","P=Ctrl-freiaArch1,PART=disk-root,PASSWD=freia_secret,H=$(HOST_5),CHAN=1,HI=85,HH=95")

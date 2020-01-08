@@ -136,7 +136,7 @@
       <color red="0" green="0" blue="0" />
     </tab_2_foreground_color>
     <tab_2_icon_path></tab_2_icon_path>
-    <tab_2_title>vm-codac-1</tab_2_title>
+    <tab_2_title>centos7-DM</tab_2_title>
     <tab_3_background_color>
       <color red="255" green="255" blue="255" />
     </tab_3_background_color>
@@ -621,7 +621,7 @@
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
-      <name>vm-codac-1</name>
+      <name>centos7-DM</name>
       <rules />
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -660,7 +660,7 @@
         <lock_children>true</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
-          <P>Ctrl-vmCodac1</P>
+          <P>Ctrl-centos7DM</P>
         </macros>
         <name>Grouping Container</name>
         <rules />
