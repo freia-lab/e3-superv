@@ -101,3 +101,41 @@ Ctrl-centosSrv2:Cpu:Idle.LOW
 Ctrl-centosSrv2:Cpu:Idle.LOLO
 Ctrl-centosSrv2:Memory:AvailSwap.LOW
 Ctrl-centosSrv2:Memory:AvailSwap.LOLO
+#
+####################
+# Save Alarm Status
+####################
+#
+# State of the alarms (the Alarm Severity PVs are processed by Phoebus
+# alarm server only when the alarm state changes. We need to save it
+# when we sht down the IOC. There is a small risk that the alarm state
+# is changed when the IOC was down.
+#
+Ctrl-Alarm:CM
+Ctrl-Alarm:CM-Keithley
+Ctrl-Alarm:CM-LHe
+Ctrl-Alarm:CM-VBoxLHe
+Ctrl-Alarm:Comp
+Ctrl-Alarm:Comp-IOCs
+Ctrl-Alarm:Comp-PB
+Ctrl-Alarm:Comp-Servers
+Ctrl-Alarm:Cryo
+Ctrl-Alarm:Cryo-CoolMode
+Ctrl-Alarm:Cryo-Dwr
+Ctrl-Alarm:Cryo-Pur
+Ctrl-Alarm:Cryo-WarnAlrm
+Ctrl-Alarm:CstatH
+Ctrl-Alarm:CstatH-2KPumps
+Ctrl-Alarm:CstatH-Vac
+Ctrl-Alarm:CstatV
+Ctrl-Alarm:CstatV-Ctrl
+Ctrl-Alarm:Env
+Ctrl-Alarm:Env-CstatH
+Ctrl-Alarm:Env-O2
+Ctrl-Alarm:Env-RFleak
+Ctrl-Alarm:Env-Radiation
+Ctrl-Alarm:LN2
+Ctrl-Alarm:LN2-Level
+Ctrl-Alarm:RF
+Ctrl-Alarm:RF-Electrosys
+Ctrl-Alarm:RF-LLRF:Intlk

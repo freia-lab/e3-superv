@@ -65,6 +65,9 @@ dbLoadRecords("hostSuperv.template","P=Ctrl-centosSrv2,PASSWD=freia_secret,H=$(H
 # FREIA general status and NUC's ram disk usage
 dbLoadRecords("freia-status.db","HI=70,HH=90")
 
+# FREIA PVs set by the alarm server
+dbLoadRecords("freia-sevrpv.db")
+
 requireSnippet(superv-freia-preSaveRestore.cmd)
 
 #############################################
