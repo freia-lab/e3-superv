@@ -88,7 +88,7 @@
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>601</height>
-    <horizontal_tabs>true</horizontal_tabs>
+    <horizontal_tabs>false</horizontal_tabs>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -112,7 +112,7 @@
       <color red="0" green="0" blue="0" />
     </tab_0_foreground_color>
     <tab_0_icon_path></tab_0_icon_path>
-    <tab_0_title>freia-srv1</tab_0_title>
+    <tab_0_title>Alarms</tab_0_title>
     <tab_10_background_color>
       <color red="240" green="240" blue="240" />
     </tab_10_background_color>
@@ -124,7 +124,43 @@
       <color red="0" green="0" blue="0" />
     </tab_10_foreground_color>
     <tab_10_icon_path></tab_10_icon_path>
-    <tab_10_title>Alarms</tab_10_title>
+    <tab_10_title>cRIO-1</tab_10_title>
+    <tab_11_background_color>
+      <color red="240" green="240" blue="240" />
+    </tab_11_background_color>
+    <tab_11_enabled>true</tab_11_enabled>
+    <tab_11_font>
+      <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+    </tab_11_font>
+    <tab_11_foreground_color>
+      <color red="0" green="0" blue="0" />
+    </tab_11_foreground_color>
+    <tab_11_icon_path></tab_11_icon_path>
+    <tab_11_title>freia-cons2</tab_11_title>
+    <tab_12_background_color>
+      <color red="240" green="240" blue="240" />
+    </tab_12_background_color>
+    <tab_12_enabled>true</tab_12_enabled>
+    <tab_12_font>
+      <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+    </tab_12_font>
+    <tab_12_foreground_color>
+      <color red="0" green="0" blue="0" />
+    </tab_12_foreground_color>
+    <tab_12_icon_path></tab_12_icon_path>
+    <tab_12_title>nuc-07</tab_12_title>
+    <tab_13_background_color>
+      <color red="240" green="240" blue="240" />
+    </tab_13_background_color>
+    <tab_13_enabled>true</tab_13_enabled>
+    <tab_13_font>
+      <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+    </tab_13_font>
+    <tab_13_foreground_color>
+      <color red="0" green="0" blue="0" />
+    </tab_13_foreground_color>
+    <tab_13_icon_path></tab_13_icon_path>
+    <tab_13_title>centos7-DM</tab_13_title>
     <tab_1_background_color>
       <color red="240" green="240" blue="240" />
     </tab_1_background_color>
@@ -136,7 +172,7 @@
       <color red="0" green="0" blue="0" />
     </tab_1_foreground_color>
     <tab_1_icon_path></tab_1_icon_path>
-    <tab_1_title>centos-srv1</tab_1_title>
+    <tab_1_title>freia-srv1</tab_1_title>
     <tab_2_background_color>
       <color red="240" green="240" blue="240" />
     </tab_2_background_color>
@@ -148,7 +184,7 @@
       <color red="0" green="0" blue="0" />
     </tab_2_foreground_color>
     <tab_2_icon_path></tab_2_icon_path>
-    <tab_2_title>centos7-DM</tab_2_title>
+    <tab_2_title>centos-srv1</tab_2_title>
     <tab_3_background_color>
       <color red="240" green="240" blue="240" />
     </tab_3_background_color>
@@ -160,7 +196,7 @@
       <color red="0" green="0" blue="0" />
     </tab_3_foreground_color>
     <tab_3_icon_path></tab_3_icon_path>
-    <tab_3_title>freia-arch1</tab_3_title>
+    <tab_3_title>centos-srv2</tab_3_title>
     <tab_4_background_color>
       <color red="240" green="240" blue="240" />
     </tab_4_background_color>
@@ -184,7 +220,7 @@
       <color red="0" green="0" blue="0" />
     </tab_5_foreground_color>
     <tab_5_icon_path></tab_5_icon_path>
-    <tab_5_title>freia</tab_5_title>
+    <tab_5_title>freia-arch1</tab_5_title>
     <tab_6_background_color>
       <color red="240" green="240" blue="240" />
     </tab_6_background_color>
@@ -196,7 +232,7 @@
       <color red="0" green="0" blue="0" />
     </tab_6_foreground_color>
     <tab_6_icon_path></tab_6_icon_path>
-    <tab_6_title>cRIO-1</tab_6_title>
+    <tab_6_title>nuc-04</tab_6_title>
     <tab_7_background_color>
       <color red="240" green="240" blue="240" />
     </tab_7_background_color>
@@ -208,7 +244,7 @@
       <color red="0" green="0" blue="0" />
     </tab_7_foreground_color>
     <tab_7_icon_path></tab_7_icon_path>
-    <tab_7_title>Profibus DP</tab_7_title>
+    <tab_7_title>freia</tab_7_title>
     <tab_8_background_color>
       <color red="240" green="240" blue="240" />
     </tab_8_background_color>
@@ -220,7 +256,7 @@
       <color red="0" green="0" blue="0" />
     </tab_8_foreground_color>
     <tab_8_icon_path></tab_8_icon_path>
-    <tab_8_title>centos-srv2</tab_8_title>
+    <tab_8_title>Diskless clients</tab_8_title>
     <tab_9_background_color>
       <color red="240" green="240" blue="240" />
     </tab_9_background_color>
@@ -232,8 +268,8 @@
       <color red="0" green="0" blue="0" />
     </tab_9_foreground_color>
     <tab_9_icon_path></tab_9_icon_path>
-    <tab_9_title>Diskless clients</tab_9_title>
-    <tab_count>11</tab_count>
+    <tab_9_title>Profibus DP</tab_9_title>
+    <tab_count>14</tab_count>
     <tooltip></tooltip>
     <visible>true</visible>
     <widget_type>Tabbed Container</widget_type>
@@ -259,7 +295,88 @@
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
-      <height>567</height>
+      <height>599</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Alarms</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>true</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>false</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>838</width>
+      <wuid>-5d94b159:158625b130f:7608</wuid>
+      <x>1</x>
+      <y>1</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>3</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <group_name></group_name>
+        <height>599</height>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <name>Linking Container</name>
+        <opi_file>helper-opi-files/alarm-pvs.opi</opi_file>
+        <resize_behaviour>2</resize_behaviour>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip></tooltip>
+        <visible>true</visible>
+        <widget_type>Linking Container</widget_type>
+        <width>838</width>
+        <wuid>-4b39e345:17182e7f83e:-5928</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>599</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -277,8 +394,8 @@
       <transparent>true</transparent>
       <visible>false</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>949</width>
-      <wuid>-5d94b159:158625b130f:7608</wuid>
+      <width>838</width>
+      <wuid>-5d94b159:158625b130f:760b</wuid>
       <x>1</x>
       <y>1</y>
       <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -299,7 +416,7 @@
         <foreground_color>
           <color red="192" green="192" blue="192" />
         </foreground_color>
-        <height>559</height>
+        <height>599</height>
         <lock_children>true</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
@@ -318,7 +435,7 @@
         <transparent>false</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>799</width>
+        <width>838</width>
         <wuid>-5d94b159:158636c359e:-7ed2</wuid>
         <x>0</x>
         <y>0</y>
@@ -340,13 +457,13 @@
             <color red="192" green="192" blue="192" />
           </foreground_color>
           <group_name></group_name>
-          <height>559</height>
+          <height>599</height>
           <macros>
             <include_parent_macros>true</include_parent_macros>
           </macros>
           <name>Linking Container</name>
           <opi_file>helper-opi-files/server_overview.opi</opi_file>
-          <resize_behaviour>0</resize_behaviour>
+          <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
             <width_scalable>true</width_scalable>
@@ -357,7 +474,7 @@
           <tooltip></tooltip>
           <visible>true</visible>
           <widget_type>Linking Container</widget_type>
-          <width>799</width>
+          <width>838</width>
           <wuid>-5d94b159:158625b130f:7659</wuid>
           <x>0</x>
           <y>0</y>
@@ -387,7 +504,7 @@
           </macros>
           <name>Linking Container_1</name>
           <opi_file>helper-opi-files/disk_usage.opi</opi_file>
-          <resize_behaviour>0</resize_behaviour>
+          <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
             <width_scalable>true</width_scalable>
@@ -423,7 +540,7 @@
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
-      <height>567</height>
+      <height>599</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -439,10 +556,10 @@
       <show_scrollbar>true</show_scrollbar>
       <tooltip></tooltip>
       <transparent>true</transparent>
-      <visible>true</visible>
+      <visible>false</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>949</width>
-      <wuid>-5d94b159:158625b130f:760b</wuid>
+      <width>838</width>
+      <wuid>-5d94b159:158625b130f:760c</wuid>
       <x>1</x>
       <y>1</y>
       <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -463,7 +580,7 @@
         <foreground_color>
           <color red="192" green="192" blue="192" />
         </foreground_color>
-        <height>559</height>
+        <height>599</height>
         <lock_children>true</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
@@ -482,7 +599,7 @@
         <transparent>false</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>799</width>
+        <width>838</width>
         <wuid>-5d94b159:158636c359e:-7bea</wuid>
         <x>0</x>
         <y>0</y>
@@ -504,13 +621,13 @@
             <color red="192" green="192" blue="192" />
           </foreground_color>
           <group_name></group_name>
-          <height>559</height>
+          <height>599</height>
           <macros>
             <include_parent_macros>true</include_parent_macros>
           </macros>
           <name>Linking Container</name>
           <opi_file>helper-opi-files/server_overview.opi</opi_file>
-          <resize_behaviour>0</resize_behaviour>
+          <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
             <width_scalable>true</width_scalable>
@@ -521,7 +638,7 @@
           <tooltip></tooltip>
           <visible>true</visible>
           <widget_type>Linking Container</widget_type>
-          <width>799</width>
+          <width>838</width>
           <wuid>-5d94b159:158625b130f:76c0</wuid>
           <x>0</x>
           <y>0</y>
@@ -544,14 +661,14 @@
             <color red="192" green="192" blue="192" />
           </foreground_color>
           <group_name></group_name>
-          <height>311</height>
+          <height>306</height>
           <macros>
             <include_parent_macros>true</include_parent_macros>
             <PART>boot</PART>
           </macros>
           <name>Linking Container_1</name>
           <opi_file>helper-opi-files/disk_usage.opi</opi_file>
-          <resize_behaviour>0</resize_behaviour>
+          <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
             <width_scalable>true</width_scalable>
@@ -585,14 +702,14 @@
             <color red="192" green="192" blue="192" />
           </foreground_color>
           <group_name></group_name>
-          <height>311</height>
+          <height>306</height>
           <macros>
             <include_parent_macros>true</include_parent_macros>
             <PART>data1</PART>
           </macros>
           <name>Linking Container_2</name>
           <opi_file>helper-opi-files/disk_usage.opi</opi_file>
-          <resize_behaviour>0</resize_behaviour>
+          <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
             <width_scalable>true</width_scalable>
@@ -628,12 +745,12 @@
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
-      <height>567</height>
+      <height>599</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
-      <name>centos7-DM</name>
+      <name>centos-srv2</name>
       <rules />
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -646,8 +763,8 @@
       <transparent>true</transparent>
       <visible>false</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>949</width>
-      <wuid>-5d94b159:158625b130f:760c</wuid>
+      <width>838</width>
+      <wuid>-5d94b159:158625b130f:760d</wuid>
       <x>1</x>
       <y>1</y>
       <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -668,11 +785,257 @@
         <foreground_color>
           <color red="192" green="192" blue="192" />
         </foreground_color>
-        <height>559</height>
+        <height>599</height>
         <lock_children>true</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
-          <P>Ctrl-centos7DM</P>
+        </macros>
+        <name>Grouping Container</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>true</show_scrollbar>
+        <tooltip></tooltip>
+        <transparent>false</transparent>
+        <visible>true</visible>
+        <widget_type>Grouping Container</widget_type>
+        <width>838</width>
+        <wuid>7cb4f88c:16cf120b5d9:-6c19</wuid>
+        <x>0</x>
+        <y>0</y>
+        <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <background_color>
+            <color red="240" green="240" blue="240" />
+          </background_color>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>0</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <fc>false</fc>
+          <font>
+            <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+          </font>
+          <foreground_color>
+            <color red="192" green="192" blue="192" />
+          </foreground_color>
+          <height>599</height>
+          <lock_children>true</lock_children>
+          <macros>
+            <include_parent_macros>true</include_parent_macros>
+            <P>Ctrl-centosSrv2</P>
+          </macros>
+          <name>Grouping Container</name>
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <show_scrollbar>false</show_scrollbar>
+          <tooltip></tooltip>
+          <transparent>false</transparent>
+          <visible>true</visible>
+          <widget_type>Grouping Container</widget_type>
+          <width>838</width>
+          <wuid>7cb4f88c:16cf120b5d9:-6be5</wuid>
+          <x>0</x>
+          <y>0</y>
+          <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+            <actions hook="false" hook_all="false" />
+            <background_color>
+              <color red="240" green="240" blue="240" />
+            </background_color>
+            <border_color>
+              <color red="0" green="128" blue="255" />
+            </border_color>
+            <border_style>3</border_style>
+            <border_width>1</border_width>
+            <enabled>true</enabled>
+            <font>
+              <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+            </font>
+            <foreground_color>
+              <color red="192" green="192" blue="192" />
+            </foreground_color>
+            <group_name></group_name>
+            <height>599</height>
+            <macros>
+              <include_parent_macros>true</include_parent_macros>
+            </macros>
+            <name>Linking Container</name>
+            <opi_file>helper-opi-files/server_overview.opi</opi_file>
+            <resize_behaviour>2</resize_behaviour>
+            <rules />
+            <scale_options>
+              <width_scalable>true</width_scalable>
+              <height_scalable>true</height_scalable>
+              <keep_wh_ratio>false</keep_wh_ratio>
+            </scale_options>
+            <scripts />
+            <tooltip></tooltip>
+            <visible>true</visible>
+            <widget_type>Linking Container</widget_type>
+            <width>838</width>
+            <wuid>7cb4f88c:16cf120b5d9:-6be4</wuid>
+            <x>0</x>
+            <y>0</y>
+          </widget>
+          <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+            <actions hook="false" hook_all="false" />
+            <background_color>
+              <color red="240" green="240" blue="240" />
+            </background_color>
+            <border_color>
+              <color red="0" green="128" blue="255" />
+            </border_color>
+            <border_style>3</border_style>
+            <border_width>1</border_width>
+            <enabled>true</enabled>
+            <font>
+              <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+            </font>
+            <foreground_color>
+              <color red="192" green="192" blue="192" />
+            </foreground_color>
+            <group_name></group_name>
+            <height>306</height>
+            <macros>
+              <include_parent_macros>true</include_parent_macros>
+              <PART>boot</PART>
+            </macros>
+            <name>Linking Container_1</name>
+            <opi_file>helper-opi-files/disk_usage.opi</opi_file>
+            <resize_behaviour>2</resize_behaviour>
+            <rules />
+            <scale_options>
+              <width_scalable>true</width_scalable>
+              <height_scalable>true</height_scalable>
+              <keep_wh_ratio>false</keep_wh_ratio>
+            </scale_options>
+            <scripts />
+            <tooltip></tooltip>
+            <visible>true</visible>
+            <widget_type>Linking Container</widget_type>
+            <width>131</width>
+            <wuid>7cb4f88c:16cf120b5d9:-6be3</wuid>
+            <x>160</x>
+            <y>235</y>
+          </widget>
+          <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+            <actions hook="false" hook_all="false" />
+            <background_color>
+              <color red="240" green="240" blue="240" />
+            </background_color>
+            <border_color>
+              <color red="0" green="128" blue="255" />
+            </border_color>
+            <border_style>3</border_style>
+            <border_width>1</border_width>
+            <enabled>true</enabled>
+            <font>
+              <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+            </font>
+            <foreground_color>
+              <color red="192" green="192" blue="192" />
+            </foreground_color>
+            <group_name></group_name>
+            <height>306</height>
+            <macros>
+              <include_parent_macros>true</include_parent_macros>
+              <PART>home</PART>
+            </macros>
+            <name>Linking Container_2</name>
+            <opi_file>helper-opi-files/disk_usage.opi</opi_file>
+            <resize_behaviour>2</resize_behaviour>
+            <rules />
+            <scale_options>
+              <width_scalable>true</width_scalable>
+              <height_scalable>true</height_scalable>
+              <keep_wh_ratio>false</keep_wh_ratio>
+            </scale_options>
+            <scripts />
+            <tooltip></tooltip>
+            <visible>true</visible>
+            <widget_type>Linking Container</widget_type>
+            <width>131</width>
+            <wuid>7cb4f88c:16cf120b5d9:-6be2</wuid>
+            <x>300</x>
+            <y>235</y>
+          </widget>
+        </widget>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>599</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>freia-arcapl1</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>true</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>false</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>838</width>
+      <wuid>-5d94b159:158625b130f:760e</wuid>
+      <x>1</x>
+      <y>1</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <fc>false</fc>
+        <font>
+          <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <height>599</height>
+        <lock_children>false</lock_children>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <P>Ctrl-arcApl1</P>
         </macros>
         <name>Grouping Container</name>
         <rules />
@@ -687,8 +1050,8 @@
         <transparent>false</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>799</width>
-        <wuid>-5d94b159:158636c359e:-790c</wuid>
+        <width>838</width>
+        <wuid>-5d94b159:158636c359e:-7be4</wuid>
         <x>0</x>
         <y>0</y>
         <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
@@ -709,13 +1072,13 @@
             <color red="192" green="192" blue="192" />
           </foreground_color>
           <group_name></group_name>
-          <height>559</height>
+          <height>599</height>
           <macros>
             <include_parent_macros>true</include_parent_macros>
           </macros>
           <name>Linking Container</name>
           <opi_file>helper-opi-files/server_overview.opi</opi_file>
-          <resize_behaviour>0</resize_behaviour>
+          <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
             <width_scalable>true</width_scalable>
@@ -726,8 +1089,8 @@
           <tooltip></tooltip>
           <visible>true</visible>
           <widget_type>Linking Container</widget_type>
-          <width>799</width>
-          <wuid>-5d94b159:158625b130f:781a</wuid>
+          <width>838</width>
+          <wuid>-5d94b159:158625b130f:7970</wuid>
           <x>0</x>
           <y>0</y>
         </widget>
@@ -749,14 +1112,14 @@
             <color red="192" green="192" blue="192" />
           </foreground_color>
           <group_name></group_name>
-          <height>311</height>
+          <height>306</height>
           <macros>
             <include_parent_macros>true</include_parent_macros>
             <PART>boot</PART>
           </macros>
           <name>Linking Container_1</name>
           <opi_file>helper-opi-files/disk_usage.opi</opi_file>
-          <resize_behaviour>0</resize_behaviour>
+          <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
             <width_scalable>true</width_scalable>
@@ -768,8 +1131,49 @@
           <visible>true</visible>
           <widget_type>Linking Container</widget_type>
           <width>131</width>
-          <wuid>-5d94b159:158636c359e:-7c90</wuid>
+          <wuid>-5d94b159:158636c359e:-7c3f</wuid>
           <x>160</x>
+          <y>235</y>
+        </widget>
+        <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <background_color>
+            <color red="240" green="240" blue="240" />
+          </background_color>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>3</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <font>
+            <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+          </font>
+          <foreground_color>
+            <color red="192" green="192" blue="192" />
+          </foreground_color>
+          <group_name></group_name>
+          <height>306</height>
+          <macros>
+            <include_parent_macros>true</include_parent_macros>
+            <PART>data1</PART>
+          </macros>
+          <name>Linking Container_2</name>
+          <opi_file>helper-opi-files/disk_usage.opi</opi_file>
+          <resize_behaviour>2</resize_behaviour>
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <tooltip></tooltip>
+          <visible>true</visible>
+          <widget_type>Linking Container</widget_type>
+          <width>131</width>
+          <wuid>-5d94b159:158636c359e:-7c24</wuid>
+          <x>300</x>
           <y>235</y>
         </widget>
       </widget>
@@ -792,7 +1196,7 @@
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
-      <height>567</height>
+      <height>599</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -810,8 +1214,8 @@
       <transparent>true</transparent>
       <visible>false</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>949</width>
-      <wuid>-5d94b159:158625b130f:760d</wuid>
+      <width>838</width>
+      <wuid>286687fd:15867049418:-7285</wuid>
       <x>1</x>
       <y>1</y>
       <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -832,7 +1236,7 @@
         <foreground_color>
           <color red="192" green="192" blue="192" />
         </foreground_color>
-        <height>559</height>
+        <height>599</height>
         <lock_children>true</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
@@ -851,7 +1255,7 @@
         <transparent>false</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>799</width>
+        <width>838</width>
         <wuid>-5d94b159:158636c359e:-7be6</wuid>
         <x>0</x>
         <y>0</y>
@@ -873,13 +1277,13 @@
             <color red="192" green="192" blue="192" />
           </foreground_color>
           <group_name></group_name>
-          <height>559</height>
+          <height>599</height>
           <macros>
             <include_parent_macros>true</include_parent_macros>
           </macros>
           <name>Linking Container</name>
           <opi_file>helper-opi-files/server_overview.opi</opi_file>
-          <resize_behaviour>0</resize_behaviour>
+          <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
             <width_scalable>true</width_scalable>
@@ -890,7 +1294,7 @@
           <tooltip></tooltip>
           <visible>true</visible>
           <widget_type>Linking Container</widget_type>
-          <width>799</width>
+          <width>838</width>
           <wuid>-5d94b159:158625b130f:78c4</wuid>
           <x>0</x>
           <y>0</y>
@@ -920,7 +1324,7 @@
           </macros>
           <name>Linking Container_1</name>
           <opi_file>helper-opi-files/disk_usage.opi</opi_file>
-          <resize_behaviour>0</resize_behaviour>
+          <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
             <width_scalable>true</width_scalable>
@@ -961,7 +1365,7 @@
           </macros>
           <name>Linking Container_2</name>
           <opi_file>helper-opi-files/disk_usage.opi</opi_file>
-          <resize_behaviour>0</resize_behaviour>
+          <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
             <width_scalable>true</width_scalable>
@@ -997,12 +1401,12 @@
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
-      <height>567</height>
+      <height>599</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
-      <name>freia-arcapl1</name>
+      <name>nuc-04</name>
       <rules />
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -1015,500 +1419,10 @@
       <transparent>true</transparent>
       <visible>false</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>949</width>
-      <wuid>-5d94b159:158625b130f:760e</wuid>
-      <x>1</x>
-      <y>1</y>
-      <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <background_color>
-          <color red="240" green="240" blue="240" />
-        </background_color>
-        <border_color>
-          <color red="0" green="128" blue="255" />
-        </border_color>
-        <border_style>0</border_style>
-        <border_width>1</border_width>
-        <enabled>true</enabled>
-        <fc>false</fc>
-        <font>
-          <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
-        </font>
-        <foreground_color>
-          <color red="192" green="192" blue="192" />
-        </foreground_color>
-        <height>559</height>
-        <lock_children>true</lock_children>
-        <macros>
-          <include_parent_macros>true</include_parent_macros>
-          <P>Ctrl-arcApl1</P>
-        </macros>
-        <name>Grouping Container</name>
-        <rules />
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <show_scrollbar>false</show_scrollbar>
-        <tooltip></tooltip>
-        <transparent>false</transparent>
-        <visible>true</visible>
-        <widget_type>Grouping Container</widget_type>
-        <width>799</width>
-        <wuid>-5d94b159:158636c359e:-7be4</wuid>
-        <x>0</x>
-        <y>0</y>
-        <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
-          <actions hook="false" hook_all="false" />
-          <background_color>
-            <color red="240" green="240" blue="240" />
-          </background_color>
-          <border_color>
-            <color red="0" green="128" blue="255" />
-          </border_color>
-          <border_style>3</border_style>
-          <border_width>1</border_width>
-          <enabled>true</enabled>
-          <font>
-            <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
-          </font>
-          <foreground_color>
-            <color red="192" green="192" blue="192" />
-          </foreground_color>
-          <group_name></group_name>
-          <height>559</height>
-          <macros>
-            <include_parent_macros>true</include_parent_macros>
-          </macros>
-          <name>Linking Container</name>
-          <opi_file>helper-opi-files/server_overview.opi</opi_file>
-          <resize_behaviour>0</resize_behaviour>
-          <rules />
-          <scale_options>
-            <width_scalable>true</width_scalable>
-            <height_scalable>true</height_scalable>
-            <keep_wh_ratio>false</keep_wh_ratio>
-          </scale_options>
-          <scripts />
-          <tooltip></tooltip>
-          <visible>true</visible>
-          <widget_type>Linking Container</widget_type>
-          <width>799</width>
-          <wuid>-5d94b159:158625b130f:7970</wuid>
-          <x>0</x>
-          <y>0</y>
-        </widget>
-        <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
-          <actions hook="false" hook_all="false" />
-          <background_color>
-            <color red="240" green="240" blue="240" />
-          </background_color>
-          <border_color>
-            <color red="0" green="128" blue="255" />
-          </border_color>
-          <border_style>3</border_style>
-          <border_width>1</border_width>
-          <enabled>true</enabled>
-          <font>
-            <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
-          </font>
-          <foreground_color>
-            <color red="192" green="192" blue="192" />
-          </foreground_color>
-          <group_name></group_name>
-          <height>311</height>
-          <macros>
-            <include_parent_macros>true</include_parent_macros>
-            <PART>boot</PART>
-          </macros>
-          <name>Linking Container_1</name>
-          <opi_file>helper-opi-files/disk_usage.opi</opi_file>
-          <resize_behaviour>0</resize_behaviour>
-          <rules />
-          <scale_options>
-            <width_scalable>true</width_scalable>
-            <height_scalable>true</height_scalable>
-            <keep_wh_ratio>false</keep_wh_ratio>
-          </scale_options>
-          <scripts />
-          <tooltip></tooltip>
-          <visible>true</visible>
-          <widget_type>Linking Container</widget_type>
-          <width>131</width>
-          <wuid>-5d94b159:158636c359e:-7c3f</wuid>
-          <x>160</x>
-          <y>235</y>
-        </widget>
-        <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
-          <actions hook="false" hook_all="false" />
-          <background_color>
-            <color red="240" green="240" blue="240" />
-          </background_color>
-          <border_color>
-            <color red="0" green="128" blue="255" />
-          </border_color>
-          <border_style>3</border_style>
-          <border_width>1</border_width>
-          <enabled>true</enabled>
-          <font>
-            <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
-          </font>
-          <foreground_color>
-            <color red="192" green="192" blue="192" />
-          </foreground_color>
-          <group_name></group_name>
-          <height>311</height>
-          <macros>
-            <include_parent_macros>true</include_parent_macros>
-            <PART>data1</PART>
-          </macros>
-          <name>Linking Container_2</name>
-          <opi_file>helper-opi-files/disk_usage.opi</opi_file>
-          <resize_behaviour>0</resize_behaviour>
-          <rules />
-          <scale_options>
-            <width_scalable>true</width_scalable>
-            <height_scalable>true</height_scalable>
-            <keep_wh_ratio>false</keep_wh_ratio>
-          </scale_options>
-          <scripts />
-          <tooltip></tooltip>
-          <visible>true</visible>
-          <widget_type>Linking Container</widget_type>
-          <width>131</width>
-          <wuid>-5d94b159:158636c359e:-7c24</wuid>
-          <x>300</x>
-          <y>235</y>
-        </widget>
-      </widget>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <fc>false</fc>
-      <font>
-        <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
-      </font>
-      <foreground_color>
-        <color red="192" green="192" blue="192" />
-      </foreground_color>
-      <height>567</height>
-      <lock_children>false</lock_children>
-      <macros>
-        <include_parent_macros>true</include_parent_macros>
-      </macros>
-      <name>freia</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <show_scrollbar>true</show_scrollbar>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <visible>false</visible>
-      <widget_type>Grouping Container</widget_type>
-      <width>949</width>
-      <wuid>286687fd:15867049418:-7285</wuid>
-      <x>1</x>
-      <y>1</y>
-      <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <background_color>
-          <color red="240" green="240" blue="240" />
-        </background_color>
-        <border_color>
-          <color red="0" green="128" blue="255" />
-        </border_color>
-        <border_style>0</border_style>
-        <border_width>1</border_width>
-        <enabled>true</enabled>
-        <fc>false</fc>
-        <font>
-          <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
-        </font>
-        <foreground_color>
-          <color red="192" green="192" blue="192" />
-        </foreground_color>
-        <height>559</height>
-        <lock_children>false</lock_children>
-        <macros>
-          <include_parent_macros>true</include_parent_macros>
-          <P>Ctrl-freia</P>
-        </macros>
-        <name>Grouping Container</name>
-        <rules />
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <show_scrollbar>false</show_scrollbar>
-        <tooltip></tooltip>
-        <transparent>false</transparent>
-        <visible>true</visible>
-        <widget_type>Grouping Container</widget_type>
-        <width>799</width>
-        <wuid>286687fd:15867049418:-7277</wuid>
-        <x>0</x>
-        <y>0</y>
-        <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
-          <actions hook="false" hook_all="false" />
-          <background_color>
-            <color red="240" green="240" blue="240" />
-          </background_color>
-          <border_color>
-            <color red="0" green="128" blue="255" />
-          </border_color>
-          <border_style>3</border_style>
-          <border_width>1</border_width>
-          <enabled>true</enabled>
-          <font>
-            <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
-          </font>
-          <foreground_color>
-            <color red="192" green="192" blue="192" />
-          </foreground_color>
-          <group_name></group_name>
-          <height>559</height>
-          <macros>
-            <include_parent_macros>true</include_parent_macros>
-          </macros>
-          <name>Linking Container</name>
-          <opi_file>helper-opi-files/server_overview.opi</opi_file>
-          <resize_behaviour>0</resize_behaviour>
-          <rules />
-          <scale_options>
-            <width_scalable>true</width_scalable>
-            <height_scalable>true</height_scalable>
-            <keep_wh_ratio>false</keep_wh_ratio>
-          </scale_options>
-          <scripts />
-          <tooltip></tooltip>
-          <visible>true</visible>
-          <widget_type>Linking Container</widget_type>
-          <width>799</width>
-          <wuid>286687fd:15867049418:-7276</wuid>
-          <x>0</x>
-          <y>0</y>
-        </widget>
-      </widget>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <fc>false</fc>
-      <font>
-        <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
-      </font>
-      <foreground_color>
-        <color red="192" green="192" blue="192" />
-      </foreground_color>
-      <height>567</height>
-      <lock_children>false</lock_children>
-      <macros>
-        <include_parent_macros>true</include_parent_macros>
-      </macros>
-      <name>cRIO-1</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <show_scrollbar>true</show_scrollbar>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <visible>false</visible>
-      <widget_type>Grouping Container</widget_type>
-      <width>949</width>
+      <width>838</width>
       <wuid>3847a8c6:15c9b885289:-7e30</wuid>
       <x>1</x>
       <y>1</y>
-      <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <background_color>
-          <color red="240" green="240" blue="240" />
-        </background_color>
-        <border_color>
-          <color red="0" green="128" blue="255" />
-        </border_color>
-        <border_style>3</border_style>
-        <border_width>1</border_width>
-        <enabled>true</enabled>
-        <font>
-          <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
-        </font>
-        <foreground_color>
-          <color red="192" green="192" blue="192" />
-        </foreground_color>
-        <group_name></group_name>
-        <height>559</height>
-        <macros>
-          <include_parent_macros>true</include_parent_macros>
-        </macros>
-        <name>Linking Container</name>
-        <opi_file>helper-opi-files/cRio1_overview.opi</opi_file>
-        <resize_behaviour>0</resize_behaviour>
-        <rules />
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <tooltip></tooltip>
-        <visible>true</visible>
-        <widget_type>Linking Container</widget_type>
-        <width>799</width>
-        <wuid>3847a8c6:15c9b885289:-7e24</wuid>
-        <x>0</x>
-        <y>0</y>
-      </widget>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <fc>false</fc>
-      <font>
-        <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
-      </font>
-      <foreground_color>
-        <color red="192" green="192" blue="192" />
-      </foreground_color>
-      <height>567</height>
-      <lock_children>false</lock_children>
-      <macros>
-        <include_parent_macros>true</include_parent_macros>
-      </macros>
-      <name>Profibus DP</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <show_scrollbar>true</show_scrollbar>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <visible>false</visible>
-      <widget_type>Grouping Container</widget_type>
-      <width>949</width>
-      <wuid>-45cbd5ac:16a4e844b40:-6312</wuid>
-      <x>1</x>
-      <y>1</y>
-      <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <background_color>
-          <color red="240" green="240" blue="240" />
-        </background_color>
-        <border_color>
-          <color red="0" green="128" blue="255" />
-        </border_color>
-        <border_style>3</border_style>
-        <border_width>1</border_width>
-        <enabled>true</enabled>
-        <font>
-          <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
-        </font>
-        <foreground_color>
-          <color red="192" green="192" blue="192" />
-        </foreground_color>
-        <group_name></group_name>
-        <height>567</height>
-        <macros>
-          <include_parent_macros>true</include_parent_macros>
-        </macros>
-        <name>Linking Container</name>
-        <opi_file>helper-opi-files/Profibus_DP.opi</opi_file>
-        <resize_behaviour>2</resize_behaviour>
-        <rules />
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <tooltip></tooltip>
-        <visible>true</visible>
-        <widget_type>Linking Container</widget_type>
-        <width>949</width>
-        <wuid>-45cbd5ac:16a4e844b40:-630e</wuid>
-        <x>0</x>
-        <y>0</y>
-      </widget>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <fc>false</fc>
-      <font>
-        <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
-      </font>
-      <foreground_color>
-        <color red="192" green="192" blue="192" />
-      </foreground_color>
-      <height>567</height>
-      <lock_children>false</lock_children>
-      <macros>
-        <include_parent_macros>true</include_parent_macros>
-      </macros>
-      <name>centos-srv2</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <show_scrollbar>true</show_scrollbar>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <visible>false</visible>
-      <widget_type>Grouping Container</widget_type>
-      <width>949</width>
-      <wuid>7cb4f88c:16cf120b5d9:-6eef</wuid>
-      <x>1</x>
-      <y>1</y>
       <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
         <actions hook="false" hook_all="false" />
         <background_color>
@@ -1527,8 +1441,8 @@
         <foreground_color>
           <color red="192" green="192" blue="192" />
         </foreground_color>
-        <height>567</height>
-        <lock_children>false</lock_children>
+        <height>599</height>
+        <lock_children>true</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
@@ -1545,8 +1459,8 @@
         <transparent>false</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>799</width>
-        <wuid>7cb4f88c:16cf120b5d9:-6c19</wuid>
+        <width>838</width>
+        <wuid>34a02deb:17183a4765d:-29f8</wuid>
         <x>0</x>
         <y>0</y>
         <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -1567,11 +1481,11 @@
           <foreground_color>
             <color red="192" green="192" blue="192" />
           </foreground_color>
-          <height>559</height>
-          <lock_children>false</lock_children>
+          <height>599</height>
+          <lock_children>true</lock_children>
           <macros>
             <include_parent_macros>true</include_parent_macros>
-            <P>Ctrl-centosSrv2</P>
+            <P>Ctrl-nuc04</P>
           </macros>
           <name>Grouping Container</name>
           <rules />
@@ -1586,8 +1500,8 @@
           <transparent>false</transparent>
           <visible>true</visible>
           <widget_type>Grouping Container</widget_type>
-          <width>799</width>
-          <wuid>7cb4f88c:16cf120b5d9:-6be5</wuid>
+          <width>838</width>
+          <wuid>34a02deb:17183a4765d:-29f7</wuid>
           <x>0</x>
           <y>0</y>
           <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
@@ -1608,13 +1522,13 @@
               <color red="192" green="192" blue="192" />
             </foreground_color>
             <group_name></group_name>
-            <height>559</height>
+            <height>599</height>
             <macros>
               <include_parent_macros>true</include_parent_macros>
             </macros>
             <name>Linking Container</name>
             <opi_file>helper-opi-files/server_overview.opi</opi_file>
-            <resize_behaviour>0</resize_behaviour>
+            <resize_behaviour>2</resize_behaviour>
             <rules />
             <scale_options>
               <width_scalable>true</width_scalable>
@@ -1625,8 +1539,8 @@
             <tooltip></tooltip>
             <visible>true</visible>
             <widget_type>Linking Container</widget_type>
-            <width>799</width>
-            <wuid>7cb4f88c:16cf120b5d9:-6be4</wuid>
+            <width>838</width>
+            <wuid>34a02deb:17183a4765d:-29f6</wuid>
             <x>0</x>
             <y>0</y>
           </widget>
@@ -1648,14 +1562,14 @@
               <color red="192" green="192" blue="192" />
             </foreground_color>
             <group_name></group_name>
-            <height>311</height>
+            <height>306</height>
             <macros>
               <include_parent_macros>true</include_parent_macros>
               <PART>boot</PART>
             </macros>
             <name>Linking Container_1</name>
             <opi_file>helper-opi-files/disk_usage.opi</opi_file>
-            <resize_behaviour>0</resize_behaviour>
+            <resize_behaviour>2</resize_behaviour>
             <rules />
             <scale_options>
               <width_scalable>true</width_scalable>
@@ -1667,7 +1581,7 @@
             <visible>true</visible>
             <widget_type>Linking Container</widget_type>
             <width>131</width>
-            <wuid>7cb4f88c:16cf120b5d9:-6be3</wuid>
+            <wuid>34a02deb:17183a4765d:-29f5</wuid>
             <x>160</x>
             <y>235</y>
           </widget>
@@ -1689,14 +1603,14 @@
               <color red="192" green="192" blue="192" />
             </foreground_color>
             <group_name></group_name>
-            <height>311</height>
+            <height>306</height>
             <macros>
               <include_parent_macros>true</include_parent_macros>
               <PART>home</PART>
             </macros>
             <name>Linking Container_2</name>
             <opi_file>helper-opi-files/disk_usage.opi</opi_file>
-            <resize_behaviour>0</resize_behaviour>
+            <resize_behaviour>2</resize_behaviour>
             <rules />
             <scale_options>
               <width_scalable>true</width_scalable>
@@ -1708,7 +1622,7 @@
             <visible>true</visible>
             <widget_type>Linking Container</widget_type>
             <width>131</width>
-            <wuid>7cb4f88c:16cf120b5d9:-6be2</wuid>
+            <wuid>34a02deb:17183a4765d:-29f4</wuid>
             <x>300</x>
             <y>235</y>
           </widget>
@@ -1733,7 +1647,130 @@
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
-      <height>567</height>
+      <height>599</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>freia</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>true</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>false</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>838</width>
+      <wuid>-45cbd5ac:16a4e844b40:-6312</wuid>
+      <x>1</x>
+      <y>1</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <fc>false</fc>
+        <font>
+          <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <height>599</height>
+        <lock_children>true</lock_children>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <P>Ctrl-freia</P>
+        </macros>
+        <name>Grouping Container</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <tooltip></tooltip>
+        <transparent>false</transparent>
+        <visible>true</visible>
+        <widget_type>Grouping Container</widget_type>
+        <width>838</width>
+        <wuid>286687fd:15867049418:-7277</wuid>
+        <x>0</x>
+        <y>0</y>
+        <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <background_color>
+            <color red="240" green="240" blue="240" />
+          </background_color>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>3</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <font>
+            <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+          </font>
+          <foreground_color>
+            <color red="192" green="192" blue="192" />
+          </foreground_color>
+          <group_name></group_name>
+          <height>599</height>
+          <macros>
+            <include_parent_macros>true</include_parent_macros>
+          </macros>
+          <name>Linking Container</name>
+          <opi_file>helper-opi-files/server_overview.opi</opi_file>
+          <resize_behaviour>2</resize_behaviour>
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <tooltip></tooltip>
+          <visible>true</visible>
+          <widget_type>Linking Container</widget_type>
+          <width>838</width>
+          <wuid>286687fd:15867049418:-7276</wuid>
+          <x>0</x>
+          <y>0</y>
+        </widget>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>599</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -1751,8 +1788,8 @@
       <transparent>true</transparent>
       <visible>false</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>949</width>
-      <wuid>4cf51be7:16e7e12f9fa:-7df2</wuid>
+      <width>838</width>
+      <wuid>7cb4f88c:16cf120b5d9:-6eef</wuid>
       <x>1</x>
       <y>1</y>
       <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
@@ -1773,7 +1810,7 @@
           <color red="192" green="192" blue="192" />
         </foreground_color>
         <group_name></group_name>
-        <height>567</height>
+        <height>599</height>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>Ctrl</P>
@@ -1791,7 +1828,7 @@
         <tooltip></tooltip>
         <visible>true</visible>
         <widget_type>Linking Container</widget_type>
-        <width>799</width>
+        <width>838</width>
         <wuid>4cf51be7:16e7e12f9fa:-7dec</wuid>
         <x>0</x>
         <y>0</y>
@@ -1815,12 +1852,12 @@
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
-      <height>567</height>
+      <height>599</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
-      <name>Alarms</name>
+      <name>Profibus DP</name>
       <rules />
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -1833,7 +1870,88 @@
       <transparent>true</transparent>
       <visible>false</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>949</width>
+      <width>838</width>
+      <wuid>4cf51be7:16e7e12f9fa:-7df2</wuid>
+      <x>1</x>
+      <y>1</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>3</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <group_name></group_name>
+        <height>599</height>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <name>Linking Container</name>
+        <opi_file>helper-opi-files/Profibus_DP.opi</opi_file>
+        <resize_behaviour>2</resize_behaviour>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip></tooltip>
+        <visible>true</visible>
+        <widget_type>Linking Container</widget_type>
+        <width>838</width>
+        <wuid>-45cbd5ac:16a4e844b40:-630e</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>599</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>cRIO-1</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>true</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>false</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>838</width>
       <wuid>-4b39e345:17182e7f83e:-5b99</wuid>
       <x>1</x>
       <y>1</y>
@@ -1855,12 +1973,12 @@
           <color red="192" green="192" blue="192" />
         </foreground_color>
         <group_name></group_name>
-        <height>567</height>
+        <height>599</height>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
         <name>Linking Container</name>
-        <opi_file>helper-opi-files/alarm-pvs.opi</opi_file>
+        <opi_file>helper-opi-files/cRio1_overview.opi</opi_file>
         <resize_behaviour>2</resize_behaviour>
         <rules />
         <scale_options>
@@ -1872,10 +1990,666 @@
         <tooltip></tooltip>
         <visible>true</visible>
         <widget_type>Linking Container</widget_type>
-        <width>949</width>
-        <wuid>-4b39e345:17182e7f83e:-5928</wuid>
+        <width>838</width>
+        <wuid>3847a8c6:15c9b885289:-7e24</wuid>
         <x>0</x>
         <y>0</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>599</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>freia-cons2</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>true</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>838</width>
+      <wuid>34a02deb:17183a4765d:-57df</wuid>
+      <x>1</x>
+      <y>1</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <fc>false</fc>
+        <font>
+          <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <height>599</height>
+        <lock_children>true</lock_children>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <name>Grouping Container</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>true</show_scrollbar>
+        <tooltip></tooltip>
+        <transparent>false</transparent>
+        <visible>true</visible>
+        <widget_type>Grouping Container</widget_type>
+        <width>838</width>
+        <wuid>34a02deb:17183a4765d:-2aa8</wuid>
+        <x>0</x>
+        <y>0</y>
+        <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <background_color>
+            <color red="240" green="240" blue="240" />
+          </background_color>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>0</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <fc>false</fc>
+          <font>
+            <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+          </font>
+          <foreground_color>
+            <color red="192" green="192" blue="192" />
+          </foreground_color>
+          <height>599</height>
+          <lock_children>true</lock_children>
+          <macros>
+            <include_parent_macros>true</include_parent_macros>
+            <P>Ctrl-freiaCons2</P>
+          </macros>
+          <name>Grouping Container</name>
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <show_scrollbar>false</show_scrollbar>
+          <tooltip></tooltip>
+          <transparent>false</transparent>
+          <visible>true</visible>
+          <widget_type>Grouping Container</widget_type>
+          <width>838</width>
+          <wuid>34a02deb:17183a4765d:-2aa7</wuid>
+          <x>0</x>
+          <y>0</y>
+          <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+            <actions hook="false" hook_all="false" />
+            <background_color>
+              <color red="240" green="240" blue="240" />
+            </background_color>
+            <border_color>
+              <color red="0" green="128" blue="255" />
+            </border_color>
+            <border_style>3</border_style>
+            <border_width>1</border_width>
+            <enabled>true</enabled>
+            <font>
+              <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+            </font>
+            <foreground_color>
+              <color red="192" green="192" blue="192" />
+            </foreground_color>
+            <group_name></group_name>
+            <height>599</height>
+            <macros>
+              <include_parent_macros>true</include_parent_macros>
+            </macros>
+            <name>Linking Container</name>
+            <opi_file>helper-opi-files/server_overview.opi</opi_file>
+            <resize_behaviour>2</resize_behaviour>
+            <rules />
+            <scale_options>
+              <width_scalable>true</width_scalable>
+              <height_scalable>true</height_scalable>
+              <keep_wh_ratio>false</keep_wh_ratio>
+            </scale_options>
+            <scripts />
+            <tooltip></tooltip>
+            <visible>true</visible>
+            <widget_type>Linking Container</widget_type>
+            <width>838</width>
+            <wuid>34a02deb:17183a4765d:-2aa6</wuid>
+            <x>0</x>
+            <y>0</y>
+          </widget>
+          <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+            <actions hook="false" hook_all="false" />
+            <background_color>
+              <color red="240" green="240" blue="240" />
+            </background_color>
+            <border_color>
+              <color red="0" green="128" blue="255" />
+            </border_color>
+            <border_style>3</border_style>
+            <border_width>1</border_width>
+            <enabled>true</enabled>
+            <font>
+              <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+            </font>
+            <foreground_color>
+              <color red="192" green="192" blue="192" />
+            </foreground_color>
+            <group_name></group_name>
+            <height>306</height>
+            <macros>
+              <include_parent_macros>true</include_parent_macros>
+              <PART>boot</PART>
+            </macros>
+            <name>Linking Container_1</name>
+            <opi_file>helper-opi-files/disk_usage.opi</opi_file>
+            <resize_behaviour>2</resize_behaviour>
+            <rules />
+            <scale_options>
+              <width_scalable>true</width_scalable>
+              <height_scalable>true</height_scalable>
+              <keep_wh_ratio>false</keep_wh_ratio>
+            </scale_options>
+            <scripts />
+            <tooltip></tooltip>
+            <visible>true</visible>
+            <widget_type>Linking Container</widget_type>
+            <width>131</width>
+            <wuid>34a02deb:17183a4765d:-2aa5</wuid>
+            <x>160</x>
+            <y>235</y>
+          </widget>
+          <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+            <actions hook="false" hook_all="false" />
+            <background_color>
+              <color red="240" green="240" blue="240" />
+            </background_color>
+            <border_color>
+              <color red="0" green="128" blue="255" />
+            </border_color>
+            <border_style>3</border_style>
+            <border_width>1</border_width>
+            <enabled>true</enabled>
+            <font>
+              <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+            </font>
+            <foreground_color>
+              <color red="192" green="192" blue="192" />
+            </foreground_color>
+            <group_name></group_name>
+            <height>306</height>
+            <macros>
+              <include_parent_macros>true</include_parent_macros>
+              <PART>home</PART>
+            </macros>
+            <name>Linking Container_2</name>
+            <opi_file>helper-opi-files/disk_usage.opi</opi_file>
+            <resize_behaviour>2</resize_behaviour>
+            <rules />
+            <scale_options>
+              <width_scalable>true</width_scalable>
+              <height_scalable>true</height_scalable>
+              <keep_wh_ratio>false</keep_wh_ratio>
+            </scale_options>
+            <scripts />
+            <tooltip></tooltip>
+            <visible>true</visible>
+            <widget_type>Linking Container</widget_type>
+            <width>131</width>
+            <wuid>34a02deb:17183a4765d:-2aa4</wuid>
+            <x>300</x>
+            <y>235</y>
+          </widget>
+        </widget>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>599</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>nuc-07</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>true</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>false</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>838</width>
+      <wuid>34a02deb:17183a4765d:-57de</wuid>
+      <x>1</x>
+      <y>1</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <fc>false</fc>
+        <font>
+          <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <height>599</height>
+        <lock_children>false</lock_children>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <name>Grouping Container</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>true</show_scrollbar>
+        <tooltip></tooltip>
+        <transparent>false</transparent>
+        <visible>true</visible>
+        <widget_type>Grouping Container</widget_type>
+        <width>838</width>
+        <wuid>34a02deb:17183a4765d:-319e</wuid>
+        <x>0</x>
+        <y>0</y>
+        <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <background_color>
+            <color red="240" green="240" blue="240" />
+          </background_color>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>0</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <fc>false</fc>
+          <font>
+            <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+          </font>
+          <foreground_color>
+            <color red="192" green="192" blue="192" />
+          </foreground_color>
+          <height>599</height>
+          <lock_children>false</lock_children>
+          <macros>
+            <include_parent_macros>true</include_parent_macros>
+            <P>Ctrl-nuc07</P>
+          </macros>
+          <name>Grouping Container</name>
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <show_scrollbar>false</show_scrollbar>
+          <tooltip></tooltip>
+          <transparent>false</transparent>
+          <visible>true</visible>
+          <widget_type>Grouping Container</widget_type>
+          <width>838</width>
+          <wuid>34a02deb:17183a4765d:-319d</wuid>
+          <x>0</x>
+          <y>0</y>
+          <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+            <actions hook="false" hook_all="false" />
+            <background_color>
+              <color red="240" green="240" blue="240" />
+            </background_color>
+            <border_color>
+              <color red="0" green="128" blue="255" />
+            </border_color>
+            <border_style>3</border_style>
+            <border_width>1</border_width>
+            <enabled>true</enabled>
+            <font>
+              <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+            </font>
+            <foreground_color>
+              <color red="192" green="192" blue="192" />
+            </foreground_color>
+            <group_name></group_name>
+            <height>599</height>
+            <macros>
+              <include_parent_macros>true</include_parent_macros>
+            </macros>
+            <name>Linking Container</name>
+            <opi_file>helper-opi-files/server_overview.opi</opi_file>
+            <resize_behaviour>2</resize_behaviour>
+            <rules />
+            <scale_options>
+              <width_scalable>true</width_scalable>
+              <height_scalable>true</height_scalable>
+              <keep_wh_ratio>false</keep_wh_ratio>
+            </scale_options>
+            <scripts />
+            <tooltip></tooltip>
+            <visible>true</visible>
+            <widget_type>Linking Container</widget_type>
+            <width>838</width>
+            <wuid>34a02deb:17183a4765d:-319c</wuid>
+            <x>0</x>
+            <y>0</y>
+          </widget>
+          <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+            <actions hook="false" hook_all="false" />
+            <background_color>
+              <color red="240" green="240" blue="240" />
+            </background_color>
+            <border_color>
+              <color red="0" green="128" blue="255" />
+            </border_color>
+            <border_style>3</border_style>
+            <border_width>1</border_width>
+            <enabled>true</enabled>
+            <font>
+              <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+            </font>
+            <foreground_color>
+              <color red="192" green="192" blue="192" />
+            </foreground_color>
+            <group_name></group_name>
+            <height>306</height>
+            <macros>
+              <include_parent_macros>true</include_parent_macros>
+              <PART>boot</PART>
+            </macros>
+            <name>Linking Container_1</name>
+            <opi_file>helper-opi-files/disk_usage.opi</opi_file>
+            <resize_behaviour>2</resize_behaviour>
+            <rules />
+            <scale_options>
+              <width_scalable>true</width_scalable>
+              <height_scalable>true</height_scalable>
+              <keep_wh_ratio>false</keep_wh_ratio>
+            </scale_options>
+            <scripts />
+            <tooltip></tooltip>
+            <visible>true</visible>
+            <widget_type>Linking Container</widget_type>
+            <width>131</width>
+            <wuid>34a02deb:17183a4765d:-319b</wuid>
+            <x>160</x>
+            <y>235</y>
+          </widget>
+          <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+            <actions hook="false" hook_all="false" />
+            <background_color>
+              <color red="240" green="240" blue="240" />
+            </background_color>
+            <border_color>
+              <color red="0" green="128" blue="255" />
+            </border_color>
+            <border_style>3</border_style>
+            <border_width>1</border_width>
+            <enabled>true</enabled>
+            <font>
+              <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+            </font>
+            <foreground_color>
+              <color red="192" green="192" blue="192" />
+            </foreground_color>
+            <group_name></group_name>
+            <height>306</height>
+            <macros>
+              <include_parent_macros>true</include_parent_macros>
+              <PART>home</PART>
+            </macros>
+            <name>Linking Container_2</name>
+            <opi_file>helper-opi-files/disk_usage.opi</opi_file>
+            <resize_behaviour>2</resize_behaviour>
+            <rules />
+            <scale_options>
+              <width_scalable>true</width_scalable>
+              <height_scalable>true</height_scalable>
+              <keep_wh_ratio>false</keep_wh_ratio>
+            </scale_options>
+            <scripts />
+            <tooltip></tooltip>
+            <visible>true</visible>
+            <widget_type>Linking Container</widget_type>
+            <width>131</width>
+            <wuid>34a02deb:17183a4765d:-319a</wuid>
+            <x>300</x>
+            <y>235</y>
+          </widget>
+        </widget>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>599</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>centos7-DM</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>true</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>false</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>838</width>
+      <wuid>34a02deb:17183a4765d:-57dd</wuid>
+      <x>1</x>
+      <y>1</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <fc>false</fc>
+        <font>
+          <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <height>599</height>
+        <lock_children>true</lock_children>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <P>Ctrl-centos7DM</P>
+        </macros>
+        <name>Grouping Container</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <tooltip></tooltip>
+        <transparent>false</transparent>
+        <visible>true</visible>
+        <widget_type>Grouping Container</widget_type>
+        <width>838</width>
+        <wuid>-5d94b159:158636c359e:-790c</wuid>
+        <x>0</x>
+        <y>0</y>
+        <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <background_color>
+            <color red="240" green="240" blue="240" />
+          </background_color>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>3</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <font>
+            <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+          </font>
+          <foreground_color>
+            <color red="192" green="192" blue="192" />
+          </foreground_color>
+          <group_name></group_name>
+          <height>599</height>
+          <macros>
+            <include_parent_macros>true</include_parent_macros>
+          </macros>
+          <name>Linking Container</name>
+          <opi_file>helper-opi-files/server_overview.opi</opi_file>
+          <resize_behaviour>2</resize_behaviour>
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <tooltip></tooltip>
+          <visible>true</visible>
+          <widget_type>Linking Container</widget_type>
+          <width>838</width>
+          <wuid>-5d94b159:158625b130f:781a</wuid>
+          <x>0</x>
+          <y>0</y>
+        </widget>
+        <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <background_color>
+            <color red="240" green="240" blue="240" />
+          </background_color>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>3</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <font>
+            <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+          </font>
+          <foreground_color>
+            <color red="192" green="192" blue="192" />
+          </foreground_color>
+          <group_name></group_name>
+          <height>310</height>
+          <macros>
+            <include_parent_macros>true</include_parent_macros>
+            <PART>boot</PART>
+          </macros>
+          <name>Linking Container_1</name>
+          <opi_file>helper-opi-files/disk_usage.opi</opi_file>
+          <resize_behaviour>2</resize_behaviour>
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <tooltip></tooltip>
+          <visible>true</visible>
+          <widget_type>Linking Container</widget_type>
+          <width>130</width>
+          <wuid>-5d94b159:158636c359e:-7c90</wuid>
+          <x>160</x>
+          <y>235</y>
+        </widget>
       </widget>
     </widget>
   </widget>

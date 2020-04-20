@@ -4,6 +4,7 @@ file "freia-sevrpv.template" { pattern
 {Ctrl-Alarm:Comp-IOCs		"Computers and Network - IOCs"}
 {Ctrl-Alarm:Comp-PB		"Computers and Network - Profibus"}
 {Ctrl-Alarm:Comp-Servers	"Computers and Network - Servers"}
+{Ctrl-Alarm:Comp-OpCons		"Computers and Network - Op Consoles"}
 {Ctrl-Alarm:CM			"Cryomodule"}
 {Ctrl-Alarm:CM-LHe		"Cryomodule - LHe level"}
 {Ctrl-Alarm:CM-VBoxLHe		"Cryomodule - Valve Box LHe level"}

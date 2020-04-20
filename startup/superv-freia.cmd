@@ -13,6 +13,9 @@ epicsEnvSet("HOST_4" "$(SUPERV_FREIA_4=192.168.10.107)")
 epicsEnvSet("HOST_5" "$(SUPERV_FREIA_5=192.168.10.108)")
 epicsEnvSet("HOST_6" "$(SUPERV_FREIA_6=130.238.199.246)")
 epicsEnvSet("HOST_7" "$(SUPERV_FREIA_7=192.168.10.70)")
+epicsEnvSet("HOST_8" "$(SUPERV_FREIA_8=192.168.10.118)")
+epicsEnvSet("HOST_9" "$(SUPERV_FREIA_9=192.168.10.114)")
+epicsEnvSet("HOST_10" "$(SUPERV_FREIA_10=192.168.10.126)")
 
 devSnmpSetSnmpVersion($(HOST_1),SNMP_VERSION_2c)
 devSnmpSetSnmpVersion($(HOST_2),SNMP_VERSION_2c)
@@ -21,6 +24,9 @@ devSnmpSetSnmpVersion($(HOST_4),SNMP_VERSION_2c)
 devSnmpSetSnmpVersion($(HOST_5),SNMP_VERSION_2c)
 devSnmpSetSnmpVersion($(HOST_6),SNMP_VERSION_2c)
 devSnmpSetSnmpVersion($(HOST_7),SNMP_VERSION_2c)
+devSnmpSetSnmpVersion($(HOST_8),SNMP_VERSION_2c)
+devSnmpSetSnmpVersion($(HOST_9),SNMP_VERSION_2c)
+devSnmpSetSnmpVersion($(HOST_10),SNMP_VERSION_2c)
 
 #devSnmpSetParam("DebugLevel",10)
 
@@ -61,6 +67,24 @@ dbLoadRecords("diskTable.template","P=Ctrl-centosSrv2,PART=disk-root,PASSWD=frei
 dbLoadRecords("diskTable.template","P=Ctrl-centosSrv2,PART=disk-boot,PASSWD=freia_secret,H=$(HOST_7),CHAN=2,HI=85,HH=95")
 dbLoadRecords("diskTable.template","P=Ctrl-centosSrv2,PART=disk-home,PASSWD=freia_secret,H=$(HOST_7),CHAN=3,HI=85,HH=95")
 dbLoadRecords("hostSuperv.template","P=Ctrl-centosSrv2,PASSWD=freia_secret,H=$(HOST_7)")
+
+# HOST_8 (nuc-04)
+dbLoadRecords("diskTable.template","P=Ctrl-nuc04,PART=disk-root,PASSWD=freia_secret,H=$(HOST_8),CHAN=1,HI=85,HH=95")
+dbLoadRecords("diskTable.template","P=Ctrl-nuc04,PART=disk-boot,PASSWD=freia_secret,H=$(HOST_8),CHAN=2,HI=85,HH=95")
+dbLoadRecords("diskTable.template","P=Ctrl-nuc04,PART=disk-home,PASSWD=freia_secret,H=$(HOST_8),CHAN=3,HI=85,HH=95")
+dbLoadRecords("hostSuperv.template","P=Ctrl-nuc04,PASSWD=freia_secret,H=$(HOST_8)")
+
+# HOST_9 (freia-cons2)
+dbLoadRecords("diskTable.template","P=Ctrl-freiaCons2,PART=disk-root,PASSWD=freia_secret,H=$(HOST_9),CHAN=1,HI=85,HH=95")
+dbLoadRecords("diskTable.template","P=Ctrl-freiaCons2,PART=disk-boot,PASSWD=freia_secret,H=$(HOST_9),CHAN=2,HI=85,HH=95")
+dbLoadRecords("diskTable.template","P=Ctrl-freiaCons2,PART=disk-home,PASSWD=freia_secret,H=$(HOST_9),CHAN=3,HI=85,HH=95")
+dbLoadRecords("hostSuperv.template","P=Ctrl-freiaCons2,PASSWD=freia_secret,H=$(HOST_9)")
+
+# HOST_10 (nuc-07)
+dbLoadRecords("diskTable.template","P=Ctrl-nuc07,PART=disk-root,PASSWD=freia_secret,H=$(HOST_10),CHAN=1,HI=85,HH=95")
+dbLoadRecords("diskTable.template","P=Ctrl-nuc07,PART=disk-boot,PASSWD=freia_secret,H=$(HOST_10),CHAN=2,HI=85,HH=95")
+dbLoadRecords("diskTable.template","P=Ctrl-nuc07,PART=disk-home,PASSWD=freia_secret,H=$(HOST_10),CHAN=3,HI=85,HH=95")
+dbLoadRecords("hostSuperv.template","P=Ctrl-nuc07,PASSWD=freia_secret,H=$(HOST_10)")
 
 # FREIA general status and NUC's ram disk usage
 dbLoadRecords("freia-status.db","HI=70,HH=90")
