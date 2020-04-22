@@ -173,7 +173,7 @@ Ctrl-Alarm:CstatH-Vac
 Ctrl-Alarm:CstatV
 Ctrl-Alarm:CstatV-Ctrl
 Ctrl-Alarm:Env
-Ctrl-Alarm:Env-CstatH
+Ctrl-Alarm:Env-CstatV
 Ctrl-Alarm:Env-O2
 Ctrl-Alarm:Env-RFleak
 Ctrl-Alarm:Env-Radiation
