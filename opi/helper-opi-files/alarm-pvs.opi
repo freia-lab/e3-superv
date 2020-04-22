@@ -4698,7 +4698,7 @@ $(pv_value)</tooltip>
       <include_parent_macros>true</include_parent_macros>
       <S>Env</S>
     </macros>
-    <name>  $(P):$(S)  </name>
+    <name>  Env$(P):$(S)  </name>
     <rules>
       <rule name="Vis" prop_id="visible" out_exp="true">
         <exp bool_exp="pv0">
@@ -4744,7 +4744,7 @@ $(pv_value)</tooltip>
       <lock_children>true</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
-        <S>Env-CstatH</S>
+        <S>Env-CstatV</S>
       </macros>
       <name>Grouping Container_8</name>
       <rules />

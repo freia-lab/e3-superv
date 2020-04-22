@@ -10,7 +10,7 @@ file "freia-sevrpv.template" { pattern
 {Ctrl-Alarm:CM-VBoxLHe		"Cryomodule - Valve Box LHe level"}
 {Ctrl-Alarm:CM-Keithley		"Cryomodule - Keithley (PT100)"}
 {Ctrl-Alarm:Env			"Environment"}
-{Ctrl-Alarm:Env-CstatH		"Water in Gersemi hole"}
+{Ctrl-Alarm:Env-CstatV		"Water in Gersemi hole"}
 {Ctrl-Alarm:Env-O2		"Oxygen level"}
 {Ctrl-Alarm:Env-RFleak		"RF Leakage"}
 {Ctrl-Alarm:Env-Radiation	"Radiation"}
