@@ -18,6 +18,7 @@ epicsEnvSet("HOST_9" "$(SUPERV_FREIA_9=192.168.10.114)")
 epicsEnvSet("HOST_10" "$(SUPERV_FREIA_10=192.168.10.126)")
 epicsEnvSet("HOST_11" "$(SUPERV_FREIA_11=192.168.10.204)")
 epicsEnvSet("HOST_12" "$(SUPERV_FREIA_12=192.168.10.205)")
+epicsEnvSet("HOST_13" "$(SUPERV_FREIA_13=130.238.200.135)")
 
 devSnmpSetSnmpVersion($(HOST_1),SNMP_VERSION_2c)
 devSnmpSetSnmpVersion($(HOST_2),SNMP_VERSION_2c)
@@ -31,6 +32,7 @@ devSnmpSetSnmpVersion($(HOST_9),SNMP_VERSION_2c)
 devSnmpSetSnmpVersion($(HOST_10),SNMP_VERSION_2c)
 devSnmpSetSnmpVersion($(HOST_11),SNMP_VERSION_2c)
 devSnmpSetSnmpVersion($(HOST_12),SNMP_VERSION_2c)
+devSnmpSetSnmpVersion($(HOST_13),SNMP_VERSION_2c)
 
 #devSnmpSetParam("DebugLevel",10)
 
@@ -101,6 +103,11 @@ dbLoadRecords("diskTable.template","P=Ctrl-oldpc02,PART=disk-root,PASSWD=freia_s
 dbLoadRecords("diskTable.template","P=Ctrl-oldpc02,PART=disk-boot,PASSWD=freia_secret,H=$(HOST_12),CHAN=2,HI=85,HH=95")
 dbLoadRecords("diskTable.template","P=Ctrl-oldpc02,PART=disk-home,PASSWD=freia_secret,H=$(HOST_12),CHAN=3,HI=85,HH=95")
 dbLoadRecords("hostSuperv.template","P=Ctrl-oldpc02,PASSWD=freia_secret,H=$(HOST_12)")
+
+# HOST_13 (freia-dbwr.physics.uu.se)
+dbLoadRecords("diskTable.template","P=Ctrl-freiaDbwr,PART=disk-root,PASSWD=freia_secret,H=$(HOST_13),CHAN=1,HI=85,HH=95")
+dbLoadRecords("diskTable.template","P=Ctrl-freiaDbwr,PART=disk-boot,PASSWD=freia_secret,H=$(HOST_13),CHAN=2,HI=85,HH=95")
+dbLoadRecords("hostSuperv.template","P=Ctrl-freiaDbwr,PASSWD=freia_secret,H=$(HOST_13)")
 
 # FREIA general status and NUC's ram disk usage
 dbLoadRecords("freia-status.db","HI=70,HH=90")

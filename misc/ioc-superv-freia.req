@@ -171,6 +171,18 @@ Ctrl-oldpc02:Cpu:Idle.LOW
 Ctrl-oldpc02:Cpu:Idle.LOLO
 Ctrl-oldpc02:Memory:AvailSwap.LOW
 Ctrl-oldpc02:Memory:AvailSwap.LOLO
+Ctrl-freiaDbwr:disk-boot:dskPercent.HIHI
+Ctrl-freiaDbwr:disk-boot:dskPercent.HIGH
+Ctrl-freiaDbwr:disk-root:dskPercent.HIHI
+Ctrl-freiaDbwr:disk-root:dskPercent.HIGH
+Ctrl-freiaDbwr:Cpu:System.HIHI
+Ctrl-freiaDbwr:Cpu:System.HIGH
+Ctrl-freiaDbwr:Cpu:User.HIHI
+Ctrl-freiaDbwr:Cpu:User.HIGH
+Ctrl-freiaDbwr:Cpu:Idle.LOW
+Ctrl-freiaDbwr:Cpu:Idle.LOLO
+Ctrl-freiaDbwr:Memory:AvailSwap.LOW
+Ctrl-freiaDbwr:Memory:AvailSwap.LOLO
 #
 ####################
 # Save Alarm Status
