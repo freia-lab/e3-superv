@@ -183,6 +183,16 @@ Ctrl-freiaDbwr:Cpu:Idle.LOW
 Ctrl-freiaDbwr:Cpu:Idle.LOLO
 Ctrl-freiaDbwr:Memory:AvailSwap.LOW
 Ctrl-freiaDbwr:Memory:AvailSwap.LOLO
+Ctrl-vsrv01:disk-root:dskPercent.HIHI
+Ctrl-vsrv01:disk-root:dskPercent.HIGH
+Ctrl-vsrv01:Cpu:System.HIHI
+Ctrl-vsrv01:Cpu:System.HIGH
+Ctrl-vsrv01:Cpu:User.HIHI
+Ctrl-vsrv01:Cpu:User.HIGH
+Ctrl-vsrv01:Cpu:Idle.LOW
+Ctrl-vsrv01:Cpu:Idle.LOLO
+Ctrl-vsrv01:Memory:AvailSwap.LOW
+Ctrl-vsrv01:Memory:AvailSwap.LOLO
 #
 ####################
 # Save Alarm Status
