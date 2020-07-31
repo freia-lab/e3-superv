@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <width>1100</width>
+  <height>900</height>
+  <background_color>
+    <color red="240" green="240" blue="240">
+    </color>
+  </background_color>
+  <actions>
+  </actions>
+  <grid_visible>false</grid_visible>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>Control System Supervisor</text>
+    <x>264</x>
+    <y>3</y>
+    <width>409</width>
+    <height>46</height>
+    <font>
+      <font name="Header 1" family="Source Sans Pro" style="BOLD_ITALIC" size="36.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="tabs" version="2.0.0">
+    <name>Tabbed Container</name>
+    <tabs>
+      <tab>
+        <name>Alarms</name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Linking Container</name>
+            <file>helper-opi-files/alarm-pvs.opi</file>
+            <width>838</width>
+            <height>599</height>
+            <actions>
+            </actions>
+            <border_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </border_color>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>freia-srv1</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <macros>
+              <P>Ctrl-freiaSrv1</P>
+            </macros>
+            <width>838</width>
+            <height>599</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container</name>
+              <file>helper-opi-files/server_overview.opi</file>
+              <width>838</width>
+              <height>599</height>
+              <actions>
+              </actions>
+              <border_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </border_color>
+            </widget>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container_1</name>
+              <file>helper-opi-files/disk_usage.opi</file>
+              <macros>
+                <PART>data1</PART>
+              </macros>
+              <x>160</x>
+              <y>235</y>
+              <width>131</width>
+              <height>311</height>
+              <actions>
+              </actions>
+              <border_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </border_color>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>centos-srv1</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <macros>
+              <P>Ctrl-centosSrv1</P>
+            </macros>
+            <width>838</width>
+            <height>599</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container</name>
+              <file>helper-opi-files/server_overview.opi</file>
+              <width>838</width>
+              <height>599</height>
+              <actions>
+              </actions>
+              <border_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </border_color>
+            </widget>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container_1</name>
+              <file>helper-opi-files/disk_usage.opi</file>
+              <macros>
+                <PART>boot</PART>
+              </macros>
+              <x>160</x>
+              <y>235</y>
+              <width>131</width>
+              <height>306</height>
+              <actions>
+              </actions>
+              <border_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </border_color>
+            </widget>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container_2</name>
+              <file>helper-opi-files/disk_usage.opi</file>
+              <macros>
+                <PART>data1</PART>
+              </macros>
+              <x>300</x>
+              <y>235</y>
+              <width>131</width>
+              <height>306</height>
+              <actions>
+              </actions>
+              <border_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </border_color>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>centos-srv2</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <width>838</width>
+            <height>599</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="group" version="2.0.0">
+              <name>Grouping Container</name>
+              <macros>
+                <P>Ctrl-centosSrv2</P>
+              </macros>
+              <width>838</width>
+              <height>599</height>
+              <style>3</style>
+              <foreground_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </foreground_color>
+              <background_color>
+                <color red="240" green="240" blue="240">
+                </color>
+              </background_color>
+              <actions>
+              </actions>
+              <widget type="embedded" version="2.0.0">
+                <name>Linking Container</name>
+                <file>helper-opi-files/server_overview.opi</file>
+                <width>838</width>
+                <height>599</height>
+                <actions>
+                </actions>
+                <border_color>
+                  <color red="0" green="128" blue="255">
+                  </color>
+                </border_color>
+              </widget>
+              <widget type="embedded" version="2.0.0">
+                <name>Linking Container_1</name>
+                <file>helper-opi-files/disk_usage.opi</file>
+                <macros>
+                  <PART>boot</PART>
+                </macros>
+                <x>160</x>
+                <y>235</y>
+                <width>131</width>
+                <height>306</height>
+                <actions>
+                </actions>
+                <border_color>
+                  <color red="0" green="128" blue="255">
+                  </color>
+                </border_color>
+              </widget>
+              <widget type="embedded" version="2.0.0">
+                <name>Linking Container_2</name>
+                <file>helper-opi-files/disk_usage.opi</file>
+                <macros>
+                  <PART>home</PART>
+                </macros>
+                <x>300</x>
+                <y>235</y>
+                <width>131</width>
+                <height>306</height>
+                <actions>
+                </actions>
+                <border_color>
+                  <color red="0" green="128" blue="255">
+                  </color>
+                </border_color>
+              </widget>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>freia-arcapl1</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <macros>
+              <P>Ctrl-arcApl1</P>
+            </macros>
+            <width>838</width>
+            <height>599</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container</name>
+              <file>helper-opi-files/server_overview.opi</file>
+              <width>838</width>
+              <height>599</height>
+              <actions>
+              </actions>
+              <border_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </border_color>
+            </widget>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container_1</name>
+              <file>helper-opi-files/disk_usage.opi</file>
+              <macros>
+                <PART>boot</PART>
+              </macros>
+              <x>160</x>
+              <y>235</y>
+              <width>131</width>
+              <height>306</height>
+              <actions>
+              </actions>
+              <border_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </border_color>
+            </widget>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container_2</name>
+              <file>helper-opi-files/disk_usage.opi</file>
+              <macros>
+                <PART>data1</PART>
+              </macros>
+              <x>300</x>
+              <y>235</y>
+              <width>131</width>
+              <height>306</height>
+              <actions>
+              </actions>
+              <border_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </border_color>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>freia-arch1</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <macros>
+              <P>Ctrl-freiaArch1</P>
+            </macros>
+            <width>838</width>
+            <height>599</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container</name>
+              <file>helper-opi-files/server_overview.opi</file>
+              <width>838</width>
+              <height>599</height>
+              <actions>
+              </actions>
+              <border_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </border_color>
+            </widget>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container_1</name>
+              <file>helper-opi-files/disk_usage.opi</file>
+              <macros>
+                <PART>boot</PART>
+              </macros>
+              <x>160</x>
+              <y>235</y>
+              <width>131</width>
+              <height>311</height>
+              <actions>
+              </actions>
+              <border_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </border_color>
+            </widget>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container_2</name>
+              <file>helper-opi-files/disk_usage.opi</file>
+              <macros>
+                <PART>data1</PART>
+              </macros>
+              <x>300</x>
+              <y>235</y>
+              <width>131</width>
+              <height>311</height>
+              <actions>
+              </actions>
+              <border_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </border_color>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>nuc-04</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <width>838</width>
+            <height>599</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="group" version="2.0.0">
+              <name>Grouping Container</name>
+              <macros>
+                <P>Ctrl-nuc04</P>
+              </macros>
+              <width>838</width>
+              <height>599</height>
+              <style>3</style>
+              <foreground_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </foreground_color>
+              <background_color>
+                <color red="240" green="240" blue="240">
+                </color>
+              </background_color>
+              <actions>
+              </actions>
+              <widget type="embedded" version="2.0.0">
+                <name>Linking Container</name>
+                <file>helper-opi-files/server_overview.opi</file>
+                <width>838</width>
+                <height>599</height>
+                <actions>
+                </actions>
+                <border_color>
+                  <color red="0" green="128" blue="255">
+                  </color>
+                </border_color>
+              </widget>
+              <widget type="embedded" version="2.0.0">
+                <name>Linking Container_1</name>
+                <file>helper-opi-files/disk_usage.opi</file>
+                <macros>
+                  <PART>boot</PART>
+                </macros>
+                <x>160</x>
+                <y>235</y>
+                <width>131</width>
+                <height>306</height>
+                <actions>
+                </actions>
+                <border_color>
+                  <color red="0" green="128" blue="255">
+                  </color>
+                </border_color>
+              </widget>
+              <widget type="embedded" version="2.0.0">
+                <name>Linking Container_2</name>
+                <file>helper-opi-files/disk_usage.opi</file>
+                <macros>
+                  <PART>home</PART>
+                </macros>
+                <x>300</x>
+                <y>235</y>
+                <width>131</width>
+                <height>306</height>
+                <actions>
+                </actions>
+                <border_color>
+                  <color red="0" green="128" blue="255">
+                  </color>
+                </border_color>
+              </widget>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>freia</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <macros>
+              <P>Ctrl-freia</P>
+            </macros>
+            <width>838</width>
+            <height>599</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container</name>
+              <file>helper-opi-files/server_overview.opi</file>
+              <width>838</width>
+              <height>599</height>
+              <actions>
+              </actions>
+              <border_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </border_color>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>Diskless clients</name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Linking Container</name>
+            <file>helper-opi-files/diskless.opi</file>
+            <macros>
+              <P>Ctrl</P>
+            </macros>
+            <width>838</width>
+            <height>599</height>
+            <actions>
+            </actions>
+            <border_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </border_color>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>Profibus DP</name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Linking Container</name>
+            <file>helper-opi-files/Profibus_DP.opi</file>
+            <width>838</width>
+            <height>599</height>
+            <actions>
+            </actions>
+            <border_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </border_color>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>cRIO-1</name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Linking Container</name>
+            <file>helper-opi-files/cRio1_overview.opi</file>
+            <width>838</width>
+            <height>599</height>
+            <actions>
+            </actions>
+            <border_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </border_color>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>freia-cons2</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <width>838</width>
+            <height>599</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="group" version="2.0.0">
+              <name>Grouping Container</name>
+              <macros>
+                <P>Ctrl-freiaCons2</P>
+              </macros>
+              <width>838</width>
+              <height>599</height>
+              <style>3</style>
+              <foreground_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </foreground_color>
+              <background_color>
+                <color red="240" green="240" blue="240">
+                </color>
+              </background_color>
+              <actions>
+              </actions>
+              <widget type="embedded" version="2.0.0">
+                <name>Linking Container</name>
+                <file>helper-opi-files/server_overview.opi</file>
+                <width>838</width>
+                <height>599</height>
+                <actions>
+                </actions>
+                <border_color>
+                  <color red="0" green="128" blue="255">
+                  </color>
+                </border_color>
+              </widget>
+              <widget type="embedded" version="2.0.0">
+                <name>Linking Container_1</name>
+                <file>helper-opi-files/disk_usage.opi</file>
+                <macros>
+                  <PART>boot</PART>
+                </macros>
+                <x>160</x>
+                <y>235</y>
+                <width>131</width>
+                <height>306</height>
+                <actions>
+                </actions>
+                <border_color>
+                  <color red="0" green="128" blue="255">
+                  </color>
+                </border_color>
+              </widget>
+              <widget type="embedded" version="2.0.0">
+                <name>Linking Container_2</name>
+                <file>helper-opi-files/disk_usage.opi</file>
+                <macros>
+                  <PART>home</PART>
+                </macros>
+                <x>300</x>
+                <y>235</y>
+                <width>131</width>
+                <height>306</height>
+                <actions>
+                </actions>
+                <border_color>
+                  <color red="0" green="128" blue="255">
+                  </color>
+                </border_color>
+              </widget>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>nuc-07</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <width>838</width>
+            <height>599</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="group" version="2.0.0">
+              <name>Grouping Container</name>
+              <macros>
+                <P>Ctrl-nuc07</P>
+              </macros>
+              <width>838</width>
+              <height>599</height>
+              <style>3</style>
+              <foreground_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </foreground_color>
+              <background_color>
+                <color red="240" green="240" blue="240">
+                </color>
+              </background_color>
+              <actions>
+              </actions>
+              <widget type="embedded" version="2.0.0">
+                <name>Linking Container</name>
+                <file>helper-opi-files/server_overview.opi</file>
+                <width>838</width>
+                <height>599</height>
+                <actions>
+                </actions>
+                <border_color>
+                  <color red="0" green="128" blue="255">
+                  </color>
+                </border_color>
+              </widget>
+              <widget type="embedded" version="2.0.0">
+                <name>Linking Container_1</name>
+                <file>helper-opi-files/disk_usage.opi</file>
+                <macros>
+                  <PART>boot</PART>
+                </macros>
+                <x>160</x>
+                <y>235</y>
+                <width>131</width>
+                <height>306</height>
+                <actions>
+                </actions>
+                <border_color>
+                  <color red="0" green="128" blue="255">
+                  </color>
+                </border_color>
+              </widget>
+              <widget type="embedded" version="2.0.0">
+                <name>Linking Container_2</name>
+                <file>helper-opi-files/disk_usage.opi</file>
+                <macros>
+                  <PART>home</PART>
+                </macros>
+                <x>300</x>
+                <y>235</y>
+                <width>131</width>
+                <height>306</height>
+                <actions>
+                </actions>
+                <border_color>
+                  <color red="0" green="128" blue="255">
+                  </color>
+                </border_color>
+              </widget>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>centos7-DM</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <macros>
+              <P>Ctrl-centos7DM</P>
+            </macros>
+            <width>838</width>
+            <height>599</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container</name>
+              <file>helper-opi-files/server_overview.opi</file>
+              <width>838</width>
+              <height>599</height>
+              <actions>
+              </actions>
+              <border_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </border_color>
+            </widget>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container_1</name>
+              <file>helper-opi-files/disk_usage.opi</file>
+              <macros>
+                <PART>boot</PART>
+              </macros>
+              <x>160</x>
+              <y>235</y>
+              <width>130</width>
+              <height>310</height>
+              <actions>
+              </actions>
+              <border_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </border_color>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>oldpc-01</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <width>838</width>
+            <height>599</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="group" version="2.0.0">
+              <name>Grouping Container</name>
+              <macros>
+                <P>Ctrl-oldpc01</P>
+              </macros>
+              <width>838</width>
+              <height>599</height>
+              <style>3</style>
+              <foreground_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </foreground_color>
+              <background_color>
+                <color red="240" green="240" blue="240">
+                </color>
+              </background_color>
+              <actions>
+              </actions>
+              <widget type="embedded" version="2.0.0">
+                <name>Linking Container</name>
+                <file>helper-opi-files/server_overview.opi</file>
+                <width>838</width>
+                <height>599</height>
+                <actions>
+                </actions>
+                <border_color>
+                  <color red="0" green="128" blue="255">
+                  </color>
+                </border_color>
+              </widget>
+              <widget type="embedded" version="2.0.0">
+                <name>Linking Container_1</name>
+                <file>helper-opi-files/disk_usage.opi</file>
+                <macros>
+                  <PART>boot</PART>
+                </macros>
+                <x>160</x>
+                <y>235</y>
+                <width>131</width>
+                <height>306</height>
+                <actions>
+                </actions>
+                <border_color>
+                  <color red="0" green="128" blue="255">
+                  </color>
+                </border_color>
+              </widget>
+              <widget type="embedded" version="2.0.0">
+                <name>Linking Container_2</name>
+                <file>helper-opi-files/disk_usage.opi</file>
+                <macros>
+                  <PART>home</PART>
+                </macros>
+                <x>300</x>
+                <y>235</y>
+                <width>131</width>
+                <height>306</height>
+                <actions>
+                </actions>
+                <border_color>
+                  <color red="0" green="128" blue="255">
+                  </color>
+                </border_color>
+              </widget>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>oldpc-02</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <width>838</width>
+            <height>599</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="group" version="2.0.0">
+              <name>Grouping Container</name>
+              <macros>
+                <P>Ctrl-oldpc02</P>
+              </macros>
+              <width>838</width>
+              <height>599</height>
+              <style>3</style>
+              <foreground_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </foreground_color>
+              <background_color>
+                <color red="240" green="240" blue="240">
+                </color>
+              </background_color>
+              <actions>
+              </actions>
+              <widget type="embedded" version="2.0.0">
+                <name>Linking Container</name>
+                <file>helper-opi-files/server_overview.opi</file>
+                <width>838</width>
+                <height>599</height>
+                <actions>
+                </actions>
+                <border_color>
+                  <color red="0" green="128" blue="255">
+                  </color>
+                </border_color>
+              </widget>
+              <widget type="embedded" version="2.0.0">
+                <name>Linking Container_1</name>
+                <file>helper-opi-files/disk_usage.opi</file>
+                <macros>
+                  <PART>boot</PART>
+                </macros>
+                <x>160</x>
+                <y>235</y>
+                <width>131</width>
+                <height>306</height>
+                <actions>
+                </actions>
+                <border_color>
+                  <color red="0" green="128" blue="255">
+                  </color>
+                </border_color>
+              </widget>
+              <widget type="embedded" version="2.0.0">
+                <name>Linking Container_2</name>
+                <file>helper-opi-files/disk_usage.opi</file>
+                <macros>
+                  <PART>home</PART>
+                </macros>
+                <x>300</x>
+                <y>235</y>
+                <width>131</width>
+                <height>306</height>
+                <actions>
+                </actions>
+                <border_color>
+                  <color red="0" green="128" blue="255">
+                  </color>
+                </border_color>
+              </widget>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>freia-dbwr</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <macros>
+              <P>Ctrl-freiaDbwr</P>
+            </macros>
+            <width>838</width>
+            <height>599</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container</name>
+              <file>helper-opi-files/server_overview.opi</file>
+              <width>838</width>
+              <height>599</height>
+              <actions>
+              </actions>
+              <border_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </border_color>
+            </widget>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container_1</name>
+              <file>helper-opi-files/disk_usage.opi</file>
+              <macros>
+                <PART>boot</PART>
+              </macros>
+              <x>160</x>
+              <y>235</y>
+              <width>131</width>
+              <height>311</height>
+              <actions>
+              </actions>
+              <border_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </border_color>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>vsrv01</name>
+        <children>
+          <widget type="group" version="2.0.0">
+            <name>Grouping Container</name>
+            <macros>
+              <P>Ctrl-vsrv01</P>
+            </macros>
+            <width>838</width>
+            <height>599</height>
+            <style>3</style>
+            <foreground_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="240" green="240" blue="240">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="embedded" version="2.0.0">
+              <name>Linking Container</name>
+              <file>helper-opi-files/server_overview.opi</file>
+              <width>838</width>
+              <height>599</height>
+              <actions>
+              </actions>
+              <border_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </border_color>
+            </widget>
+          </widget>
+        </children>
+      </tab>
+    </tabs>
+    <x>10</x>
+    <y>60</y>
+    <width>1060</width>
+    <height>750</height>
+    <font>
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <active_tab>2</active_tab>
+    <tab_height>10</tab_height>
+    <actions>
+    </actions>
+  </widget>
+</display>

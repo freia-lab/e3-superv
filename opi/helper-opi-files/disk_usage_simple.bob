@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <width>130</width>
+  <height>240</height>
+  <background_color>
+    <color red="240" green="240" blue="240">
+    </color>
+  </background_color>
+  <actions>
+  </actions>
+  <grid_visible>false</grid_visible>
+  <widget type="group" version="2.0.0">
+    <name>Grouping Container_5</name>
+    <width>128</width>
+    <height>231</height>
+    <style>3</style>
+    <foreground_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <widget type="progressbar" version="2.0.0">
+      <name>Progress Bar</name>
+      <pv_name>$(P)-$(C):disk-$(PART):dskPercent</pv_name>
+      <x>4</x>
+      <y>4</y>
+      <width>121</width>
+      <height>200</height>
+      <fill_color>
+        <color red="0" green="0" blue="255">
+        </color>
+      </fill_color>
+      <horizontal>false</horizontal>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Text Update_2</name>
+      <text>$(L)</text>
+      <y>210</y>
+      <width>127</width>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="WHITE" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>false</transparent>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+  </widget>
+</display>
