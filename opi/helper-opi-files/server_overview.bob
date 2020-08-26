@@ -62,7 +62,7 @@
     <name>Grouping Container</name>
     <x>24</x>
     <y>53</y>
-    <width>517</width>
+    <width>640</width>
     <height>20</height>
     <style>3</style>
     <foreground_color>
@@ -100,8 +100,8 @@
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_2</name>
       <pv_name>$(P):System:upTime</pv_name>
-      <x>79</x>
-      <width>138</width>
+      <x>90</x>
+      <width>180</width>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
         </color>
@@ -122,7 +122,7 @@
     <widget type="label" version="2.0.0">
       <name>Label_1</name>
       <text># of users:</text>
-      <x>228</x>
+      <x>320</x>
       <width>80</width>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
@@ -145,7 +145,7 @@
     <widget type="label" version="2.0.0">
       <name>Label_2</name>
       <text># of processes:</text>
-      <x>360</x>
+      <x>470</x>
       <width>109</width>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
@@ -168,7 +168,7 @@
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_3</name>
       <pv_name>$(P):System:numUsers</pv_name>
-      <x>307</x>
+      <x>410</x>
       <width>30</width>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
@@ -190,8 +190,8 @@
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_4</name>
       <pv_name>$(P):System:numProcesses</pv_name>
-      <x>474</x>
-      <width>43</width>
+      <x>590</x>
+      <width>50</width>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
         </color>
@@ -214,7 +214,7 @@
     <name>Grouping Container_1</name>
     <x>24</x>
     <y>84</y>
-    <width>482</width>
+    <width>496</width>
     <height>20</height>
     <style>3</style>
     <foreground_color>
@@ -253,7 +253,7 @@
       <name>Text Update_2</name>
       <pv_name>$(P):LoadAvg:1min</pv_name>
       <x>334</x>
-      <width>40</width>
+      <width>45</width>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
         </color>
@@ -275,7 +275,7 @@
       <name>Text Update_3</name>
       <pv_name>$(P):LoadAvg:5min</pv_name>
       <x>388</x>
-      <width>40</width>
+      <width>45</width>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
         </color>
@@ -297,7 +297,7 @@
       <name>Text Update_4</name>
       <pv_name>$(P):LoadAvg:15min</pv_name>
       <x>442</x>
-      <width>40</width>
+      <width>45</width>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
         </color>
@@ -318,10 +318,10 @@
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Linking Container</name>
-    <file>disk_usage.bob</file>
     <macros>
       <PART>root</PART>
     </macros>
+    <file>disk_usage.bob</file>
     <x>19</x>
     <y>234</y>
     <width>130</width>
@@ -337,7 +337,7 @@
     <name>Grouping Container_6</name>
     <x>31</x>
     <y>131</y>
-    <width>287</width>
+    <width>350</width>
     <height>20</height>
     <style>3</style>
     <foreground_color>
@@ -378,8 +378,8 @@
     <widget type="label" version="2.0.0">
       <name>Label_1</name>
       <text>us</text>
-      <x>103</x>
-      <width>31</width>
+      <x>60</x>
+      <width>20</width>
       <foreground_color>
         <color red="0" green="0" blue="0">
         </color>
@@ -388,6 +388,7 @@
         <color red="255" green="255" blue="255">
         </color>
       </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
       <vertical_alignment>1</vertical_alignment>
       <wrap_words>false</wrap_words>
       <actions>
@@ -400,8 +401,8 @@
     <widget type="label" version="2.0.0">
       <name>Label_2</name>
       <text>sy</text>
-      <x>178</x>
-      <width>31</width>
+      <x>160</x>
+      <width>20</width>
       <foreground_color>
         <color red="0" green="0" blue="0">
         </color>
@@ -410,6 +411,7 @@
         <color red="255" green="255" blue="255">
         </color>
       </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
       <vertical_alignment>1</vertical_alignment>
       <wrap_words>false</wrap_words>
       <actions>
@@ -422,8 +424,8 @@
     <widget type="label" version="2.0.0">
       <name>Label_3</name>
       <text>id</text>
-      <x>256</x>
-      <width>31</width>
+      <x>270</x>
+      <width>20</width>
       <foreground_color>
         <color red="0" green="0" blue="0">
         </color>
@@ -432,6 +434,7 @@
         <color red="255" green="255" blue="255">
         </color>
       </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
       <vertical_alignment>1</vertical_alignment>
       <wrap_words>false</wrap_words>
       <actions>
@@ -444,8 +447,8 @@
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_2</name>
       <pv_name>$(P):Cpu:User</pv_name>
-      <x>58</x>
-      <width>46</width>
+      <x>85</x>
+      <width>50</width>
       <foreground_color>
         <color red="0" green="0" blue="0">
         </color>
@@ -466,8 +469,8 @@
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_3</name>
       <pv_name>$(P):Cpu:System</pv_name>
-      <x>133</x>
-      <width>46</width>
+      <x>185</x>
+      <width>50</width>
       <foreground_color>
         <color red="0" green="0" blue="0">
         </color>
@@ -488,8 +491,8 @@
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_4</name>
       <pv_name>$(P):Cpu:Idle</pv_name>
-      <x>211</x>
-      <width>46</width>
+      <x>295</x>
+      <width>50</width>
       <foreground_color>
         <color red="0" green="0" blue="0">
         </color>
