@@ -5,7 +5,7 @@ record(calc, "Cryo-System:Operation:VisuState-in") {
    field (INPB, "Cryo-CBox:HP:TI3155 MSS")
    field (INPC, "10")
    field (INPD, "Cryo-CBox:CoolMode:VisuState")
-   field (CALC, "A<C&&B<C?3:(D>0?2:1)")
+   field (CALC, "A<C&&B<C?3:(D>0&&D<4?2:1)")
    field (SCAN, "1 second")
    field (FLNK, "Cryo-System:Operation:VisuState")
 }
