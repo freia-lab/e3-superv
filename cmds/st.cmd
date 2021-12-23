@@ -1,17 +1,25 @@
-#require snmp
-#require autosave
-epicsEnvSet("AUTOSAVE_SYSM_PV_PREFIX","superv:")
-epicsEnvSet("MIBDIRS", "+$(REQUIRE_ioc_superv_freia_PATH)/misc")
+# This should be a test or example startup script
+
+epicsEnvSet ("IOCNAME", "ioc09-superv")
+
+# Directory name for the autosave files
+epicsEnvSet ("IOCDIR", "superv")
+
+require superv
+require autosave
+require recsync
+
+#epicsEnvSet("MIBDIRS", "+$(REQUIRE_ioc_superv_freia_PATH)/misc")
 epicsEnvSet("D", "UCD-SNMP-MIB::")
 epicsEnvSet("W", "SNMPv2-MIB::")
 epicsEnvSet("N", "NOTIFICATION-LOG-MIB::")
 
 epicsEnvSet("HOST_1" "$(SUPERV_FREIA_1=192.168.10.60)")
 epicsEnvSet("HOST_2" "$(SUPERV_FREIA_2=192.168.10.62)")
-epicsEnvSet("HOST_3" "$(SUPERV_FREIA_3=192.168.10.64)")
+epicsEnvSet("HOST_3" "$(SUPERV_FREIA_3=130.238.200.137)")
 epicsEnvSet("HOST_4" "$(SUPERV_FREIA_4=192.168.10.107)")
 epicsEnvSet("HOST_5" "$(SUPERV_FREIA_5=192.168.10.108)")
-epicsEnvSet("HOST_6" "$(SUPERV_FREIA_6=130.238.199.246)")
+epicsEnvSet("HOST_6" "$(SUPERV_FREIA_6=130.238.4.140)")
 epicsEnvSet("HOST_7" "$(SUPERV_FREIA_7=192.168.10.70)")
 epicsEnvSet("HOST_8" "$(SUPERV_FREIA_8=192.168.10.118)")
 epicsEnvSet("HOST_9" "$(SUPERV_FREIA_9=192.168.10.114)")
@@ -121,11 +129,5 @@ dbLoadRecords("freia-status.db","HI=70,HH=90")
 # FREIA PVs set by the alarm server
 dbLoadRecords("freia-sevrpv.db")
 
-requireSnippet(superv-freia-preSaveRestore.cmd)
-
-#############################################
-## IOC initialization                      ##
-#############################################
-iocInit
-
-requireSnippet(superv-freia-postSaveRestore.cmd)
+iocshLoad("$(autosave_DIR)/autosave.iocsh", "AS_TOP=/opt/epics/autosave,IOCNAME=$(IOCNAME)")
+#iocshLoad("$(recsync_DIR)/recsync.iocsh", "IOCNAME=$(IOCNAME)")

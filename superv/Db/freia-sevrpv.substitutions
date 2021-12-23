@@ -1,4 +1,4 @@
-file "freia-sevrpv.template" { pattern
+file "freia-sevrpv-t.template" { pattern
 {N,	 DESC}
 {Ctrl-Alarm:Comp		"Computers and Network"}
 {Ctrl-Alarm:Comp-IOCs		"Computers and Network - IOCs"}

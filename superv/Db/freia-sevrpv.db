@@ -1,0 +1,1102 @@
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:Comp")
+{
+    field(DESC, "Computers and Network")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:Comp-IOCs")
+{
+    field(DESC, "Computers and Network - IOCs")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:Comp-PB")
+{
+    field(DESC, "Computers and Network - Profibus")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:Comp-Servers")
+{
+    field(DESC, "Computers and Network - Servers")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:Comp-OpCons")
+{
+    field(DESC, "Computers and Network - Op Consoles")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:CM")
+{
+    field(DESC, "Cryomodule")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:CM-LHe")
+{
+    field(DESC, "Cryomodule - LHe level")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:CM-VBoxLHe")
+{
+    field(DESC, "Cryomodule - Valve Box LHe level")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:CM-Keithley")
+{
+    field(DESC, "Cryomodule - Keithley (PT100)")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:Env")
+{
+    field(DESC, "Environment")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:Env-CstatV")
+{
+    field(DESC, "Water in Gersemi hole")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:Env-O2")
+{
+    field(DESC, "Oxygen level")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:Env-RFleak")
+{
+    field(DESC, "RF Leakage")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:Env-Radiation")
+{
+    field(DESC, "Radiation")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:CstatV")
+{
+    field(DESC, "Gersemi")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:CstatV-Ctrl")
+{
+    field(DESC, "Gersemi Controls")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:CstatH")
+{
+    field(DESC, "HNOSS")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:CstatH-Vac")
+{
+    field(DESC, "HNOSS Vacuum")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:CstatH-2KPumps")
+{
+    field(DESC, "HNOSS 2K pumps")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:LN2")
+{
+    field(DESC, "Liquid N")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:LN2-Level")
+{
+    field(DESC, "Liquid N level")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:Cryo")
+{
+    field(DESC, "Liquifier")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:Cryo-WarnAlrm")
+{
+    field(DESC, "Liquifier - Warnings and Alarms")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:Cryo-Dwr")
+{
+    field(DESC, "Liquifier - Dewar")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:Cryo-CoolMode")
+{
+    field(DESC, "Liquifier - Cold mode alarm")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:Cryo-Pur")
+{
+    field(DESC, "Liquifier - Purifier")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:RF")
+{
+    field(DESC, "RF Power Plant")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:RF-Electrosys")
+{
+    field(DESC, "RF Power Plant - Electrosys")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+
+# Example for "Severity PV"
+# used with automated action set to "sevrpv:NameOfPV"
+#
+# softIoc -s -m N=NameOfPV -d sevrpv.db
+
+record(mbbi, "Ctrl-Alarm:RF-LLRF:Intlk")
+{
+    field(DESC, "RF Power Plant - LLRF interlock")
+    field(ZRVL, 0)
+    field(ZRST, "OK")
+    field(ONVL, 1)
+    field(ONST, "MINOR_ACK")
+    field(ONSV, "MINOR")
+    field(TWVL, 2)
+    field(TWST, "MAJOR_ACK")
+    field(TWSV, "MAJOR")
+    field(THVL, 3)
+    field(THST, "INVALID_ACK")
+    field(THSV, "INVALID")
+    field(FRVL, 4)
+    field(FRST, "UNDEFINED_ACK")
+    field(FRSV, "INVALID")
+    field(FVVL, 5)
+    field(FVST, "MINOR")
+    field(FVSV, "MINOR")
+    field(SXVL, 6)
+    field(SXST, "MAJOR")
+    field(SXSV, "MAJOR")
+    field(SVVL, 7)
+    field(SVST, "INVALID")
+    field(SVSV, "INVALID")
+    field(EIVL, 8)
+    field(EIST, "UNDEFINED")
+    field(EISV, "INVALID")
+    field(INP,  "0")
+    field(PINI, "YES")
+}
+

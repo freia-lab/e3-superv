@@ -12,6 +12,7 @@ record(longin, "$(P):$(PART):dskPercent")
   field(SCAN, "10 second")
   field(DTYP, "Snmp")
   field(INP, "@$(H) $(PASSWD) %(D)dskPercent.$(CHAN) INTEGER: 100 i")
+  info (autosaveFields, "HIGH HIHI") 
 }
 
 record(longin, "$(P):$(PART):dskPercentNode")

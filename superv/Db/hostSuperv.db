@@ -108,6 +108,7 @@ record(longin, "$(P):Cpu:User")
   field(SCAN, "10 second")
   field(DTYP, "Snmp")
   field(INP, "@$(H) $(PASSWD) %(D)ssCpuUser.0 INTEGER: 100 i")
+  info (autosaveFields, "HIGH HIHI") 
 }
 
 
@@ -141,6 +142,7 @@ record(longin, "$(P):Cpu:System")
   field(SCAN, "10 second")
   field(DTYP, "Snmp")
   field(INP, "@$(H) $(PASSWD) %(D)ssCpuSystem.0 INTEGER: 100 i")
+  info (autosaveFields, "HIGH HIHI") 
 }
 
 record(longin, "$(P):CpuRaw:Idle")
@@ -165,6 +167,7 @@ record(longin, "$(P):Cpu:Idle")
   field(SCAN, "10 second")
   field(DTYP, "Snmp")
   field(INP, "@$(H) $(PASSWD) %(D)ssCpuIdle.0 INTEGER: 100 i")
+  info (autosaveFields, "LOW LOLO") 
 }
 
 record(longin, "$(P):CpuRaw:Wait")
@@ -215,6 +218,7 @@ record(longin, "$(P):Memory:AvailSwap")
   field(SCAN, "10 second")
   field(DTYP, "Snmp")
   field(INP, "@$(H) $(PASSWD) %(D)memAvailSwap.0 INTEGER: 100 i")
+  info (autosaveFields, "LOW LOLO") 
 }
 
 record(longin, "$(P):Memory:TotalReal")

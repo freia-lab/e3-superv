@@ -464,6 +464,8 @@ record (waveform, "FREIA-Info:News:txt") {
   field(DTYP,"Soft Channel")
   field(FTVL,"CHAR")
   field (DESC, "FREIA news on the web status page")
+  info (autosaveFields, "VAL")
+  field (PINI, "YES")
 }
 
 # Diskless NUCs /var parition usage
@@ -477,6 +479,7 @@ record (ao, "Ctrl-nuc01:disk-var:dskPercent") {
   field (HIHI, "$(HH)")
   field (HSV, "MINOR")
   field (HHSV, "MAJOR")
+  info (autosaveFields, "HIGH HIHI") 
 }
 
 record (ao, "Ctrl-nuc02:disk-var:dskPercent") {
@@ -488,6 +491,7 @@ record (ao, "Ctrl-nuc02:disk-var:dskPercent") {
   field (HIHI, "$(HH)")
   field (HSV, "MINOR")
   field (HHSV, "MAJOR")
+  info (autosaveFields, "HIGH HIHI") 
 }
 
 record (ao, "Ctrl-nuc03:disk-var:dskPercent") {
@@ -499,5 +503,6 @@ record (ao, "Ctrl-nuc03:disk-var:dskPercent") {
   field (HIHI, "$(HH)")
   field (HSV, "MINOR")
   field (HHSV, "MAJOR")
+  info (autosaveFields, "HIGH HIHI") 
 }
 
