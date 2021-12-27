@@ -479,7 +479,8 @@ record (ao, "Ctrl-nuc01:disk-var:dskPercent") {
   field (HIHI, "$(HH)")
   field (HSV, "MINOR")
   field (HHSV, "MAJOR")
-  info (autosaveFields, "HIGH HIHI") 
+  info (autosaveFields, "HIGH HIHI VAL") 
+  field (PINI, "YES")
 }
 
 record (ao, "Ctrl-nuc02:disk-var:dskPercent") {
@@ -491,7 +492,8 @@ record (ao, "Ctrl-nuc02:disk-var:dskPercent") {
   field (HIHI, "$(HH)")
   field (HSV, "MINOR")
   field (HHSV, "MAJOR")
-  info (autosaveFields, "HIGH HIHI") 
+  info (autosaveFields, "HIGH HIHI VAL") 
+  field (PINI, "YES")
 }
 
 record (ao, "Ctrl-nuc03:disk-var:dskPercent") {
@@ -503,6 +505,7 @@ record (ao, "Ctrl-nuc03:disk-var:dskPercent") {
   field (HIHI, "$(HH)")
   field (HSV, "MINOR")
   field (HHSV, "MAJOR")
-  info (autosaveFields, "HIGH HIHI") 
+  info (autosaveFields, "HIGH HIHI VAL") 
+  field (PINI, "YES")
 }
 

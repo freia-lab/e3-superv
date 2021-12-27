@@ -1,0 +1,16 @@
+#
+#   iocshLoad("$(superv_DIR)/computer-3p.iocsh")
+
+#- ###                superv    iocsh               ###
+#- ####################################################
+#- >> Mandatory
+#- IP_ADDR - IP address of the host
+#- P	   - PV Prefix
+#- PART1   - name of the first partition
+#-
+#- >> Optional
+#- CH1     - SNMP variable channel (default 1)
+
+devSnmpSetSnmpVersion($(IP_ADDR),SNMP_VERSION_2c)
+dbLoadRecords("diskTable.template","P=$(P),PART=$(PART1),PASSWD=freia_secret,H=$(IP_ADDR),CHAN=$(CH1=1),HI=85,HH=95")
+dbLoadRecords("hostSuperv.template","P=$(P),PASSWD=freia_secret,H=$(IP_ADDR)")
