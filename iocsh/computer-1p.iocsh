@@ -1,5 +1,5 @@
 #
-#   iocshLoad("$(superv_DIR)/computer-3p.iocsh")
+#   iocshLoad("$(superv_DIR)/computer-1p.iocsh")
 
 #- ###                superv    iocsh               ###
 #- ####################################################

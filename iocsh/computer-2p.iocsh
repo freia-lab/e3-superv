@@ -1,5 +1,5 @@
 #
-#   iocshLoad("$(superv_DIR)/computer-3p.iocsh")
+#   iocshLoad("$(superv_DIR)/computer-2p.iocsh")
 
 #- ###                superv    iocsh               ###
 #- ####################################################
@@ -8,7 +8,7 @@
 #- P	   - PV Prefix
 #- PART1   - name of the first partition
 #- PART2   - name of the first partition
-#
+#-
 #- >> Optional
 #- CH1     - SNMP variable channel (default 1)
 #- CH2     - SNMP variable channel (default 2)
