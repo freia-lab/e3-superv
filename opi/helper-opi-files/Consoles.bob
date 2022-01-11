@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>consoles</name>
+  <width>1150</width>
+  <height>700</height>
+  <widget type="navtabs" version="2.0.0">
+    <name>Navigation Tabs</name>
+    <tabs>
+      <tab>
+        <name>freia-cons2</name>
+        <file>server_3partitions.bob</file>
+        <macros>
+          <P>Ctrl-freiaCons2</P>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>nuc-07</name>
+        <file>server_3partitions.bob</file>
+        <macros>
+          <P>Ctrl-nuc07</P>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>centos7-DM</name>
+        <file>server_2partitions.bob</file>
+        <macros>
+          <P>Ctrl-centos7DM</P>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>oldpc-02</name>
+        <file>server_3partitions.bob</file>
+        <macros>
+          <P>Ctrl-oldpc02</P>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>oldpc-04</name>
+        <file>server_3partitions.bob</file>
+        <macros>
+          <P>Ctrl-oldpc04</P>
+        </macros>
+        <group_name></group_name>
+      </tab>
+    </tabs>
+    <width>1135</width>
+    <height>600</height>
+  </widget>
+</display>

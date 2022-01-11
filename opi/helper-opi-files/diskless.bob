@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
   <background_color>
-    <color red="240" green="240" blue="240">
+    <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
   </background_color>
   <actions>
@@ -175,8 +175,8 @@
       <name>Label</name>
       <text>$(T)</text>
       <x>10</x>
-      <width>104</width>
-      <height>33</height>
+      <width>93</width>
+      <height>41</height>
       <font>
         <font family="Source Sans Pro" style="BOLD_ITALIC" size="32.0">
         </font>

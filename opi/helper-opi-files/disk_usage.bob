@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <width>130</width>
+  <width>150</width>
   <height>310</height>
   <background_color>
     <color red="240" green="240" blue="240">
@@ -11,7 +11,7 @@
   <grid_visible>false</grid_visible>
   <widget type="group" version="2.0.0">
     <name>Grouping Container_5</name>
-    <width>128</width>
+    <width>150</width>
     <height>303</height>
     <style>3</style>
     <foreground_color>
@@ -27,8 +27,10 @@
     <widget type="progressbar" version="2.0.0">
       <name>Progress Bar</name>
       <pv_name>$(P):disk-$(PART):dskPercent</pv_name>
-      <width>127</width>
-      <height>200</height>
+      <x>3</x>
+      <y>3</y>
+      <width>144</width>
+      <height>196</height>
       <fill_color>
         <color red="0" green="0" blue="255">
         </color>
@@ -40,8 +42,9 @@
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_2</name>
       <pv_name>$(P):disk-$(PART):dskPath</pv_name>
+      <x>3</x>
       <y>225</y>
-      <width>127</width>
+      <width>144</width>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
         </color>
@@ -62,8 +65,9 @@
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_3</name>
       <pv_name>$(P):disk-$(PART):dskDevice</pv_name>
+      <x>3</x>
       <y>206</y>
-      <width>127</width>
+      <width>144</width>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
         </color>
@@ -81,143 +85,193 @@
         </color>
       </border_color>
     </widget>
-    <widget type="label" version="2.0.0">
-      <name>Label</name>
-      <text>Total:</text>
-      <y>244</y>
-      <width>61</width>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="255" green="255" blue="255">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <wrap_words>false</wrap_words>
-      <actions>
-      </actions>
-      <border_color>
-        <color red="0" green="128" blue="255">
-        </color>
-      </border_color>
+    <widget type="group" version="2.0.0">
+      <name>Group</name>
+      <x>30</x>
+      <y>20</y>
+      <width>90</width>
+      <height>40</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="label" version="2.0.0">
+        <name>Label_1</name>
+        <text> HIHI</text>
+        <width>40</width>
+        <background_color>
+          <color name="Read_Background" red="230" green="235" blue="232">
+          </color>
+        </background_color>
+        <transparent>false</transparent>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_3</name>
+        <text> HIGH</text>
+        <y>20</y>
+        <width>40</width>
+        <background_color>
+          <color name="Read_Background" red="230" green="235" blue="232">
+          </color>
+        </background_color>
+        <transparent>false</transparent>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_1</name>
+        <pv_name>$(P):disk-$(PART):dskPercent.HIHI</pv_name>
+        <x>40</x>
+        <width>50</width>
+        <horizontal_alignment>2</horizontal_alignment>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_4</name>
+        <pv_name>$(P):disk-$(PART):dskPercent.HIGH</pv_name>
+        <x>40</x>
+        <y>20</y>
+        <width>50</width>
+        <horizontal_alignment>2</horizontal_alignment>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+      </widget>
     </widget>
-    <widget type="label" version="2.0.0">
-      <name>Label</name>
-      <text>Used:</text>
-      <y>263</y>
-      <width>61</width>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="255" green="255" blue="255">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <wrap_words>false</wrap_words>
-      <actions>
-      </actions>
-      <border_color>
-        <color red="0" green="128" blue="255">
-        </color>
-      </border_color>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>Label_2</name>
-      <text>Avail:</text>
-      <y>282</y>
-      <width>61</width>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="255" green="255" blue="255">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <wrap_words>false</wrap_words>
-      <actions>
-      </actions>
-      <border_color>
-        <color red="0" green="128" blue="255">
-        </color>
-      </border_color>
-    </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update</name>
-      <pv_name>$(P):disk-$(PART):dskTotal</pv_name>
-      <x>42</x>
-      <y>244</y>
-      <width>85</width>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="WHITE" red="255" green="255" blue="255">
-        </color>
-      </background_color>
-      <horizontal_alignment>2</horizontal_alignment>
-      <vertical_alignment>1</vertical_alignment>
-      <wrap_words>false</wrap_words>
-      <actions>
-      </actions>
-      <border_color>
-        <color red="0" green="128" blue="255">
-        </color>
-      </border_color>
-    </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update_5</name>
-      <pv_name>$(P):disk-$(PART):dskUsed</pv_name>
-      <x>42</x>
-      <y>263</y>
-      <width>85</width>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="WHITE" red="255" green="255" blue="255">
-        </color>
-      </background_color>
-      <horizontal_alignment>2</horizontal_alignment>
-      <vertical_alignment>1</vertical_alignment>
-      <wrap_words>false</wrap_words>
-      <actions>
-      </actions>
-      <border_color>
-        <color red="0" green="128" blue="255">
-        </color>
-      </border_color>
-    </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update_6</name>
-      <pv_name>$(P):disk-$(PART):dskAvail</pv_name>
-      <x>42</x>
-      <y>282</y>
-      <width>85</width>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="WHITE" red="255" green="255" blue="255">
-        </color>
-      </background_color>
-      <horizontal_alignment>2</horizontal_alignment>
-      <vertical_alignment>1</vertical_alignment>
-      <wrap_words>false</wrap_words>
-      <actions>
-      </actions>
-      <border_color>
-        <color red="0" green="128" blue="255">
-        </color>
-      </border_color>
-    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>$(P):disk-$(PART):dskTotal</pv_name>
+    <x>42</x>
+    <y>247</y>
+    <width>105</width>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_5</name>
+    <pv_name>$(P):disk-$(PART):dskUsed</pv_name>
+    <x>42</x>
+    <y>266</y>
+    <width>105</width>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_6</name>
+    <pv_name>$(P):disk-$(PART):dskAvail</pv_name>
+    <x>42</x>
+    <y>285</y>
+    <width>105</width>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>Total:</text>
+    <x>3</x>
+    <y>247</y>
+    <width>61</width>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>Used:</text>
+    <x>3</x>
+    <y>266</y>
+    <width>61</width>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_2</name>
+    <text>Avail:</text>
+    <x>3</x>
+    <y>285</y>
+    <width>61</width>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
   </widget>
 </display>

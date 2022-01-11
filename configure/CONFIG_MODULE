@@ -7,7 +7,7 @@ E3_MODULE_MAKEFILE := $(E3_MODULE_NAME).Makefile
 
 SNMP_DEP_VERSION := 1.1.0.1
 
-OPI_VERSION := 1.21.0
+OPI_VERSION := 1.22.0
 
 -include $(TOP)/configure/CONFIG_OPTIONS
 -include $(TOP)/configure/CONFIG_MODULE.local

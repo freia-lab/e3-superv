@@ -3,8 +3,10 @@
   <macros>
     <P>IntlkF-cRio1</P>
   </macros>
+  <width>1000</width>
+  <height>800</height>
   <background_color>
-    <color red="240" green="240" blue="240">
+    <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
   </background_color>
   <actions>
@@ -13,8 +15,8 @@
   <widget type="label" version="2.0.0">
     <name>Text Update</name>
     <text>cRIO</text>
-    <x>19</x>
-    <y>14</y>
+    <x>130</x>
+    <y>30</y>
     <font>
       <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
@@ -42,8 +44,8 @@ $(pv_value)</tooltip>
   <widget type="label" version="2.0.0">
     <name>Text Update_1</name>
     <text>VxWorks (for cRIO-9024) version 6.3.  Kernel: WIND version 2.9.</text>
-    <x>134</x>
-    <y>15</y>
+    <x>245</x>
+    <y>31</y>
     <width>659</width>
     <foreground_color>
       <color name="BLACK" red="0" green="0" blue="0">
@@ -67,8 +69,8 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="group" version="2.0.0">
     <name>Grouping Container_6</name>
-    <x>19</x>
-    <y>498</y>
+    <x>130</x>
+    <y>514</y>
     <width>212</width>
     <height>21</height>
     <style>3</style>
@@ -155,8 +157,8 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="group" version="2.0.0">
     <name>Grouping Container_7</name>
-    <x>19</x>
-    <y>528</y>
+    <x>130</x>
+    <y>544</y>
     <width>410</width>
     <height>21</height>
     <style>3</style>
@@ -295,8 +297,8 @@ $(pv_value)</tooltip>
   <widget type="databrowser" version="2.0.0">
     <name>Data Browser</name>
     <file>../databrowser/cRio1-CPU.plt</file>
-    <x>24</x>
-    <y>48</y>
+    <x>135</x>
+    <y>64</y>
     <width>769</width>
     <height>433</height>
     <actions>

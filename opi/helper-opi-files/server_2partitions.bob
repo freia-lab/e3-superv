@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <width>900</width>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display</name>
+    <file>server_overview.bob</file>
+    <width>890</width>
+    <height>570</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_1</name>
+    <macros>
+      <PART>$(PART2=boot)</PART>
+    </macros>
+    <file>disk_usage.bob</file>
+    <x>180</x>
+    <y>235</y>
+    <width>150</width>
+    <height>310</height>
+  </widget>
+</display>

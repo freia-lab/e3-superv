@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
+  <name>server_1p</name>
   <width>950</width>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
@@ -319,11 +320,11 @@
   <widget type="embedded" version="2.0.0">
     <name>Linking Container</name>
     <macros>
-      <PART>root</PART>
+      <PART>$(PART1=root)</PART>
     </macros>
     <file>disk_usage.bob</file>
     <x>19</x>
-    <y>234</y>
+    <y>235</y>
     <width>150</width>
     <height>310</height>
     <actions>

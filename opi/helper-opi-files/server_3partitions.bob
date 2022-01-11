@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>server_3p</name>
+  <width>900</width>
+  <widget type="embedded" version="2.0.0">
+    <name>Overview</name>
+    <file>server_1partition.bob</file>
+    <width>890</width>
+    <height>570</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Partition 2</name>
+    <macros>
+      <PART>$(PART2=boot)</PART>
+    </macros>
+    <file>disk_usage.bob</file>
+    <x>180</x>
+    <y>235</y>
+    <width>150</width>
+    <height>310</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Partition 3</name>
+    <macros>
+      <PART>$(PART3=home)</PART>
+    </macros>
+    <file>disk_usage.bob</file>
+    <x>340</x>
+    <y>235</y>
+    <width>150</width>
+    <height>310</height>
+  </widget>
+</display>

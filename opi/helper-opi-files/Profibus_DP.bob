@@ -5,9 +5,10 @@
     <P>PLC-WTRVAC</P>
     <S>$(D):sErr</S>
   </macros>
-  <height>565</height>
+  <width>1000</width>
+  <height>700</height>
   <background_color>
-    <color red="240" green="240" blue="240">
+    <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
   </background_color>
   <actions>
@@ -15,8 +16,8 @@
   <grid_visible>false</grid_visible>
   <widget type="rectangle" version="2.0.0">
     <name>Rectangle</name>
-    <x>3</x>
-    <y>13</y>
+    <x>110</x>
+    <y>30</y>
     <width>790</width>
     <height>540</height>
     <line_color>
@@ -27,48 +28,44 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>Polyline_17</name>
-    <x>695</x>
-    <y>77</y>
+    <x>802</x>
+    <y>94</y>
     <width>1</width>
     <height>21</height>
-    <line_color>
-      <color red="170" green="0" blue="255">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="0.0" y="22.0">
       </point>
     </points>
+    <line_color>
+      <color red="170" green="0" blue="255">
+      </color>
+    </line_color>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>Polyline_16</name>
-    <x>555</x>
-    <y>76</y>
+    <x>662</x>
+    <y>93</y>
     <width>1</width>
     <height>21</height>
-    <line_color>
-      <color red="170" green="0" blue="255">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="0.0" y="22.0">
       </point>
     </points>
-  </widget>
-  <widget type="polyline" version="2.0.0">
-    <name>Polyline_14</name>
-    <x>487</x>
-    <y>99</y>
-    <width>207</width>
-    <height>266</height>
     <line_color>
       <color red="170" green="0" blue="255">
       </color>
     </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_14</name>
+    <x>594</x>
+    <y>116</y>
+    <width>207</width>
+    <height>266</height>
     <points>
       <point x="0.0" y="132.0">
       </point>
@@ -85,51 +82,51 @@
       <point x="104.00003051757812" y="220.0">
       </point>
     </points>
+    <line_color>
+      <color red="170" green="0" blue="255">
+      </color>
+    </line_color>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>Polyline_11</name>
-    <x>414</x>
-    <y>508</y>
+    <x>521</x>
+    <y>525</y>
     <width>1</width>
     <height>21</height>
-    <line_color>
-      <color red="170" green="0" blue="255">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="0.0" y="30.0">
       </point>
     </points>
+    <line_color>
+      <color red="170" green="0" blue="255">
+      </color>
+    </line_color>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>Polyline_10</name>
-    <x>256</x>
-    <y>508</y>
+    <x>363</x>
+    <y>525</y>
     <width>1</width>
     <height>21</height>
-    <line_color>
-      <color red="170" green="0" blue="255">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="0.0" y="30.0">
       </point>
     </points>
-  </widget>
-  <widget type="polyline" version="2.0.0">
-    <name>Polyline_9</name>
-    <x>94</x>
-    <y>205</y>
-    <width>394</width>
-    <height>333</height>
     <line_color>
       <color red="170" green="0" blue="255">
       </color>
     </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_9</name>
+    <x>201</x>
+    <y>222</y>
+    <width>394</width>
+    <height>333</height>
     <points>
       <point x="392.00000762939453" y="0.0">
       </point>
@@ -140,34 +137,34 @@
       <point x="0.0" y="300.0">
       </point>
     </points>
-  </widget>
-  <widget type="polyline" version="2.0.0">
-    <name>Polyline_8</name>
-    <x>262</x>
-    <y>78</y>
-    <width>1</width>
-    <height>21</height>
     <line_color>
       <color red="170" green="0" blue="255">
       </color>
     </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_8</name>
+    <x>369</x>
+    <y>95</y>
+    <width>1</width>
+    <height>21</height>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="0.0" y="22.0">
       </point>
     </points>
-  </widget>
-  <widget type="polyline" version="2.0.0">
-    <name>Polyline_7</name>
-    <x>98</x>
-    <y>82</y>
-    <width>385</width>
-    <height>38</height>
     <line_color>
       <color red="170" green="0" blue="255">
       </color>
     </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_7</name>
+    <x>205</x>
+    <y>99</y>
+    <width>385</width>
+    <height>38</height>
     <points>
       <point x="0.0" y="-3.0">
       </point>
@@ -178,6 +175,10 @@
       <point x="384.0" y="39.0">
       </point>
     </points>
+    <line_color>
+      <color red="170" green="0" blue="255">
+      </color>
+    </line_color>
   </widget>
   <widget type="group" version="2.0.0">
     <name>Grouping Container</name>
@@ -185,8 +186,8 @@
       <L>2K Pumps ($(N))</L>
       <N>3</N>
     </macros>
-    <x>522</x>
-    <y>270</y>
+    <x>629</x>
+    <y>287</y>
     <width>150</width>
     <height>49</height>
     <style>2</style>
@@ -256,8 +257,8 @@
       <L>WtrC-Dwtr:P1 ($(N))</L>
       <N>4</N>
     </macros>
-    <x>468</x>
-    <y>30</y>
+    <x>575</x>
+    <y>47</y>
     <width>150</width>
     <height>49</height>
     <style>2</style>
@@ -327,8 +328,8 @@
       <L>CstatH-Vac:TP001: ($(N))</L>
       <N>5</N>
     </macros>
-    <x>180</x>
-    <y>462</y>
+    <x>287</x>
+    <y>479</y>
     <width>150</width>
     <height>49</height>
     <style>2</style>
@@ -398,8 +399,8 @@
       <L>WtrC-Dwtr:P2 ($(N))</L>
       <N>7</N>
     </macros>
-    <x>624</x>
-    <y>30</y>
+    <x>731</x>
+    <y>47</y>
     <width>150</width>
     <height>49</height>
     <style>2</style>
@@ -469,8 +470,8 @@
       <L>CstatH-Vac:TP002: ($(N))</L>
       <N>6</N>
     </macros>
-    <x>18</x>
-    <y>462</y>
+    <x>125</x>
+    <y>479</y>
     <width>150</width>
     <height>49</height>
     <style>2</style>
@@ -540,8 +541,8 @@
       <L>CstatV-Vac:TP050: ($(N))</L>
       <N>8</N>
     </macros>
-    <x>186</x>
-    <y>30</y>
+    <x>293</x>
+    <y>47</y>
     <width>150</width>
     <height>49</height>
     <style>2</style>
@@ -611,8 +612,8 @@
       <L>CstatV-Vac:TP060: ($(N))</L>
       <N>9</N>
     </macros>
-    <x>24</x>
-    <y>30</y>
+    <x>131</x>
+    <y>47</y>
     <width>150</width>
     <height>49</height>
     <style>2</style>
@@ -678,8 +679,8 @@
   </widget>
   <widget type="group" version="2.0.0">
     <name>Grouping Container_11</name>
-    <x>348</x>
-    <y>426</y>
+    <x>455</x>
+    <y>443</y>
     <width>133</width>
     <height>85</height>
     <style>3</style>
@@ -741,8 +742,8 @@ PLC</text>
   </widget>
   <widget type="group" version="2.0.0">
     <name>Grouping Container_12</name>
-    <x>438</x>
-    <y>120</y>
+    <x>545</x>
+    <y>137</y>
     <width>98</width>
     <height>86</height>
     <style>3</style>
@@ -804,8 +805,8 @@ Repeater</text>
   <widget type="label" version="2.0.0">
     <name>Label</name>
     <text>40 m</text>
-    <x>356</x>
-    <y>78</y>
+    <x>463</x>
+    <y>95</y>
     <width>80</width>
     <foreground_color>
       <color red="0" green="0" blue="0">
@@ -828,8 +829,8 @@ Repeater</text>
   <widget type="label" version="2.0.0">
     <name>Label_1</name>
     <text>25 m</text>
-    <x>446</x>
-    <y>327</y>
+    <x>553</x>
+    <y>344</y>
     <width>35</width>
     <foreground_color>
       <color red="0" green="0" blue="0">
@@ -852,8 +853,8 @@ Repeater</text>
   <widget type="label" version="2.0.0">
     <name>Label_2</name>
     <text>30 m</text>
-    <x>695</x>
-    <y>205</y>
+    <x>802</x>
+    <y>222</y>
     <width>46</width>
     <foreground_color>
       <color red="0" green="0" blue="0">
