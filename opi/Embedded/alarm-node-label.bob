@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>alarm-node-label</name>
+  <widget type="group" version="2.0.0">
+    <name>Group_1</name>
+    <height>30</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="combo" version="2.0.0">
+      <name>Action_1</name>
+      <pv_name>$(P)$(S)</pv_name>
+      <x>270</x>
+      <width>30</width>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <items>
+        <item>acknowledge</item>
+        <item>unacknowledge</item>
+        <item>enable</item>
+        <item>disable</item>
+      </items>
+      <items_from_pv>false</items_from_pv>
+    </widget>
+    <widget type="multi_state_led" version="2.0.0">
+      <name>LED (Multi State)_2</name>
+      <pv_name>$(P)$(S).state</pv_name>
+      <x>3</x>
+      <y>3</y>
+      <width>264</width>
+      <line_color>
+        <color red="50" green="50" blue="50" alpha="0">
+        </color>
+      </line_color>
+      <square>true</square>
+      <states>
+        <state>
+          <value>0</value>
+          <label>$(S) (OK)</label>
+          <color>
+            <color name="OK" red="61" green="216" blue="61">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>1</value>
+          <label>$(S) (MINOR_ACK)</label>
+          <color>
+            <color red="255" green="204" blue="102">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>2</value>
+          <label>$(S) (MAJOR_ACK)</label>
+          <color>
+            <color red="255" green="153" blue="102">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>3</value>
+          <label>$(S) (INVALID_ACK)</label>
+          <color>
+            <color name="State 3" red="10" green="0" blue="120">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>4</value>
+          <label>$(S) (UNDEFINED_ACK)</label>
+          <color>
+            <color name="State 4" red="10" green="0" blue="160">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>5</value>
+          <label>$(S) (MINOR)</label>
+          <color>
+            <color name="MINOR" red="252" green="242" blue="17">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>6</value>
+          <label>$(S) (MAJOR)</label>
+          <color>
+            <color name="MAJOR" red="252" green="13" blue="27">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>7</value>
+          <label>$(S) (INVALID)</label>
+          <color>
+            <color name="INVALID" red="149" green="110" blue="221">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>8</value>
+          <label>$(S) (UNDEFINED)</label>
+          <color>
+            <color red="179" green="179" blue="179">
+            </color>
+          </color>
+        </state>
+      </states>
+      <fallback_label>$(S) (Err)</fallback_label>
+    </widget>
+  </widget>
+</display>

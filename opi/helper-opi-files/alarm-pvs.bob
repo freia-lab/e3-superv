@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
   <macros>
+    <A>alarm://freia/</A>
     <P>Ctrl-Alarm</P>
   </macros>
+  <width>1100</width>
   <background_color>
-    <color red="240" green="240" blue="240">
+    <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
   </background_color>
   <actions>
   </actions>
   <grid_visible>false</grid_visible>
   <widget type="group" version="2.0.0">
-    <name>Grouping Container_9</name>
+    <name>Grouping Container_11</name>
     <macros>
       <S>Comp</S>
     </macros>
     <x>10</x>
-    <y>30</y>
+    <y>10</y>
     <width>416</width>
     <height>27</height>
     <style>3</style>
@@ -31,11 +33,35 @@
     <actions>
     </actions>
     <widget type="textupdate" version="2.0.0">
-      <name>Text Update</name>
+      <name>Text Update_12</name>
+      <pv_name>$(P):$(S)</pv_name>
+      <y>3</y>
+      <width>380</width>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="240" green="240" blue="240">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_width>3</border_width>
+      <border_color>
+        <color name="OK" red="61" green="216" blue="61">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_11</name>
       <pv_name>$(P):$(S).DESC</pv_name>
       <x>3</x>
       <y>3</y>
-      <width>409</width>
+      <width>237</width>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
         </color>
@@ -49,39 +75,14 @@
       <wrap_words>false</wrap_words>
       <actions>
       </actions>
-      <border_width>3</border_width>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
       <border_color>
         <color name="IO OK" red="0" green="255" blue="0">
         </color>
       </border_color>
     </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update_1</name>
-      <pv_name>$(P):$(S)</pv_name>
-      <x>252</x>
-      <y>3</y>
-      <width>128</width>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="240" green="240" blue="240">
-        </color>
-      </background_color>
-      <horizontal_alignment>1</horizontal_alignment>
-      <vertical_alignment>1</vertical_alignment>
-      <wrap_words>false</wrap_words>
-      <actions>
-      </actions>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255">
-        </color>
-      </border_color>
-    </widget>
     <widget type="bool_button" version="2.0.0">
-      <name>Boolean Button</name>
+      <name>Boolean Button_1</name>
       <pv_name>loc://$(P):$(S)-vis(0)</pv_name>
       <bit>-1</bit>
       <x>390</x>
@@ -114,12 +115,12 @@
     </widget>
   </widget>
   <widget type="group" version="2.0.0">
-    <name>Grouping Container_1</name>
+    <name>Grouping Container_12</name>
     <macros>
       <S>Env</S>
     </macros>
     <x>10</x>
-    <y>60</y>
+    <y>40</y>
     <width>416</width>
     <height>27</height>
     <style>3</style>
@@ -134,11 +135,35 @@
     <actions>
     </actions>
     <widget type="textupdate" version="2.0.0">
-      <name>Text Update</name>
+      <name>Text Update_13</name>
+      <pv_name>$(P):$(S)</pv_name>
+      <y>3</y>
+      <width>380</width>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="240" green="240" blue="240">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_width>3</border_width>
+      <border_color>
+        <color name="OK" red="61" green="216" blue="61">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_14</name>
       <pv_name>$(P):$(S).DESC</pv_name>
       <x>3</x>
       <y>3</y>
-      <width>409</width>
+      <width>237</width>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
         </color>
@@ -152,39 +177,14 @@
       <wrap_words>false</wrap_words>
       <actions>
       </actions>
-      <border_width>3</border_width>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
       <border_color>
         <color name="IO OK" red="0" green="255" blue="0">
         </color>
       </border_color>
     </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update_1</name>
-      <pv_name>$(P):$(S)</pv_name>
-      <x>252</x>
-      <y>3</y>
-      <width>128</width>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="240" green="240" blue="240">
-        </color>
-      </background_color>
-      <horizontal_alignment>1</horizontal_alignment>
-      <vertical_alignment>1</vertical_alignment>
-      <wrap_words>false</wrap_words>
-      <actions>
-      </actions>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255">
-        </color>
-      </border_color>
-    </widget>
     <widget type="bool_button" version="2.0.0">
-      <name>Boolean Button</name>
+      <name>Boolean Button_2</name>
       <pv_name>loc://$(P):$(S)-vis(0)</pv_name>
       <bit>-1</bit>
       <x>390</x>
@@ -217,12 +217,12 @@
     </widget>
   </widget>
   <widget type="group" version="2.0.0">
-    <name>Grouping Container_2</name>
+    <name>Grouping Container_13</name>
     <macros>
       <S>CM</S>
     </macros>
     <x>10</x>
-    <y>90</y>
+    <y>70</y>
     <width>416</width>
     <height>27</height>
     <style>3</style>
@@ -237,11 +237,35 @@
     <actions>
     </actions>
     <widget type="textupdate" version="2.0.0">
-      <name>Text Update</name>
+      <name>Text Update_15</name>
+      <pv_name>$(P):$(S)</pv_name>
+      <y>3</y>
+      <width>380</width>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="240" green="240" blue="240">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_width>3</border_width>
+      <border_color>
+        <color name="OK" red="61" green="216" blue="61">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_16</name>
       <pv_name>$(P):$(S).DESC</pv_name>
       <x>3</x>
       <y>3</y>
-      <width>409</width>
+      <width>237</width>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
         </color>
@@ -255,39 +279,14 @@
       <wrap_words>false</wrap_words>
       <actions>
       </actions>
-      <border_width>3</border_width>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
       <border_color>
         <color name="IO OK" red="0" green="255" blue="0">
         </color>
       </border_color>
     </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update_1</name>
-      <pv_name>$(P):$(S)</pv_name>
-      <x>252</x>
-      <y>3</y>
-      <width>128</width>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="240" green="240" blue="240">
-        </color>
-      </background_color>
-      <horizontal_alignment>1</horizontal_alignment>
-      <vertical_alignment>1</vertical_alignment>
-      <wrap_words>false</wrap_words>
-      <actions>
-      </actions>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255">
-        </color>
-      </border_color>
-    </widget>
     <widget type="bool_button" version="2.0.0">
-      <name>Boolean Button</name>
+      <name>Boolean Button_3</name>
       <pv_name>loc://$(P):$(S)-vis(0)</pv_name>
       <bit>-1</bit>
       <x>390</x>
@@ -320,12 +319,12 @@
     </widget>
   </widget>
   <widget type="group" version="2.0.0">
-    <name>Grouping Container_3</name>
+    <name>Grouping Container_14</name>
     <macros>
       <S>CstatH</S>
     </macros>
     <x>10</x>
-    <y>120</y>
+    <y>100</y>
     <width>416</width>
     <height>27</height>
     <style>3</style>
@@ -340,11 +339,35 @@
     <actions>
     </actions>
     <widget type="textupdate" version="2.0.0">
-      <name>Text Update</name>
+      <name>Text Update_17</name>
+      <pv_name>$(P):$(S)</pv_name>
+      <y>3</y>
+      <width>380</width>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="240" green="240" blue="240">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_width>3</border_width>
+      <border_color>
+        <color name="OK" red="61" green="216" blue="61">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_18</name>
       <pv_name>$(P):$(S).DESC</pv_name>
       <x>3</x>
       <y>3</y>
-      <width>409</width>
+      <width>237</width>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
         </color>
@@ -358,39 +381,14 @@
       <wrap_words>false</wrap_words>
       <actions>
       </actions>
-      <border_width>3</border_width>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
       <border_color>
         <color name="IO OK" red="0" green="255" blue="0">
         </color>
       </border_color>
     </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update_1</name>
-      <pv_name>$(P):$(S)</pv_name>
-      <x>252</x>
-      <y>3</y>
-      <width>128</width>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="240" green="240" blue="240">
-        </color>
-      </background_color>
-      <horizontal_alignment>1</horizontal_alignment>
-      <vertical_alignment>1</vertical_alignment>
-      <wrap_words>false</wrap_words>
-      <actions>
-      </actions>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255">
-        </color>
-      </border_color>
-    </widget>
     <widget type="bool_button" version="2.0.0">
-      <name>Boolean Button</name>
+      <name>Boolean Button_4</name>
       <pv_name>loc://$(P):$(S)-vis(0)</pv_name>
       <bit>-1</bit>
       <x>390</x>
@@ -423,12 +421,12 @@
     </widget>
   </widget>
   <widget type="group" version="2.0.0">
-    <name>Grouping Container_4</name>
+    <name>Grouping Container_15</name>
     <macros>
       <S>CstatV</S>
     </macros>
     <x>10</x>
-    <y>150</y>
+    <y>130</y>
     <width>416</width>
     <height>27</height>
     <style>3</style>
@@ -443,11 +441,35 @@
     <actions>
     </actions>
     <widget type="textupdate" version="2.0.0">
-      <name>Text Update</name>
+      <name>Text Update_19</name>
+      <pv_name>$(P):$(S)</pv_name>
+      <y>3</y>
+      <width>380</width>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="240" green="240" blue="240">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_width>3</border_width>
+      <border_color>
+        <color name="OK" red="61" green="216" blue="61">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_20</name>
       <pv_name>$(P):$(S).DESC</pv_name>
       <x>3</x>
       <y>3</y>
-      <width>409</width>
+      <width>237</width>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
         </color>
@@ -461,39 +483,14 @@
       <wrap_words>false</wrap_words>
       <actions>
       </actions>
-      <border_width>3</border_width>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
       <border_color>
         <color name="IO OK" red="0" green="255" blue="0">
         </color>
       </border_color>
     </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update_1</name>
-      <pv_name>$(P):$(S)</pv_name>
-      <x>252</x>
-      <y>3</y>
-      <width>128</width>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="240" green="240" blue="240">
-        </color>
-      </background_color>
-      <horizontal_alignment>1</horizontal_alignment>
-      <vertical_alignment>1</vertical_alignment>
-      <wrap_words>false</wrap_words>
-      <actions>
-      </actions>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255">
-        </color>
-      </border_color>
-    </widget>
     <widget type="bool_button" version="2.0.0">
-      <name>Boolean Button</name>
+      <name>Boolean Button_5</name>
       <pv_name>loc://$(P):$(S)-vis(0)</pv_name>
       <bit>-1</bit>
       <x>390</x>
@@ -526,12 +523,12 @@
     </widget>
   </widget>
   <widget type="group" version="2.0.0">
-    <name>Grouping Container_5</name>
+    <name>Grouping Container_16</name>
     <macros>
       <S>LN2</S>
     </macros>
     <x>10</x>
-    <y>180</y>
+    <y>160</y>
     <width>416</width>
     <height>27</height>
     <style>3</style>
@@ -546,11 +543,35 @@
     <actions>
     </actions>
     <widget type="textupdate" version="2.0.0">
-      <name>Text Update</name>
+      <name>Text Update_21</name>
+      <pv_name>$(P):$(S)</pv_name>
+      <y>3</y>
+      <width>380</width>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="240" green="240" blue="240">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_width>3</border_width>
+      <border_color>
+        <color name="OK" red="61" green="216" blue="61">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_22</name>
       <pv_name>$(P):$(S).DESC</pv_name>
       <x>3</x>
       <y>3</y>
-      <width>409</width>
+      <width>237</width>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
         </color>
@@ -564,39 +585,14 @@
       <wrap_words>false</wrap_words>
       <actions>
       </actions>
-      <border_width>3</border_width>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
       <border_color>
         <color name="IO OK" red="0" green="255" blue="0">
         </color>
       </border_color>
     </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update_1</name>
-      <pv_name>$(P):$(S)</pv_name>
-      <x>252</x>
-      <y>3</y>
-      <width>128</width>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="240" green="240" blue="240">
-        </color>
-      </background_color>
-      <horizontal_alignment>1</horizontal_alignment>
-      <vertical_alignment>1</vertical_alignment>
-      <wrap_words>false</wrap_words>
-      <actions>
-      </actions>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255">
-        </color>
-      </border_color>
-    </widget>
     <widget type="bool_button" version="2.0.0">
-      <name>Boolean Button</name>
+      <name>Boolean Button_6</name>
       <pv_name>loc://$(P):$(S)-vis(0)</pv_name>
       <bit>-1</bit>
       <x>390</x>
@@ -629,12 +625,12 @@
     </widget>
   </widget>
   <widget type="group" version="2.0.0">
-    <name>Grouping Container_6</name>
+    <name>Grouping Container_17</name>
     <macros>
       <S>Cryo</S>
     </macros>
     <x>10</x>
-    <y>210</y>
+    <y>190</y>
     <width>416</width>
     <height>27</height>
     <style>3</style>
@@ -649,11 +645,35 @@
     <actions>
     </actions>
     <widget type="textupdate" version="2.0.0">
-      <name>Text Update</name>
+      <name>Text Update_23</name>
+      <pv_name>$(P):$(S)</pv_name>
+      <y>3</y>
+      <width>380</width>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="240" green="240" blue="240">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_width>3</border_width>
+      <border_color>
+        <color name="OK" red="61" green="216" blue="61">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_24</name>
       <pv_name>$(P):$(S).DESC</pv_name>
       <x>3</x>
       <y>3</y>
-      <width>409</width>
+      <width>237</width>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
         </color>
@@ -667,39 +687,14 @@
       <wrap_words>false</wrap_words>
       <actions>
       </actions>
-      <border_width>3</border_width>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
       <border_color>
         <color name="IO OK" red="0" green="255" blue="0">
         </color>
       </border_color>
     </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update_1</name>
-      <pv_name>$(P):$(S)</pv_name>
-      <x>252</x>
-      <y>3</y>
-      <width>128</width>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="240" green="240" blue="240">
-        </color>
-      </background_color>
-      <horizontal_alignment>1</horizontal_alignment>
-      <vertical_alignment>1</vertical_alignment>
-      <wrap_words>false</wrap_words>
-      <actions>
-      </actions>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255">
-        </color>
-      </border_color>
-    </widget>
     <widget type="bool_button" version="2.0.0">
-      <name>Boolean Button</name>
+      <name>Boolean Button_7</name>
       <pv_name>loc://$(P):$(S)-vis(0)</pv_name>
       <bit>-1</bit>
       <x>390</x>
@@ -732,12 +727,12 @@
     </widget>
   </widget>
   <widget type="group" version="2.0.0">
-    <name>Grouping Container_7</name>
+    <name>Grouping Container_18</name>
     <macros>
       <S>RF</S>
     </macros>
     <x>10</x>
-    <y>240</y>
+    <y>220</y>
     <width>416</width>
     <height>27</height>
     <style>3</style>
@@ -752,11 +747,35 @@
     <actions>
     </actions>
     <widget type="textupdate" version="2.0.0">
-      <name>Text Update</name>
+      <name>Text Update_25</name>
+      <pv_name>$(P):$(S)</pv_name>
+      <y>3</y>
+      <width>380</width>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="240" green="240" blue="240">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_width>3</border_width>
+      <border_color>
+        <color name="OK" red="61" green="216" blue="61">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_26</name>
       <pv_name>$(P):$(S).DESC</pv_name>
       <x>3</x>
       <y>3</y>
-      <width>409</width>
+      <width>237</width>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
         </color>
@@ -770,39 +789,14 @@
       <wrap_words>false</wrap_words>
       <actions>
       </actions>
-      <border_width>3</border_width>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
       <border_color>
         <color name="IO OK" red="0" green="255" blue="0">
         </color>
       </border_color>
     </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update_1</name>
-      <pv_name>$(P):$(S)</pv_name>
-      <x>252</x>
-      <y>3</y>
-      <width>128</width>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="240" green="240" blue="240">
-        </color>
-      </background_color>
-      <horizontal_alignment>1</horizontal_alignment>
-      <vertical_alignment>1</vertical_alignment>
-      <wrap_words>false</wrap_words>
-      <actions>
-      </actions>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255">
-        </color>
-      </border_color>
-    </widget>
     <widget type="bool_button" version="2.0.0">
-      <name>Boolean Button</name>
+      <name>Boolean Button_8</name>
       <pv_name>loc://$(P):$(S)-vis(0)</pv_name>
       <bit>-1</bit>
       <x>390</x>
@@ -840,7 +834,7 @@
       <S>RF</S>
     </macros>
     <x>70</x>
-    <y>270</y>
+    <y>250</y>
     <width>457</width>
     <height>98</height>
     <visible>false</visible>
@@ -1072,7 +1066,7 @@
       <S>Cryo</S>
     </macros>
     <x>70</x>
-    <y>240</y>
+    <y>220</y>
     <width>457</width>
     <height>158</height>
     <visible>false</visible>
@@ -1508,7 +1502,7 @@
       <S>LN2</S>
     </macros>
     <x>70</x>
-    <y>210</y>
+    <y>190</y>
     <width>457</width>
     <height>68</height>
     <visible>false</visible>
@@ -1638,7 +1632,7 @@
       <S>CstatV</S>
     </macros>
     <x>70</x>
-    <y>180</y>
+    <y>160</y>
     <width>457</width>
     <height>68</height>
     <visible>false</visible>
@@ -1768,7 +1762,7 @@
       <S>CstatH</S>
     </macros>
     <x>70</x>
-    <y>150</y>
+    <y>130</y>
     <width>457</width>
     <height>98</height>
     <visible>false</visible>
@@ -2000,7 +1994,7 @@
       <S>CM</S>
     </macros>
     <x>70</x>
-    <y>120</y>
+    <y>100</y>
     <width>457</width>
     <height>128</height>
     <visible>false</visible>
@@ -2334,7 +2328,7 @@
       <S>Env</S>
     </macros>
     <x>70</x>
-    <y>90</y>
+    <y>70</y>
     <width>457</width>
     <height>158</height>
     <visible>false</visible>
@@ -2770,7 +2764,7 @@
       <S>Comp</S>
     </macros>
     <x>70</x>
-    <y>60</y>
+    <y>40</y>
     <width>457</width>
     <height>158</height>
     <visible>false</visible>
@@ -3199,5 +3193,252 @@
         <confirm_message>Are you sure you want to do this?</confirm_message>
       </widget>
     </widget>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display</name>
+    <macros>
+      <P>$(A)</P>
+      <S>Computers and network</S>
+    </macros>
+    <file>../Embedded/alarm-node-label.bob</file>
+    <x>20</x>
+    <y>360</y>
+    <width>310</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_1</name>
+    <macros>
+      <P>$(A)</P>
+      <S>Cryomodule</S>
+    </macros>
+    <file>../Embedded/alarm-node-label.bob</file>
+    <x>20</x>
+    <y>390</y>
+    <width>310</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_2</name>
+    <macros>
+      <P>$(A)</P>
+      <S>Environment</S>
+    </macros>
+    <file>../Embedded/alarm-node-label.bob</file>
+    <x>20</x>
+    <y>420</y>
+    <width>310</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_3</name>
+    <macros>
+      <P>$(A)</P>
+      <S>Gersemi</S>
+    </macros>
+    <file>../Embedded/alarm-node-label.bob</file>
+    <x>20</x>
+    <y>450</y>
+    <width>310</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_4</name>
+    <macros>
+      <P>$(A)</P>
+      <S>HNOSS</S>
+    </macros>
+    <file>../Embedded/alarm-node-label.bob</file>
+    <x>20</x>
+    <y>480</y>
+    <width>310</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_5</name>
+    <macros>
+      <P>$(A)</P>
+      <S>LN2</S>
+    </macros>
+    <file>../Embedded/alarm-node-label.bob</file>
+    <x>20</x>
+    <y>510</y>
+    <width>310</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_6</name>
+    <macros>
+      <P>$(A)</P>
+      <S>Liquifier</S>
+    </macros>
+    <file>../Embedded/alarm-node-label.bob</file>
+    <x>20</x>
+    <y>540</y>
+    <width>310</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_7</name>
+    <macros>
+      <P>$(A)</P>
+      <S>RF Power Plant</S>
+    </macros>
+    <file>../Embedded/alarm-node-label.bob</file>
+    <x>20</x>
+    <y>570</y>
+    <width>310</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_8</name>
+    <macros>
+      <S>RF</S>
+    </macros>
+    <file>../Embedded/alarm-svrPV.bob</file>
+    <x>870</x>
+    <y>150</y>
+    <width>130</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_9</name>
+    <macros>
+      <S>Cryo</S>
+    </macros>
+    <file>../Embedded/alarm-svrPV.bob</file>
+    <x>870</x>
+    <y>120</y>
+    <width>130</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_17</name>
+    <macros>
+      <L>RF Power Plant</L>
+      <S>RF</S>
+    </macros>
+    <file>../Embedded/alarm-svrPV-label.bob</file>
+    <x>630</x>
+    <y>150</y>
+    <width>230</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_18</name>
+    <macros>
+      <L>Liquifier</L>
+      <S>Cryo</S>
+    </macros>
+    <file>../Embedded/alarm-svrPV-label.bob</file>
+    <x>630</x>
+    <y>120</y>
+    <width>230</width>
+    <height>30</height>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>   Alarms Disabled Sometimes   </name>
+    <x>559</x>
+    <y>239</y>
+    <width>542</width>
+    <height>332</height>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_10</name>
+      <macros>
+        <P>$(A)RF Power Plant/RF-Interlock-Tripped/</P>
+        <S>IntlkF-cRio1:Intlk:sAlarm-1</S>
+      </macros>
+      <file>../Embedded/alarm-pv.bob</file>
+      <y>50</y>
+      <width>500</width>
+      <height>30</height>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_14</name>
+      <macros>
+        <P>$(A)Liquifier/GasBag/</P>
+        <S>Cryo-Rec:LP:GasBagLidar-status</S>
+      </macros>
+      <file>../Embedded/alarm-pv.bob</file>
+      <y>230</y>
+      <width>500</width>
+      <height>30</height>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_15</name>
+      <macros>
+        <P>$(A)Liquifier/GasBag/</P>
+        <S>Cryo-Rec:LP:GasBagLidar</S>
+      </macros>
+      <file>../Embedded/alarm-pv.bob</file>
+      <y>260</y>
+      <width>500</width>
+      <height>30</height>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_16</name>
+      <macros>
+        <P>Liquifier/GasBag</P>
+      </macros>
+      <file>../Embedded/alarm-node.bob</file>
+      <y>200</y>
+      <width>330</width>
+      <height>30</height>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_11</name>
+      <macros>
+        <P>$(A)RF Power Plant/RF-Interlock-Tripped/</P>
+        <S>IntlkF-cRio1:Intlk:sAlarm-2</S>
+      </macros>
+      <file>../Embedded/alarm-pv.bob</file>
+      <y>80</y>
+      <width>500</width>
+      <height>30</height>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_12</name>
+      <macros>
+        <P>$(A)RF Power Plant/RF-Interlock-Tripped/</P>
+        <S>IntlkF-cRio1:Intlk:sAlarm-3</S>
+      </macros>
+      <file>../Embedded/alarm-pv.bob</file>
+      <y>110</y>
+      <width>500</width>
+      <height>30</height>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_13</name>
+      <macros>
+        <P>$(A)RF Power Plant/RF-Interlock-Tripped/</P>
+        <S>IntlkF-cRio1:Intlk:sAlarm-4</S>
+      </macros>
+      <file>../Embedded/alarm-pv.bob</file>
+      <y>140</y>
+      <width>500</width>
+      <height>30</height>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_19</name>
+      <macros>
+        <P>$(A)Liquifier/Cryo Plant Warnings and Alarms/_Controls/</P>
+        <S>Cryo-Ctrl:Ctrl:Wr_AI_Ctl_failure</S>
+      </macros>
+      <file>../Embedded/alarm-pv.bob</file>
+      <width>500</width>
+      <height>30</height>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>Demo</text>
+    <x>680</x>
+    <y>30</y>
+    <height>50</height>
+    <font>
+      <font name="HEADER" family="Source Sans Pro" style="BOLD_ITALIC" size="36.0">
+      </font>
+    </font>
   </widget>
 </display>

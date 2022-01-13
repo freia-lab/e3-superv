@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>alarm-node</name>
+  <widget type="group" version="2.0.0">
+    <name>Group_1</name>
+    <height>30</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_28</name>
+      <pv_name>$(A)$(P)</pv_name>
+      <x>3</x>
+      <y>3</y>
+      <width>264</width>
+    </widget>
+    <widget type="combo" version="2.0.0">
+      <name>Action_1</name>
+      <pv_name>$(A)$(P)</pv_name>
+      <x>270</x>
+      <width>30</width>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <items>
+        <item>acknowledge</item>
+        <item>unacknowledge</item>
+        <item>enable</item>
+        <item>disable</item>
+      </items>
+      <items_from_pv>false</items_from_pv>
+    </widget>
+  </widget>
+</display>

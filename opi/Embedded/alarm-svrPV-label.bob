@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>alarm-svrPV-label</name>
+  <widget type="multi_state_led" version="2.0.0">
+    <name>LED (Multi State)_2</name>
+    <pv_name>$(P=Ctrl-Alarm):$(S)</pv_name>
+    <x>3</x>
+    <y>3</y>
+    <width>227</width>
+    <height>24</height>
+    <line_color>
+      <color red="50" green="50" blue="50" alpha="0">
+      </color>
+    </line_color>
+    <square>true</square>
+    <states>
+      <state>
+        <value>0</value>
+        <label>$(L)</label>
+        <color>
+          <color name="OK" red="61" green="216" blue="61">
+          </color>
+        </color>
+      </state>
+      <state>
+        <value>1</value>
+        <label>$(L)</label>
+        <color>
+          <color red="255" green="204" blue="102">
+          </color>
+        </color>
+      </state>
+      <state>
+        <value>2</value>
+        <label>$(L)</label>
+        <color>
+          <color red="255" green="153" blue="102">
+          </color>
+        </color>
+      </state>
+      <state>
+        <value>3</value>
+        <label>$(L)</label>
+        <color>
+          <color name="State 3" red="10" green="0" blue="120">
+          </color>
+        </color>
+      </state>
+      <state>
+        <value>4</value>
+        <label>$(L)</label>
+        <color>
+          <color name="State 4" red="10" green="0" blue="160">
+          </color>
+        </color>
+      </state>
+      <state>
+        <value>5</value>
+        <label>$(L)</label>
+        <color>
+          <color name="MINOR" red="252" green="242" blue="17">
+          </color>
+        </color>
+      </state>
+      <state>
+        <value>6</value>
+        <label>$(L)</label>
+        <color>
+          <color name="MAJOR" red="252" green="13" blue="27">
+          </color>
+        </color>
+      </state>
+      <state>
+        <value>7</value>
+        <label>$(L)</label>
+        <color>
+          <color name="INVALID" red="149" green="110" blue="221">
+          </color>
+        </color>
+      </state>
+      <state>
+        <value>8</value>
+        <label>$(L)</label>
+        <color>
+          <color red="179" green="179" blue="179">
+          </color>
+        </color>
+      </state>
+    </states>
+    <fallback_label>$(L)</fallback_label>
+  </widget>
+</display>
