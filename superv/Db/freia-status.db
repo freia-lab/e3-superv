@@ -509,3 +509,16 @@ record (ao, "Ctrl-nuc03:disk-var:dskPercent") {
   field (PINI, "YES")
 }
 
+record (ao, "Ctrl-nuc05:disk-var:dskPercent") {
+  field (DESC, "Used space in /var partition")
+  field (DTYP, "Soft Channel")
+  field (HOPR, "100")
+  field (EGU, "%")
+  field (HIGH, "$(HI)")
+  field (HIHI, "$(HH)")
+  field (HSV, "MINOR")
+  field (HHSV, "MAJOR")
+  info (autosaveFields, "HIGH HIHI VAL") 
+  field (PINI, "YES")
+}
+
