@@ -38,6 +38,14 @@
         </macros>
         <group_name></group_name>
       </tab>
+      <tab>
+        <name>ioc04-wtrvac</name>
+        <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+        <macros>
+          <ioc>ioc04-wtrvac</ioc>
+        </macros>
+        <group_name></group_name>
+      </tab>
     </tabs>
     <width>1135</width>
     <height>600</height>
