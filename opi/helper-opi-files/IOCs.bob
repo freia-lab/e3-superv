@@ -46,6 +46,54 @@
         </macros>
         <group_name></group_name>
       </tab>
+      <tab>
+        <name>ioc11-gersemi</name>
+        <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+        <macros>
+          <ioc>ioc11-gersemi</ioc>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>ioc05-esys</name>
+        <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+        <macros>
+          <ioc>ioc05-esys</ioc>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>ioc07-dbe</name>
+        <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+        <macros>
+          <ioc>ioc07-dbe</ioc>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>ioc03-hnoss</name>
+        <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+        <macros>
+          <ioc>ioc03-hnoss</ioc>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>ioc01-fgc</name>
+        <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+        <macros>
+          <ioc>ioc01-fgc</ioc>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>ioc13-bake</name>
+        <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+        <macros>
+          <ioc>ioc13-bake</ioc>
+        </macros>
+        <group_name></group_name>
+      </tab>
     </tabs>
     <width>1135</width>
     <height>600</height>
