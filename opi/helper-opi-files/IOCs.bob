@@ -94,8 +94,25 @@
         </macros>
         <group_name></group_name>
       </tab>
+      <tab>
+        <name>ioc17-cm</name>
+        <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+        <macros>
+          <ioc>ioc17-cm</ioc>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>ioc12-fastintrlck</name>
+        <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+        <macros>
+          <ioc>ioc12-fastintrlck</ioc>
+        </macros>
+        <group_name></group_name>
+      </tab>
     </tabs>
     <width>1135</width>
     <height>600</height>
+    <tab_width>120</tab_width>
   </widget>
 </display>
