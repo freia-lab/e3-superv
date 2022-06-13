@@ -28,6 +28,6 @@ LINK_DIR = ../../OPIS
 
 .PHONY: opiinstall	## Install the OPIs
 opiinstall:
-	rsync -va --exclude 'README.md' $(TOP)/opi/ $(OPIS_HOME)/$(E3_MODULE_NAME)/$(OPI_VERSION)/
+	rsync -va --delete --exclude 'README.md' $(TOP)/opi/ $(OPIS_HOME)/$(E3_MODULE_NAME)/$(OPI_VERSION)/
 	cd $(OPI_DIR); rm -f $(OPI_DIRNAME); ln -s $(LINK_DIR)/$(E3_MODULE_NAME)/$(OPI_VERSION)/ $(OPI_DIRNAME)
 
