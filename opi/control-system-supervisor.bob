@@ -77,6 +77,13 @@
         </macros>
         <group_name></group_name>
       </tab>
+      <tab>
+        <name>Services</name>
+        <file>helper-opi-files/services.bob</file>
+        <macros>
+        </macros>
+        <group_name></group_name>
+      </tab>
     </tabs>
     <x>30</x>
     <y>70</y>

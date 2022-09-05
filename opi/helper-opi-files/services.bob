@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>services</name>
+  <width>1150</width>
+  <height>700</height>
+  <widget type="tabs" version="2.0.0">
+    <name>Tabs</name>
+    <tabs>
+      <tab>
+        <name>scan server</name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Embedded Display</name>
+            <macros>
+              <P>Ctrl-scanserver</P>
+            </macros>
+            <file>scan_info.bob</file>
+            <x>10</x>
+            <y>10</y>
+            <width>438</width>
+            <height>112</height>
+          </widget>
+        </children>
+      </tab>
+    </tabs>
+    <x>10</x>
+    <y>10</y>
+    <width>1110</width>
+    <height>590</height>
+  </widget>
+</display>
