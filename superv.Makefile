@@ -50,9 +50,13 @@ APPSRC := $(APP)/src
 #     HEADERS += $(APPSRC)/library.h
 #     USR_INCLUDES += -I$(where_am_I)$(APPSRC)
 
+SOURCES += $(APPSRC)/getEpochTime.c
+
 TEMPLATES += $(wildcard $(APPDB)/*.db)
 TEMPLATES += $(wildcard $(APPDB)/*.proto)
 TEMPLATES += $(wildcard $(APPDB)/*.template)
+
+DBDS += $(wildcard $(APPDB)/*.dbd)
 
 SCRIPTS += $(wildcard ../iocsh/*.iocsh)
 
@@ -62,23 +66,6 @@ TMPS = $(wildcard $(APPDB)/*.template)
 USR_DBFLAGS += -I . -I ..
 USR_DBFLAGS += -I $(EPICS_BASE)/db
 USR_DBFLAGS += -I $(APPDB)
-
-.PHONY: db
-db: $(SUBS) $(TMPS)
-
-.PHONY: $(SUBS)
-$(SUBS):
-	@printf "Inflating database ... %44s >>> %40s \n" "$@" "$(basename $(@)).db"
-	@rm -f $(basename $(@)).db.d  $(basename $(@)).db
-	@$(MSI) -D $(USR_DBFLAGS) -o $(basename $(@)).db -S $@ > $(basename $(@)).db.d
-	@$(MSI)    $(USR_DBFLAGS) -o $(basename $(@)).db -S $@
-
-.PHONY: $(TMPS)
-$(TMPS):
-	@printf "Inflating database ... %44s >>> %40s \n" "$@" "$(basename $(@)).db"
-	@rm -f $(basename $(@)).db.d  $(basename $(@)).db
-	@$(MSI) -D $(USR_DBFLAGS) -o $(basename $(@)).db $@ > $(basename $(@)).db.d
-	@$(MSI)    $(USR_DBFLAGS) -o $(basename $(@)).db $@
 
 .PHONY: vlibs
 vlibs:

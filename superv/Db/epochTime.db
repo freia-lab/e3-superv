@@ -1,0 +1,15 @@
+record (sub, "Ctrl-Time:Epoch:seconds") {
+    field(DESC, "Seconds since Epoch")
+    field(SCAN, "1 second")
+    field(INAM, "getEpochTimeInit")
+    field(SNAM, "getEpochTimeProcess")
+    field(EGU, "s")
+    field(FLNK, "Ctrl-Time:Epoch:hours")
+}
+
+record (calc, "Ctrl-Time:Epoch:hours") {
+    field(DESC, "Hours since Epoch")
+    field(INPA, "Ctrl-Time:Epoch:seconds")
+    field(CALC, "A/3600.0")
+    field(EGU, "h")
+}

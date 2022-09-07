@@ -5,5 +5,8 @@ epicsEnvSet("N", "NOTIFICATION-LOG-MIB::")
 # FREIA general status and NUC's ram disk usage
 dbLoadRecords("freia-status.db","HI=70,HH=90")
 
+# Special records for getting Epics time since Epics epoch
+dbLoadRecords("epochTime.db")
+
 # Scan server status
 dbLoadRecords("scan.db","P=Ctrl-scanserver:")

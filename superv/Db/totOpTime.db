@@ -1,0 +1,36 @@
+# Macros:
+# $(P) - device prefix
+# $(sOn) - the PV that indicates that the device is in operation state (counting operation time) $(P):$(sOn)
+# default value: sOn
+#
+
+record (calc, "$(P):sOpTime") {
+    field(DESC, "Calculated operation time")
+    field(SCAN, "10 second")
+    field(INPA, "$(P):sOpTime")
+    field(INPB, "$(P):$(sON=sOn)")
+    field(INPC, "$(P):cmdRstOpTime")
+    field(INPD, "$(P):cOpTimePreset")
+    field(INPE, "360")
+    field(PINI, "YES")
+    field(PREC,"2")
+    field(EGU, "h")
+    field(CALC, "C=1?D:(B#0?A+(1.0/E):A)")
+    info(autosaveFields,"VAL")
+}
+
+record (bo, "$(P):cmdRstOpTime") {
+    field(DESC, "Set opTime given by user")
+    field(HIGH, "11")
+    field(VAL, "0")
+    field(PINI, "YES")
+}
+
+record (ao, "$(P):cOpTimePreset") {
+    field(DESC, "opTime given by user")
+    field(PINI, "YES")
+    field(VAL, "0")
+    field(PREC,"2")
+    field(EGU, "h")
+}
+
