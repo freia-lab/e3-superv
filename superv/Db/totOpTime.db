@@ -1,7 +1,7 @@
 # Macros:
-# $(P) - device prefix
-# $(sOn) - the PV that indicates that the device is in operation state (counting operation time) $(P):$(sOn)
-# default value: sOn
+# $(P) - device prefix (mandatory)
+# $(sOn=sOn) - the PV that indicates that the device is in operation state 
+# (counting operation time)
 #
 
 record (calc, "$(P):sOpTime") {
