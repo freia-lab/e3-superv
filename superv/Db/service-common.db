@@ -1,0 +1,9 @@
+record (calc, "$(P):sWarnNextService") {
+    field(DESC, "Nearest service")
+    field(SCAN, "1 second")
+    field(INPA, "$(S1=$(P):sWarnService1 MSS)")
+    field(INPB, "$(S2=$(P):sWarnService2 MSS)")
+    field(INPC, "$(S3=$(P):sWarnService3 MSS)")
+    field(CALC, "MIN($(S=A,B,C))/24")
+    field(EGU, "day")
+}
