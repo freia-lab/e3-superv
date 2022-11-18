@@ -1,0 +1,63 @@
+record(longin, "$(P)Heap:Used") {
+   field(DTYP, "pydev")
+   field(INP, "@$(DV).getHeapMemUsed()")
+   field(SCAN, "$(SCAN)")
+   field(EGU, "kB")
+   field(LOLO,	"0")
+   field(LLSV,	"INVALID")
+   field(PINI, "YES")
+   field(FLNK, "$(P)Heap:Max")
+}
+
+record(longin, "$(P)Heap:Max") {
+   field(DTYP, "pydev")
+   field(INP, "@$(DV).getHeapMemMax()")
+   field(EGU, "kB")
+   field(LOLO,	"0")
+   field(LLSV,	"INVALID")
+   field(PINI, "YES")
+   field(FLNK, "$(P)Heap:UsedPerc")
+}
+
+record(longin, "$(P)Heap:Init") {
+   field(DTYP, "pydev")
+   field(INP, "@$(DV).getHeapMemInit()")
+   field(SCAN, "$(SCAN)")
+   field(EGU, "kB")
+   field(LOLO,	"0")
+   field(PINI, "YES")
+   field(LLSV,	"INVALID")
+}
+
+record(longin, "$(P)Heap:Committed") {
+   field(DTYP, "pydev")
+   field(INP, "@$(DV).getHeapMemCommitted()")
+   field(SCAN, "$(SCAN)")
+   field(EGU, "kB")
+   field(LOLO,	"0")
+   field(PINI, "YES")
+   field(LLSV,	"INVALID")
+}
+
+record(calc, "$(P)Heap:UsedPerc") {
+   field(INPA, "$(P)Heap:Used")
+   field(INPB, "$(P)Heap:Max")
+   field(PREC, "1")
+   field(CALC, "100*A/B")
+   field(EGU, "%")
+   field(HSV, "MINOR")
+   field(HHSV, "MAJOR")
+   field(PINI, "YES")
+   info (autosaveFields, "HIGH HIHI")    
+}
+
+
+############ Commands ##########
+
+record(longout, "$(P)Debug:cSetV") {
+   field(DESC, "Debug output level")
+   field(DTYP, "pydev")
+   field(OUT, "@$(DV).debug=VAL")
+   field(PINI, "YES")
+   info (autosaveFields, "VAL")    
+}

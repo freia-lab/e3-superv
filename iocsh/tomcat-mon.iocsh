@@ -1,0 +1,25 @@
+#
+#   iocshLoad("$(superv_DIR)/tomcat-mon.iocsh")
+
+#- ###                tomcat-mon    iocsh           ###
+#- ####################################################
+#- >> Mandatory
+#- IP_ADDR - IP address of the host running tomcat ("http://freia-dbwr.physics.uu.se:8080")
+#- P	   - PV prefix
+#- PDEV	   - name of the python object
+#-
+#- >> Optional
+#- SCAN	   - scan period (default "10 second")
+
+
+pydev("import sys")
+pydev("sys.path.append('$(superv_DIR)')")
+pydev("from TomcatMonitor import TomcatMonitor")
+
+pydev("$(PDEV)=TomcatMonitor('$(IP_ADDR)')")
+
+dbLoadRecords("tomcat-mon.db", "P=$(P),DV=$(PDEV),SCAN=$(SCAN='10 second')")
+
+# Set debugging output level (0 - no output, higher level - more detailed output)
+
+#pydev("$(PDEV).debug=0")

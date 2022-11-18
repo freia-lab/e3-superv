@@ -15,3 +15,7 @@ testMods*/
 *PVs.list
 pv.list
 dbl
+
+# python
+__pycache__
+

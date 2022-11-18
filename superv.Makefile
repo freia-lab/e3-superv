@@ -35,6 +35,10 @@ REQUIRED += snmp
 ifneq ($(strip $(SNMP_DEP_VERSION)),)
    snmp_VERSION=$(SNMP_DEP_VERSION)
 endif
+REQUIRED += pydev
+ifneq ($(strip $(PYDEV_DEP_VERSION)),)
+   pydev_VERSION=$(PYDEV_DEP_VERSION)
+endif
 
 # Since this file (superv.Makefile) is copied into
 # the module directory at build-time, these paths have to be relative
@@ -59,6 +63,8 @@ TEMPLATES += $(wildcard $(APPDB)/*.template)
 DBDS += $(wildcard $(APPDB)/*.dbd)
 
 SCRIPTS += $(wildcard ../iocsh/*.iocsh)
+SCRIPTS += $(wildcard ../iocsh/*.iocsh)
+SCRIPTS += ../tools/tomcatMon/TomcatMonitor.py
 
 SUBS = $(wildcard $(APPDB)/*.substitutions)
 TMPS = $(wildcard $(APPDB)/*.template)
