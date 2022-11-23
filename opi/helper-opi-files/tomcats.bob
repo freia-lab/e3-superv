@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>tomcats</name>
+  <widget type="group" version="2.0.0">
+    <name>Group</name>
+    <macros>
+      <H>freia</H>
+      <HOST>freia.physics.uu.se</HOST>
+    </macros>
+    <x>29</x>
+    <y>39</y>
+    <width>302</width>
+    <height>212</height>
+    <style>2</style>
+    <foreground_color>
+      <color name="BLUE-GROUP-BORDER" red="138" green="167" blue="167">
+      </color>
+    </foreground_color>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>Label</name>
+      <text>Host: $(HOST)</text>
+      <width>300</width>
+      <height>30</height>
+      <font>
+        <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+        </font>
+      </font>
+      <horizontal_alignment>1</horizontal_alignment>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>Heap Memory</name>
+      <macros>
+        <S>-Heap</S>
+        <SVC>tomcat</SVC>
+      </macros>
+      <x>30</x>
+      <y>40</y>
+      <width>231</width>
+      <height>162</height>
+      <style>1</style>
+      <foreground_color>
+        <color name="BLUE-BORDER" red="47" green="135" blue="148">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
+        </color>
+      </background_color>
+      <widget type="label" version="2.0.0">
+        <name>Label_1</name>
+        <text>Max:</text>
+        <x>10</x>
+        <y>60</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Max</pv_name>
+        <x>110</x>
+        <y>60</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_2</name>
+        <text>Init:</text>
+        <x>10</x>
+        <y>80</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_1</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Init</pv_name>
+        <x>110</x>
+        <y>80</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_3</name>
+        <text>Committed:</text>
+        <x>10</x>
+        <y>100</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_2</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Committed</pv_name>
+        <x>110</x>
+        <y>100</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_4</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>40</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_3</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Used</pv_name>
+        <x>110</x>
+        <y>40</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_5</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_4</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):UsedPerc</pv_name>
+        <x>110</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>Group_1</name>
+    <macros>
+      <H>freiaDbwr</H>
+      <HOST>freia-dbwr.physics.uu.se</HOST>
+    </macros>
+    <x>360</x>
+    <y>39</y>
+    <width>302</width>
+    <height>212</height>
+    <style>2</style>
+    <foreground_color>
+      <color name="BLUE-GROUP-BORDER" red="138" green="167" blue="167">
+      </color>
+    </foreground_color>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>Label_6</name>
+      <text>Host: $(HOST)</text>
+      <width>300</width>
+      <height>30</height>
+      <font>
+        <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+        </font>
+      </font>
+      <horizontal_alignment>1</horizontal_alignment>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>Heap Memory</name>
+      <macros>
+        <S>-Heap</S>
+        <SVC>tomcat</SVC>
+      </macros>
+      <x>30</x>
+      <y>40</y>
+      <width>231</width>
+      <height>162</height>
+      <style>1</style>
+      <foreground_color>
+        <color name="BLUE-BORDER" red="47" green="135" blue="148">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
+        </color>
+      </background_color>
+      <widget type="label" version="2.0.0">
+        <name>Label_7</name>
+        <text>Max:</text>
+        <x>10</x>
+        <y>60</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_5</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Max</pv_name>
+        <x>110</x>
+        <y>60</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_8</name>
+        <text>Init:</text>
+        <x>10</x>
+        <y>80</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_6</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Init</pv_name>
+        <x>110</x>
+        <y>80</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_9</name>
+        <text>Committed:</text>
+        <x>10</x>
+        <y>100</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_7</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Committed</pv_name>
+        <x>110</x>
+        <y>100</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_10</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>40</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_8</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Used</pv_name>
+        <x>110</x>
+        <y>40</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_11</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_9</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):UsedPerc</pv_name>
+        <x>110</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+    </widget>
+  </widget>
+</display>

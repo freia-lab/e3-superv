@@ -22,10 +22,24 @@
           </widget>
         </children>
       </tab>
+      <tab>
+        <name>Tomcat</name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Embedded Display_1</name>
+            <file>tomcats.bob</file>
+            <x>-2</x>
+            <y>-8</y>
+            <width>1080</width>
+            <height>480</height>
+          </widget>
+        </children>
+      </tab>
     </tabs>
     <x>10</x>
     <y>10</y>
     <width>1110</width>
     <height>590</height>
+    <active_tab>1</active_tab>
   </widget>
 </display>

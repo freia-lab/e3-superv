@@ -251,11 +251,33 @@
           </widget>
         </children>
       </tab>
+      <tab>
+        <name>modbuspi</name>
+        <children>
+          <widget type="navtabs" version="2.0.0">
+            <name>Navigation Tabs_3</name>
+            <tabs>
+              <tab>
+                <name>ioc01-orkan</name>
+                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+                <macros>
+                  <ioc>ioc01-orkan</ioc>
+                </macros>
+                <group_name></group_name>
+              </tab>
+            </tabs>
+            <x>10</x>
+            <y>10</y>
+            <width>1098</width>
+            <height>548</height>
+            <tab_width>120</tab_width>
+          </widget>
+        </children>
+      </tab>
     </tabs>
     <x>10</x>
     <y>10</y>
     <width>1110</width>
     <height>590</height>
-    <active_tab>2</active_tab>
   </widget>
 </display>
