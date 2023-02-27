@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <name>servers</name>
+  <name>IOCs</name>
   <width>1150</width>
   <height>700</height>
   <widget type="tabs" version="2.0.0">
@@ -12,14 +12,6 @@
           <widget type="navtabs" version="2.0.0">
             <name>Navigation Tabs</name>
             <tabs>
-              <tab>
-                <name>ioc01-dpu</name>
-                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
-                <macros>
-                  <ioc>ioc01-dpu</ioc>
-                </macros>
-                <group_name></group_name>
-              </tab>
               <tab>
                 <name>ioc2-linde</name>
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
@@ -53,14 +45,6 @@
                 <group_name></group_name>
               </tab>
               <tab>
-                <name>ioc06-tpg300</name>
-                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
-                <macros>
-                  <ioc>ioc06-tpg300</ioc>
-                </macros>
-                <group_name></group_name>
-              </tab>
-              <tab>
                 <name>ioc07-dbe</name>
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
@@ -73,22 +57,6 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc08-misc</ioc>
-                </macros>
-                <group_name></group_name>
-              </tab>
-              <tab>
-                <name>ioc09-superv</name>
-                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
-                <macros>
-                  <ioc>ioc09-superv</ioc>
-                </macros>
-                <group_name></group_name>
-              </tab>
-              <tab>
-                <name>ioc10-rfleak</name>
-                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
-                <macros>
-                  <ioc>ioc10-rfleak</ioc>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -109,34 +77,10 @@
                 <group_name></group_name>
               </tab>
               <tab>
-                <name>ioc13-bake</name>
-                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
-                <macros>
-                  <ioc>ioc13-bake</ioc>
-                </macros>
-                <group_name></group_name>
-              </tab>
-              <tab>
-                <name>ioc14-cow</name>
-                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
-                <macros>
-                  <ioc>ioc14-cow</ioc>
-                </macros>
-                <group_name></group_name>
-              </tab>
-              <tab>
                 <name>ioc17-cm</name>
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc17-cm</ioc>
-                </macros>
-                <group_name></group_name>
-              </tab>
-              <tab>
-                <name>ioc18-hevol</name>
-                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
-                <macros>
-                  <ioc>ioc18-hevol</ioc>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -203,6 +147,22 @@
                 </macros>
                 <group_name></group_name>
               </tab>
+              <tab>
+                <name>ioc13-bake</name>
+                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+                <macros>
+                  <ioc>ioc13-bake</ioc>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>ioc14-cow</name>
+                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+                <macros>
+                  <ioc>ioc14-cow</ioc>
+                </macros>
+                <group_name></group_name>
+              </tab>
             </tabs>
             <x>10</x>
             <y>10</y>
@@ -239,6 +199,69 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc03-service</ioc>
+                </macros>
+                <group_name></group_name>
+              </tab>
+            </tabs>
+            <x>10</x>
+            <y>10</y>
+            <width>1098</width>
+            <height>548</height>
+            <tab_width>120</tab_width>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>nuc-08</name>
+        <children>
+          <widget type="navtabs" version="2.0.0">
+            <name>Navigation Tabs_4</name>
+            <tabs>
+              <tab>
+                <name>ioc01-dpu</name>
+                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+                <macros>
+                  <ioc>ioc01-dpu</ioc>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>ioc06-tpg300</name>
+                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+                <macros>
+                  <ioc>ioc06-tpg300</ioc>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>ioc09-superv</name>
+                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+                <macros>
+                  <ioc>ioc09-superv</ioc>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>ioc10-rfleak</name>
+                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+                <macros>
+                  <ioc>ioc10-rfleak</ioc>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>ioc18-hevol</name>
+                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+                <macros>
+                  <ioc>ioc18-hevol</ioc>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>ioc20-laser</name>
+                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+                <macros>
+                  <ioc>ioc20-laser</ioc>
                 </macros>
                 <group_name></group_name>
               </tab>
