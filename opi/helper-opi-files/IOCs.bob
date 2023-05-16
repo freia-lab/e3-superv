@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2023-05-15 16:28:35 by konrad-->
 <display version="2.0.0">
   <name>IOCs</name>
   <width>1150</width>
@@ -265,6 +266,14 @@
                 </macros>
                 <group_name></group_name>
               </tab>
+              <tab>
+                <name>ioc21-tvscreens</name>
+                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+                <macros>
+                  <ioc>ioc21-tvscreens</ioc>
+                </macros>
+                <group_name></group_name>
+              </tab>
             </tabs>
             <x>10</x>
             <y>10</y>
@@ -302,5 +311,6 @@
     <y>10</y>
     <width>1110</width>
     <height>590</height>
+    <active_tab>3</active_tab>
   </widget>
 </display>
