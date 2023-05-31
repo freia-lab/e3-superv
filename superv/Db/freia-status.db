@@ -522,3 +522,52 @@ record (ao, "Ctrl-nuc05:disk-var:dskPercent") {
   field (PINI, "YES")
 }
 
+record (ao, "Ctrl-nuc08:disk-var:dskPercent") {
+  field (DESC, "Used space in /var partition")
+  field (DTYP, "Soft Channel")
+  field (HOPR, "100")
+  field (EGU, "%")
+  field (HIGH, "$(HI)")
+  field (HIHI, "$(HH)")
+  field (HSV, "MINOR")
+  field (HHSV, "MAJOR")
+  info (autosaveFields, "HIGH HIHI VAL") 
+  field (PINI, "YES")
+}
+
+record (ao, "Ctrl-nuc09:disk-var:dskPercent") {
+  field (DESC, "Used space in /var partition")
+  field (DTYP, "Soft Channel")
+  field (HOPR, "100")
+  field (EGU, "%")
+  field (HIGH, "$(HI)")
+  field (HIHI, "$(HH)")
+  field (HSV, "MINOR")
+  field (HHSV, "MAJOR")
+  info (autosaveFields, "HIGH HIHI VAL") 
+  field (PINI, "YES")
+}
+
+################################################
+# Watchdog for working routing between subnets
+# 192.168.10.0 and 192.168.1.0
+# There are services watchdog.timer and watchdog.service
+# running on centos-srv1 that sets  
+# Ctrl-Alarm:Network:InterVLANcomm-Rst.A value every
+# 10 minutes. The value is set to 0 when the routing
+# is ok (ok status from ping command) and to 1 if the
+# routing doesn't work properly.
+
+record(bo, "Ctrl-Alarm:Network:InterVLANcomm") {
+    field(DESC, "Inter VLAN communication watchdog")
+    field(ONAM, "OK")
+    field(ZNAM, "Fault")
+    field(ZSV, "MAJOR")
+    field(HIGH, "900")
+    field(PINI, "YES")
+    info (autosaveFields, "HIGH VAL") 
+}
+record (calcout, "Ctrl-Alarm:Network:InterVLANcomm-Rst") {
+    field(CALC, "!A")
+    field(OUT, "Ctrl-Alarm:Network:InterVLANcomm PP")
+}
