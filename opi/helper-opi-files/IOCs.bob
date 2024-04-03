@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-04-02 11:31:34 by konrad-->
+<!--Saved on 2024-04-03 15:45:44 by konrad-->
 <display version="2.0.0">
   <name>IOCs</name>
   <width>1150</width>
@@ -379,6 +379,5 @@
     </tabs>
     <width>1110</width>
     <height>590</height>
-    <active_tab>5</active_tab>
   </widget>
 </display>

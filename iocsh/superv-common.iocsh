@@ -1,6 +1,7 @@
 epicsEnvSet("D", "UCD-SNMP-MIB::")
 epicsEnvSet("W", "SNMPv2-MIB::")
 epicsEnvSet("N", "NOTIFICATION-LOG-MIB::")
+epicsEnvSet("HR", "HOST-RESOURCES-MIB::")
 
 # FREIA general status and NUC's ram disk usage
 dbLoadRecords("freia-status.db","HI=70,HH=90")

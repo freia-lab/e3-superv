@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-04-03 13:49:45 by konrad-->
 <display version="2.0.0">
   <name>servers</name>
   <width>1150</width>
@@ -51,11 +52,10 @@
         <group_name></group_name>
       </tab>
       <tab>
-        <name>freia-arch1</name>
-        <file>server_3partitions.bob</file>
+        <name>freia-olog</name>
+        <file>server_2partitions.bob</file>
         <macros>
-          <P>Ctrl-freiaArch1</P>
-          <PART3>data1</PART3>
+          <P>Ctrl-freiaOlog</P>
         </macros>
         <group_name></group_name>
       </tab>

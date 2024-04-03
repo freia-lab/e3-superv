@@ -30,7 +30,7 @@ record(stringin, "$(P):System:upTime")
   field(DESC, "System up-time")
   field(SCAN, "10 second")
   field(DTYP, "Snmp")
-  field(INP, "@$(H) $(PASSWD) sysUpTimeInstance ) 100 s")
+  field(INP, "@$(H) $(PASSWD) %(HR)hrSystemUptime.0 ) 100 s")
 }
 
 record(longin, "$(P):System:upTime-ticks")
@@ -151,7 +151,7 @@ record(longin, "$(P):CpuRaw:Idle")
   field(EGU, "ticks")
   field(SCAN, "10 second")
   field(DTYP, "Snmp")
-  field(INP, "@$(H) $(PASSWD) %(D)ssCpuIdle.0 Counter32: 100 i")
+  field(INP, "@$(H) $(PASSWD) %(D)ssCpuRawIdle.0 Counter32: 100 i")
 }
 
 record(longin, "$(P):Cpu:Idle")
