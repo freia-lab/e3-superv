@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-04-04 16:42:34 by konrad-->
 <display version="2.0.0">
   <name>supervisor</name>
   <width>1200</width>
-  <height>900</height>
+  <height>905</height>
   <widget type="label" version="2.0.0">
     <name>Label</name>
     <class>TITLE</class>
@@ -24,72 +25,123 @@
     <vertical_alignment use_class="true">1</vertical_alignment>
     <wrap_words use_class="true">false</wrap_words>
   </widget>
-  <widget type="navtabs" version="2.0.0">
-    <name>Navigation Tabs</name>
+  <widget type="tabs" version="2.0.0">
+    <name>Tabs</name>
+    <macros>
+      <P>Ctrl</P>
+    </macros>
     <tabs>
       <tab>
         <name>Alarms</name>
-        <file>helper-opi-files/alarm-pvs.bob</file>
-        <macros>
-        </macros>
-        <group_name></group_name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Embedded Display_2</name>
+            <file>helper-opi-files/alarm-pvs.bob</file>
+            <x>5</x>
+            <y>5</y>
+            <width>1140</width>
+            <height>605</height>
+          </widget>
+        </children>
       </tab>
       <tab>
         <name>Servers</name>
-        <file>helper-opi-files/servers.bob</file>
-        <macros>
-        </macros>
-        <group_name></group_name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Embedded Display</name>
+            <file>helper-opi-files/servers.bob</file>
+            <x>5</x>
+            <y>5</y>
+            <width>1140</width>
+            <height>605</height>
+          </widget>
+        </children>
       </tab>
       <tab>
         <name>Diskless Comp.</name>
-        <file>helper-opi-files/diskless.bob</file>
-        <macros>
-          <P>Ctrl</P>
-        </macros>
-        <group_name></group_name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Embedded Display_3</name>
+            <file>helper-opi-files/diskless.bob</file>
+            <x>5</x>
+            <y>5</y>
+            <width>1140</width>
+            <height>605</height>
+          </widget>
+        </children>
       </tab>
       <tab>
         <name>Op. Consoles</name>
-        <file>helper-opi-files/Consoles.bob</file>
-        <macros>
-        </macros>
-        <group_name></group_name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Embedded Display_1</name>
+            <file>helper-opi-files/Consoles.bob</file>
+            <x>5</x>
+            <y>5</y>
+            <width>1140</width>
+            <height>605</height>
+          </widget>
+        </children>
       </tab>
       <tab>
         <name>Profibus DP</name>
-        <file>helper-opi-files/Profibus_DP.bob</file>
-        <macros>
-        </macros>
-        <group_name></group_name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Embedded Display_4</name>
+            <macros>
+              <P>PLC-WTRVAC</P>
+            </macros>
+            <file>helper-opi-files/Profibus_DP.bob</file>
+            <x>5</x>
+            <y>5</y>
+            <width>1140</width>
+            <height>605</height>
+          </widget>
+        </children>
       </tab>
       <tab>
         <name>cRIO-1</name>
-        <file>helper-opi-files/cRio1_overview.bob</file>
-        <macros>
-        </macros>
-        <group_name></group_name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Embedded Display_5</name>
+            <file>helper-opi-files/cRio1_overview.bob</file>
+            <x>5</x>
+            <y>5</y>
+            <width>1140</width>
+            <height>605</height>
+          </widget>
+        </children>
       </tab>
       <tab>
         <name>IOCs</name>
-        <file>helper-opi-files/IOCs.bob</file>
-        <macros>
-        </macros>
-        <group_name></group_name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Embedded Display_6</name>
+            <file>helper-opi-files/IOCs.bob</file>
+            <x>5</x>
+            <y>5</y>
+            <width>1140</width>
+            <height>605</height>
+          </widget>
+        </children>
       </tab>
       <tab>
         <name>Services</name>
-        <file>helper-opi-files/services.bob</file>
-        <macros>
-        </macros>
-        <group_name></group_name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Embedded Display_7</name>
+            <file>helper-opi-files/services.bob</file>
+            <x>5</x>
+            <y>5</y>
+            <width>1140</width>
+            <height>605</height>
+          </widget>
+        </children>
       </tab>
     </tabs>
     <x>30</x>
     <y>70</y>
     <width>1150</width>
-    <height>645</height>
-    <direction>0</direction>
-    <tab_width>120</tab_width>
+    <height>650</height>
   </widget>
 </display>
