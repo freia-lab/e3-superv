@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-04-04 13:10:26 by konrad-->
 <display version="2.0.0">
   <name>consoles</name>
   <width>1150</width>
@@ -43,6 +44,24 @@
         <file>server_3partitions.bob</file>
         <macros>
           <P>Ctrl-oldpc04</P>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>nuc-11</name>
+        <file>server_3partitions.bob</file>
+        <macros>
+          <P>Ctrl-nuc11</P>
+          <PART3>boot_efi</PART3>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>nuc-12</name>
+        <file>server_3partitions.bob</file>
+        <macros>
+          <P>Ctrl-nuc12</P>
+          <PART3>boot_efi</PART3>
         </macros>
         <group_name></group_name>
       </tab>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-04-03 13:49:45 by konrad-->
+<!--Saved on 2024-04-04 11:49:21 by konrad-->
 <display version="2.0.0">
   <name>servers</name>
   <width>1150</width>
@@ -96,6 +96,14 @@
         <file>server_1partition.bob</file>
         <macros>
           <P>Ctrl-freia</P>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>freia-ub2</name>
+        <file>server_2partitions.bob</file>
+        <macros>
+          <P>Ctrl-freiaUb2</P>
         </macros>
         <group_name></group_name>
       </tab>
