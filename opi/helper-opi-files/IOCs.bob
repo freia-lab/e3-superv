@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-04-04 16:47:59 by konrad-->
+<!--Saved on 2024-04-08 14:02:55 by konrad-->
 <display version="2.0.0">
   <name>IOCs</name>
   <width>1135</width>
@@ -161,6 +161,14 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc14-cow</ioc>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>ioc15-pdsgo2</name>
+                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+                <macros>
+                  <ioc>ioc15-pdsgo2</ioc>
                 </macros>
                 <group_name></group_name>
               </tab>
