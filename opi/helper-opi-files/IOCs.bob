@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-04-08 14:02:55 by konrad-->
+<!--Saved on 2024-06-25 17:43:10 by konrad-->
 <display version="2.0.0">
   <name>IOCs</name>
   <width>1135</width>
@@ -306,6 +306,14 @@
             <name>Navigation Tabs_3</name>
             <tabs>
               <tab>
+                <name>ioc23-orkan</name>
+                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+                <macros>
+                  <ioc>ioc23-orkan</ioc>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
                 <name>ioc50-ssa</name>
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
@@ -361,31 +369,9 @@
           </widget>
         </children>
       </tab>
-      <tab>
-        <name>modbuspi</name>
-        <children>
-          <widget type="navtabs" version="2.0.0">
-            <name>Navigation Tabs_5</name>
-            <tabs>
-              <tab>
-                <name>ioc01-orkan</name>
-                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
-                <macros>
-                  <ioc>ioc01-orkan</ioc>
-                </macros>
-                <group_name></group_name>
-              </tab>
-            </tabs>
-            <x>10</x>
-            <y>10</y>
-            <width>1098</width>
-            <height>548</height>
-            <tab_width>120</tab_width>
-          </widget>
-        </children>
-      </tab>
     </tabs>
     <width>1130</width>
     <height>600</height>
+    <active_tab>5</active_tab>
   </widget>
 </display>
