@@ -235,14 +235,6 @@
                 <group_name></group_name>
               </tab>
               <tab>
-                <name>ioc09-superv</name>
-                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
-                <macros>
-                  <ioc>ioc09-superv</ioc>
-                </macros>
-                <group_name></group_name>
-              </tab>
-              <tab>
                 <name>ioc18-hevol</name>
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
@@ -278,6 +270,14 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc01-dpu</ioc>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>ioc09-superv</name>
+                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+                <macros>
+                  <ioc>ioc09-superv</ioc>
                 </macros>
                 <group_name></group_name>
               </tab>
