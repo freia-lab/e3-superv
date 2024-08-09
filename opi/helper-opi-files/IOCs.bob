@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-07-22 16:55:13 by konrad-->
+<!--Saved on 2024-08-09 08:51:21 by konrad-->
 <display version="2.0.0">
   <name>IOCs</name>
   <width>1135</width>
@@ -250,6 +250,14 @@
                 </macros>
                 <group_name></group_name>
               </tab>
+              <tab>
+                <name>ioc28-arduinoplc</name>
+                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+                <macros>
+                  <ioc>ioc28-arduinoplc</ioc>
+                </macros>
+                <group_name></group_name>
+              </tab>
             </tabs>
             <x>10</x>
             <y>10</y>
@@ -372,6 +380,6 @@
     </tabs>
     <width>1130</width>
     <height>600</height>
-    <active_tab>4</active_tab>
+    <active_tab>3</active_tab>
   </widget>
 </display>
