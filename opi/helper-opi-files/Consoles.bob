@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-04-04 13:10:26 by konrad-->
+<!--Saved on 2024-09-06 08:49:50 by konrad-->
 <display version="2.0.0">
   <name>consoles</name>
   <width>1150</width>
@@ -33,7 +33,7 @@
       </tab>
       <tab>
         <name>oldpc-02</name>
-        <file>server_3partitions.bob</file>
+        <file>server_1partition.bob</file>
         <macros>
           <P>Ctrl-oldpc02</P>
         </macros>
