@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-11-14 17:21:09 by konrad-->
 <display version="2.0.0">
   <name>server_1p</name>
-  <width>950</width>
+  <width>1000</width>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
@@ -59,7 +60,7 @@
       </color>
     </border_color>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Grouping Container</name>
     <x>24</x>
     <y>53</y>
@@ -70,6 +71,10 @@
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -211,7 +216,7 @@
       </border_color>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Grouping Container_1</name>
     <x>24</x>
     <y>84</y>
@@ -222,6 +227,10 @@
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -334,7 +343,7 @@
       </color>
     </border_color>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Grouping Container_6</name>
     <x>31</x>
     <y>131</y>
@@ -345,6 +354,10 @@
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -512,7 +525,7 @@
       </border_color>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Grouping Container_7</name>
     <x>19</x>
     <y>168</y>
@@ -523,6 +536,10 @@
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -772,5 +789,21 @@
       <color red="0" green="128" blue="255">
       </color>
     </border_color>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button</name>
+    <pv_name>$(P):SNMP:Disable</pv_name>
+    <x>870</x>
+    <y>14</y>
+    <width>120</width>
+    <off_color>
+      <color name="LED-RED-OFF" red="110" green="101" blue="90">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="LED-RED-ON" red="255" green="60" blue="46">
+      </color>
+    </on_color>
+    <labels_from_pv>true</labels_from_pv>
   </widget>
 </display>

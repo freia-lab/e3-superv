@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-11-14 17:29:17 by konrad-->
 <display version="2.0.0">
   <name>server_3p</name>
-  <width>900</width>
+  <width>1000</width>
   <widget type="embedded" version="2.0.0">
     <name>Overview</name>
     <file>server_1partition.bob</file>
-    <width>890</width>
+    <width>1000</width>
     <height>570</height>
   </widget>
   <widget type="embedded" version="2.0.0">
