@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-03-14 15:18:42 by konrad-->
+<display version="2.0.0">
+  <name>p4p-gw</name>
+  <width>1100</width>
+  <height>540</height>
+  <widget type="table" version="2.0.0">
+    <name>Table</name>
+    <pv_name>$(P)ds:bypv:rx</pv_name>
+    <x>570</x>
+    <y>10</y>
+    <width>440</width>
+    <height>230</height>
+    <columns>
+      <column>
+        <name>Column 1</name>
+        <width>300</width>
+        <editable>true</editable>
+      </column>
+      <column>
+        <name>Column 2</name>
+        <width>100</width>
+        <editable>true</editable>
+      </column>
+    </columns>
+    <tooltip>Bandwidth usage sent from clients to this gateway</tooltip>
+    <editable>false</editable>
+  </widget>
+  <widget type="table" version="2.0.0">
+    <name>Table_1</name>
+    <pv_name>$(P)clients</pv_name>
+    <x>10</x>
+    <y>40</y>
+    <width>215</width>
+    <height>200</height>
+    <columns>
+      <column>
+        <name>Clients</name>
+        <width>190</width>
+        <editable>true</editable>
+      </column>
+    </columns>
+    <editable>false</editable>
+  </widget>
+  <widget type="table" version="2.0.0">
+    <name>Table_2</name>
+    <pv_name>$(P)cache</pv_name>
+    <x>250</x>
+    <y>10</y>
+    <width>305</width>
+    <height>230</height>
+    <columns>
+      <column>
+        <name>Cache</name>
+        <width>280</width>
+        <editable>true</editable>
+      </column>
+    </columns>
+    <editable>false</editable>
+  </widget>
+  <widget type="table" version="2.0.0">
+    <name>Table_3</name>
+    <pv_name>$(P)refs</pv_name>
+    <x>10</x>
+    <y>250</y>
+    <width>385</width>
+    <height>200</height>
+    <columns>
+      <column>
+        <name>Column 1</name>
+        <width>200</width>
+        <editable>true</editable>
+      </column>
+      <column>
+        <name>Column 2</name>
+        <width>80</width>
+        <editable>true</editable>
+      </column>
+      <column>
+        <name>Column 3</name>
+        <width>80</width>
+        <editable>true</editable>
+      </column>
+    </columns>
+    <tooltip>Table of objects and instance counts.
+The instance count should not grow in time (resurce leak).</tooltip>
+    <editable>false</editable>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_5</name>
+    <text>Threads:</text>
+    <x>10</x>
+    <y>10</y>
+    <width>80</width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_7</name>
+    <pv_name>$(P)threads</pv_name>
+    <x>90</x>
+    <y>10</y>
+    <width>150</width>
+  </widget>
+  <widget type="table" version="2.0.0">
+    <name>Table_5</name>
+    <pv_name>$(P)us:bypv:rx</pv_name>
+    <x>570</x>
+    <y>260</y>
+    <width>440</width>
+    <height>230</height>
+    <columns>
+      <column>
+        <name>Column 1</name>
+        <width>300</width>
+        <editable>true</editable>
+      </column>
+      <column>
+        <name>Column 2</name>
+        <width>100</width>
+        <editable>true</editable>
+      </column>
+    </columns>
+    <tooltip>Bandwidth usage sent from clients to this gateway</tooltip>
+    <editable>false</editable>
+  </widget>
+  <widget type="table" version="2.0.0">
+    <name>Table_6</name>
+    <pv_name>$(P)ds:byhost:tx</pv_name>
+    <x>1020</x>
+    <y>10</y>
+    <width>360</width>
+    <height>230</height>
+    <columns>
+      <column>
+        <name>Column 1</name>
+        <width>80</width>
+        <editable>true</editable>
+      </column>
+      <column>
+        <name>Column 2</name>
+        <width>80</width>
+        <editable>true</editable>
+      </column>
+      <column>
+        <name>Column 3</name>
+        <width>80</width>
+        <editable>true</editable>
+      </column>
+    </columns>
+    <tooltip>Table of objects and instance counts.
+The instance count should not grow in time (resurce leak).</tooltip>
+    <editable>false</editable>
+  </widget>
+  <widget type="table" version="2.0.0">
+    <name>Table_7</name>
+    <pv_name>$(P)ds:byhost:rx</pv_name>
+    <x>1020</x>
+    <y>260</y>
+    <width>360</width>
+    <height>230</height>
+    <columns>
+      <column>
+        <name>Column 1</name>
+        <width>80</width>
+        <editable>true</editable>
+      </column>
+      <column>
+        <name>Column 2</name>
+        <width>80</width>
+        <editable>true</editable>
+      </column>
+      <column>
+        <name>Column 3</name>
+        <width>80</width>
+        <editable>true</editable>
+      </column>
+    </columns>
+    <tooltip>Table of objects and instance counts.
+The instance count should not grow in time (resurce leak).</tooltip>
+    <editable>false</editable>
+  </widget>
+  <widget type="table" version="2.0.0">
+    <name>Table_8</name>
+    <pv_name>$(P)us:byhost:tx</pv_name>
+    <x>1400</x>
+    <y>10</y>
+    <width>385</width>
+    <height>230</height>
+    <columns>
+      <column>
+        <name>Column 1</name>
+        <width>200</width>
+        <editable>true</editable>
+      </column>
+      <column>
+        <name>Column 2</name>
+        <width>80</width>
+        <editable>true</editable>
+      </column>
+    </columns>
+    <tooltip>Table of objects and instance counts.
+The instance count should not grow in time (resurce leak).</tooltip>
+    <editable>false</editable>
+  </widget>
+  <widget type="table" version="2.0.0">
+    <name>Table_9</name>
+    <pv_name>$(P)us:byhost:rx</pv_name>
+    <x>1400</x>
+    <y>260</y>
+    <width>385</width>
+    <height>230</height>
+    <columns>
+      <column>
+        <name>Column 1</name>
+        <width>200</width>
+        <editable>true</editable>
+      </column>
+      <column>
+        <name>Column 2</name>
+        <width>80</width>
+        <editable>true</editable>
+      </column>
+    </columns>
+    <tooltip>Table of objects and instance counts.
+The instance count should not grow in time (resurce leak).</tooltip>
+    <editable>false</editable>
+  </widget>
+</display>
