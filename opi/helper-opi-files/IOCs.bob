@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-10-18 12:29:52 by konrad-->
+<!--Saved on 2025-05-06 17:13:02 by konrad-->
 <display version="2.0.0">
   <name>IOCs</name>
   <width>1135</width>
@@ -18,6 +18,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc02-linde</ioc>
+                  <modName>linde</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -26,6 +27,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc03-hnoss</ioc>
+                  <modName>hnoss</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -34,6 +36,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc04-wtrvac</ioc>
+                  <modName>wtrvac</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -42,6 +45,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc05-esys</ioc>
+                  <modName>esys</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -50,6 +54,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc07-dbe</ioc>
+                  <modName>dbe</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -58,6 +63,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc08-misc</ioc>
+                  <modName>miscfreia</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -66,6 +72,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc11-gersemi</ioc>
+                  <modName>gersemi</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -74,6 +81,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc12-fastintrlck</ioc>
+                  <modName>fastintrlck</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -82,6 +90,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc17-cm</ioc>
+                  <modName>cm</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -105,6 +114,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc01-fgc</ioc>
+                  <modName>fgcepics</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -113,6 +123,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc02-dpu3</ioc>
+                  <modName>dpu3</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -121,6 +132,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc03-smb100</ioc>
+                  <modName>smb100a</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -129,6 +141,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc04-dcbreaker</ioc>
+                  <modName>dcbreaker</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -137,6 +150,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc05-ami1700</ioc>
+                  <modName>ami1700</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -145,6 +159,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc06-maglps</ioc>
+                  <modName>maglps</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -153,6 +168,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc13-bake</ioc>
+                  <modName>bakeout</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -161,6 +177,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc14-cow</ioc>
+                  <modName>cow</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -169,6 +186,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc15-pdsgo2</ioc>
+                  <modName>pdsgo2</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -192,6 +210,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc01-vat616</ioc>
+                  <modName>vat616</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -200,6 +219,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc02-pnan5221</ioc>
+                  <modName>pnan5221</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -223,6 +243,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc06-tpg300</ioc>
+                  <modName>tpg300</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -231,6 +252,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc18-hevol</ioc>
+                  <modName>hevol</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -239,6 +261,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc20-laser</ioc>
+                  <modName>laser</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -247,6 +270,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc29-llrfmobile</ioc>
+                  <modName>mobilellrf</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -270,6 +294,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc01-dpu</ioc>
+                  <modName>dpu</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -278,6 +303,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc03-service</ioc>
+                  <modName>superv</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -286,6 +312,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc09-superv</ioc>
+                  <modName>superv</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -294,6 +321,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc10-rfleak</ioc>
+                  <modName>rfleakdet</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -302,6 +330,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc21-tvscreens</ioc>
+                  <modName>tvscreens</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -310,6 +339,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc22-siargo</ioc>
+                  <modName>siargo</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -318,6 +348,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc23-orkan</ioc>
+                  <modName>orkan</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -326,14 +357,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc30-dpu3</ioc>
-                </macros>
-                <group_name></group_name>
-              </tab>
-              <tab>
-                <name>ioc50-ssa</name>
-                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
-                <macros>
-                  <ioc>ioc50-ssa</ioc>
+                  <modName>dpu3</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -357,6 +381,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc24-hmp</ioc>
+                  <modName>hmp40x0</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -365,6 +390,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc26-rexroth</ioc>
+                  <modName>rexroth</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -373,6 +399,7 @@
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
                   <ioc>ioc27-htrctrl</ioc>
+                  <modName>heaterctrl</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
