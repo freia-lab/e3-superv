@@ -41,15 +41,6 @@
                 <group_name></group_name>
               </tab>
               <tab>
-                <name>ioc05-esys</name>
-                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
-                <macros>
-                  <ioc>ioc05-esys</ioc>
-                  <modName>esys</modName>
-                </macros>
-                <group_name></group_name>
-              </tab>
-              <tab>
                 <name>ioc07-dbe</name>
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
