@@ -57,6 +57,7 @@ DBDS += $(wildcard $(APPDB)/*.dbd)
 SCRIPTS += $(wildcard ../iocsh/*.iocsh)
 SCRIPTS += $(wildcard ../iocsh/*.iocsh)
 SCRIPTS += ../tools/tomcatMon/TomcatMonitor.py
+SCRIPTS += ../tools/arcaplMon/ArcaplMonitor.py
 
 SUBS = $(wildcard $(APPDB)/*.substitutions)
 TMPS = $(wildcard $(APPDB)/*.template)

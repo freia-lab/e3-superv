@@ -1,0 +1,124 @@
+record(mbbi, "$(P)sStatus") {
+   field (DESC, "Archiver Appliance Status")
+   field(DTYP, "pydev")
+   field(INP, "@$(DV).getStatus()")
+   field(SCAN, "$(SCAN)")
+   field (NOBT, "16") 
+   field (ONVL, "1")
+   field (TWVL, "2")
+   field (THVL, "3")
+   field (ONST, "Working")
+   field (TWST, "Undefined")
+   field (THST, "Undefined")
+   field (ZRSV, "MINOR")
+   field (TWSV, "MINOR")
+   field (THSV, "MINOR")
+   field (UNSV, "MINOR")
+   field(FLNK, "$(P)PVcount")
+}
+
+
+record(longin, "$(P)PVcount") {
+   field (DESC, "Total PV count")
+   field(DTYP, "pydev")
+   field(INP, "@$(DV).getPvCount()")
+   field(PINI, "YES")
+   field(FLNK, "$(P)disconnectedPV")
+}
+
+record(longin, "$(P)disconnectedPV") {
+   field (DESC, "Disconnected PV count")
+   field(DTYP, "pydev")
+   field(INP, "@$(DV).getDisconnectedPVCount()")
+   field(HSV, "MINOR")
+   field(HHSV, "MAJOR")
+   field(PINI, "YES")
+   field(FLNK, "$(P)eventRt")
+   info (autosaveFields, "HIGH HIHI")
+}
+
+record(ai, "$(P)eventRt") {
+   field (DESC, "Event rate")
+   field(DTYP, "pydev")
+   field(INP, "@$(DV).getEventRate()")
+   field(EGU, "1/s")
+   field(PREC, "1")
+   field(HSV, "MINOR")
+   field(HHSV, "MAJOR")
+   field(PINI, "YES")
+   field(FLNK, "$(P)dataRt")
+   info (autosaveFields, "HIGH HIHI")
+}
+
+record(ai, "$(P)dataRt") {
+   field (DESC, "Data rate")
+   field(DTYP, "pydev")
+   field(INP, "@$(DV).getDataRate()")
+   field(EGU, "B/s")
+   field(HSV, "MINOR")
+   field(HHSV, "MAJOR")
+   field(PINI, "YES")
+   info (autosaveFields, "HIGH HIHI")
+   field(FLNK, "$(P)timeETL0Avg")
+}
+
+record(ai, "$(P)timeETL0Avg") {
+   field (DESC, "Average time spent in ETL(0»1)")
+   field(DTYP, "pydev")
+   field(INP, "@$(DV).getAvgTimeETL0()")
+   field(EGU, "s")
+   field(PREC, "2")
+#   field(HIGH,	"10")
+#   field(HIHI,	"100")
+#   field(HSV, "MINOR")
+#   field(HHSV, "MAJOR")
+   field(PINI, "YES")
+   field(FLNK, "$(P)timeETL1Avg")
+}
+record(ai, "$(P)timeETL1Avg") {
+   field (DESC, "Average time spent in ETL(1»2)")
+   field(DTYP, "pydev")
+   field(INP, "@$(DV).getAvgTimeETL1()")
+   field(EGU, "s")
+   field(PREC, "2")
+#   field(HIGH,	"10")
+#   field(HIHI,	"100")
+#   field(HSV, "MINOR")
+#   field(HHSV, "MAJOR")
+   field(PINI, "YES")
+   field(FLNK, "$(P)totalETL0Runs")
+}
+record(longin, "$(P)totalETL0Runs") {
+   field (DESC, "Number of ETL runs (0»1)")
+   field(DTYP, "pydev")
+   field(INP, "@$(DV).getTotalETLRuns0()")
+   field(PINI, "YES")
+   field(FLNK, "$(P)totalETL1Runs")
+}
+record(longin, "$(P)totalETL1Runs") {
+   field (DESC, "Number of ETL runs (1»2)")
+   field(DTYP, "pydev")
+   field(INP, "@$(DV).getTotalETLRuns1()")
+   field(PINI, "YES")
+   field(FLNK, "$(P)timeWriteSTS")
+}
+record(ai, "$(P)timeWriteSTS") {
+   field (DESC, "Time writing samplebuffers to STS")
+   field(DTYP, "pydev")
+   field(INP, "@$(DV).getSecondsConsumedByWriter()")
+   field(EGU, "s")
+   field(PREC, "2")
+   field(PINI, "YES")
+#   field(FLNK, "$(P)")
+}
+
+############ Commands ##########
+
+record(longout, "$(P)Debug:cSetV") {
+   field(DESC, "Debug output level")
+   field(DTYP, "pydev")
+   field(OUT, "@$(DV).debug=VAL")
+   field(PINI, "YES")
+   info (autosaveFields, "VAL")    
+}
+

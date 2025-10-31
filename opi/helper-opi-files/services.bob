@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-10-14 14:02:41 by konrad-->
+<!--Saved on 2025-10-22 10:22:01 by konrad-->
 <display version="2.0.0">
   <name>services</name>
   <width>1500</width>
@@ -50,11 +50,22 @@
           </widget>
         </children>
       </tab>
+      <tab>
+        <name>Archivers</name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Embedded Display_3</name>
+            <file>archivers.bob</file>
+            <width>1368</width>
+            <height>682</height>
+          </widget>
+        </children>
+      </tab>
     </tabs>
     <x>10</x>
     <y>10</y>
     <width>1400</width>
     <height>730</height>
-    <active_tab>1</active_tab>
+    <active_tab>3</active_tab>
   </widget>
 </display>
