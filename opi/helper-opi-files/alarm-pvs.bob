@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-09-15 15:54:36 by marek-->
 <display version="2.0.0">
   <macros>
     <A>alarm://freia/</A>
@@ -12,7 +13,7 @@
   <actions>
   </actions>
   <grid_visible>false</grid_visible>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Grouping Container_11</name>
     <macros>
       <S>Comp</S>
@@ -26,6 +27,10 @@
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -114,7 +119,7 @@
       <confirm_message>Are you sure you want to do this?</confirm_message>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Grouping Container_12</name>
     <macros>
       <S>Env</S>
@@ -128,6 +133,10 @@
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -216,7 +225,7 @@
       <confirm_message>Are you sure you want to do this?</confirm_message>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Grouping Container_13</name>
     <macros>
       <S>CM</S>
@@ -230,6 +239,10 @@
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -318,7 +331,7 @@
       <confirm_message>Are you sure you want to do this?</confirm_message>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Grouping Container_14</name>
     <macros>
       <S>CstatH</S>
@@ -332,6 +345,10 @@
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -420,7 +437,7 @@
       <confirm_message>Are you sure you want to do this?</confirm_message>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Grouping Container_15</name>
     <macros>
       <S>CstatV</S>
@@ -434,6 +451,10 @@
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -522,7 +543,7 @@
       <confirm_message>Are you sure you want to do this?</confirm_message>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Grouping Container_16</name>
     <macros>
       <S>LN2</S>
@@ -536,6 +557,10 @@
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -624,7 +649,7 @@
       <confirm_message>Are you sure you want to do this?</confirm_message>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Grouping Container_17</name>
     <macros>
       <S>Cryo</S>
@@ -638,6 +663,10 @@
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -726,7 +755,7 @@
       <confirm_message>Are you sure you want to do this?</confirm_message>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Grouping Container_18</name>
     <macros>
       <S>RF</S>
@@ -740,6 +769,10 @@
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -828,7 +861,7 @@
       <confirm_message>Are you sure you want to do this?</confirm_message>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>  $(P):$(S)  </name>
     <macros>
       <S>RF</S>
@@ -842,6 +875,10 @@
       <color name="IO Foreground" red="0" green="0" blue="0">
       </color>
     </foreground_color>
+    <line_color>
+      <color name="IO Foreground" red="0" green="0" blue="0">
+      </color>
+    </line_color>
     <background_color>
       <color name="IO POS Backgroung" red="205" green="216" blue="192">
       </color>
@@ -856,7 +893,7 @@
         <pv_name>loc://$(P):$(S)-vis(0)</pv_name>
       </rule>
     </rules>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_8</name>
       <macros>
         <S>RF-Electrosys</S>
@@ -868,6 +905,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -957,7 +998,7 @@
         <confirm_message>Are you sure you want to do this?</confirm_message>
       </widget>
     </widget>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_9</name>
       <macros>
         <S>RF-LLRF:Intlk</S>
@@ -970,6 +1011,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -1060,7 +1105,7 @@
       </widget>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>  $(P):$(S)  </name>
     <macros>
       <S>Cryo</S>
@@ -1074,6 +1119,10 @@
       <color name="IO Foreground" red="0" green="0" blue="0">
       </color>
     </foreground_color>
+    <line_color>
+      <color name="IO Foreground" red="0" green="0" blue="0">
+      </color>
+    </line_color>
     <background_color>
       <color name="IO POS Backgroung" red="205" green="216" blue="192">
       </color>
@@ -1088,7 +1137,7 @@
         <pv_name>loc://$(P):$(S)-vis(0)</pv_name>
       </rule>
     </rules>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_8</name>
       <macros>
         <S>Cryo-WarnAlrm</S>
@@ -1100,6 +1149,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -1189,7 +1242,7 @@
         </border_color>
       </widget>
     </widget>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_10</name>
       <macros>
         <S>Cryo-Pur</S>
@@ -1202,6 +1255,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -1291,7 +1348,7 @@
         <confirm_message>Are you sure you want to do this?</confirm_message>
       </widget>
     </widget>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_10</name>
       <macros>
         <S>Cryo-Dwr</S>
@@ -1304,6 +1361,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -1393,7 +1454,7 @@
         <confirm_message>Are you sure you want to do this?</confirm_message>
       </widget>
     </widget>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_9</name>
       <macros>
         <S>Cryo-CoolMode</S>
@@ -1406,6 +1467,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -1496,7 +1561,7 @@
       </widget>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>  $(P):$(S)  </name>
     <macros>
       <S>LN2</S>
@@ -1510,6 +1575,10 @@
       <color name="IO Foreground" red="0" green="0" blue="0">
       </color>
     </foreground_color>
+    <line_color>
+      <color name="IO Foreground" red="0" green="0" blue="0">
+      </color>
+    </line_color>
     <background_color>
       <color name="IO POS Backgroung" red="205" green="216" blue="192">
       </color>
@@ -1524,7 +1593,7 @@
         <pv_name>loc://$(P):$(S)-vis(0)</pv_name>
       </rule>
     </rules>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_8</name>
       <macros>
         <S>LN2-Level</S>
@@ -1536,6 +1605,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -1626,7 +1699,7 @@
       </widget>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>  $(P):$(S)  </name>
     <macros>
       <S>CstatV</S>
@@ -1640,6 +1713,10 @@
       <color name="IO Foreground" red="0" green="0" blue="0">
       </color>
     </foreground_color>
+    <line_color>
+      <color name="IO Foreground" red="0" green="0" blue="0">
+      </color>
+    </line_color>
     <background_color>
       <color name="IO POS Backgroung" red="205" green="216" blue="192">
       </color>
@@ -1654,7 +1731,7 @@
         <pv_name>loc://$(P):$(S)-vis(0)</pv_name>
       </rule>
     </rules>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_8</name>
       <macros>
         <S>CstatV-Ctrl</S>
@@ -1666,6 +1743,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -1756,7 +1837,7 @@
       </widget>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>  $(P):$(S)  </name>
     <macros>
       <S>CstatH</S>
@@ -1770,6 +1851,10 @@
       <color name="IO Foreground" red="0" green="0" blue="0">
       </color>
     </foreground_color>
+    <line_color>
+      <color name="IO Foreground" red="0" green="0" blue="0">
+      </color>
+    </line_color>
     <background_color>
       <color name="IO POS Backgroung" red="205" green="216" blue="192">
       </color>
@@ -1784,7 +1869,7 @@
         <pv_name>loc://$(P):$(S)-vis(0)</pv_name>
       </rule>
     </rules>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_8</name>
       <macros>
         <S>CstatH-2KPumps</S>
@@ -1796,6 +1881,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -1885,7 +1974,7 @@
         <confirm_message>Are you sure you want to do this?</confirm_message>
       </widget>
     </widget>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_9</name>
       <macros>
         <S>CstatH-Vac</S>
@@ -1898,6 +1987,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -1988,7 +2081,7 @@
       </widget>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>  $(P):$(S)  </name>
     <macros>
       <S>CM</S>
@@ -2002,6 +2095,10 @@
       <color name="IO Foreground" red="0" green="0" blue="0">
       </color>
     </foreground_color>
+    <line_color>
+      <color name="IO Foreground" red="0" green="0" blue="0">
+      </color>
+    </line_color>
     <background_color>
       <color name="IO POS Backgroung" red="205" green="216" blue="192">
       </color>
@@ -2016,7 +2113,7 @@
         <pv_name>loc://$(P):$(S)-vis(0)</pv_name>
       </rule>
     </rules>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_8</name>
       <macros>
         <S>CM-LHe</S>
@@ -2028,6 +2125,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -2117,7 +2218,7 @@
         <confirm_message>Are you sure you want to do this?</confirm_message>
       </widget>
     </widget>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_9</name>
       <macros>
         <S>CM-VBoxLHe</S>
@@ -2130,6 +2231,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -2219,7 +2324,7 @@
         <confirm_message>Are you sure you want to do this?</confirm_message>
       </widget>
     </widget>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_10</name>
       <macros>
         <S>CM-Keithley</S>
@@ -2232,6 +2337,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -2322,7 +2431,7 @@
       </widget>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>  Env$(P):$(S)  </name>
     <macros>
       <S>Env</S>
@@ -2336,6 +2445,10 @@
       <color name="IO Foreground" red="0" green="0" blue="0">
       </color>
     </foreground_color>
+    <line_color>
+      <color name="IO Foreground" red="0" green="0" blue="0">
+      </color>
+    </line_color>
     <background_color>
       <color name="IO POS Backgroung" red="205" green="216" blue="192">
       </color>
@@ -2350,7 +2463,7 @@
         <pv_name>loc://$(P):$(S)-vis(0)</pv_name>
       </rule>
     </rules>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_8</name>
       <macros>
         <S>Env-CstatV</S>
@@ -2362,6 +2475,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -2451,7 +2568,7 @@
         <confirm_message>Are you sure you want to do this?</confirm_message>
       </widget>
     </widget>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_9</name>
       <macros>
         <S>Env-O2</S>
@@ -2464,6 +2581,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -2553,7 +2674,7 @@
         <confirm_message>Are you sure you want to do this?</confirm_message>
       </widget>
     </widget>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_10</name>
       <macros>
         <S>Env-RFleak</S>
@@ -2566,6 +2687,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -2655,7 +2780,7 @@
         <confirm_message>Are you sure you want to do this?</confirm_message>
       </widget>
     </widget>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_10</name>
       <macros>
         <S>Env-Radiation</S>
@@ -2668,6 +2793,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -2758,7 +2887,7 @@
       </widget>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>  $(P):$(S)  </name>
     <macros>
       <S>Comp</S>
@@ -2772,6 +2901,10 @@
       <color name="IO Foreground" red="0" green="0" blue="0">
       </color>
     </foreground_color>
+    <line_color>
+      <color name="IO Foreground" red="0" green="0" blue="0">
+      </color>
+    </line_color>
     <background_color>
       <color name="IO POS Backgroung" red="205" green="216" blue="192">
       </color>
@@ -2786,7 +2919,7 @@
         <pv_name>loc://$(P):$(S)-vis(0)</pv_name>
       </rule>
     </rules>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_8</name>
       <macros>
         <S>Comp-IOCs</S>
@@ -2798,6 +2931,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -2887,7 +3024,7 @@
         <confirm_message>Are you sure you want to do this?</confirm_message>
       </widget>
     </widget>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_9</name>
       <macros>
         <S>Comp-PB</S>
@@ -2900,6 +3037,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -2989,7 +3130,7 @@
         <confirm_message>Are you sure you want to do this?</confirm_message>
       </widget>
     </widget>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_10</name>
       <macros>
         <S>Comp-Servers</S>
@@ -3002,6 +3143,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -3091,7 +3236,7 @@
         <confirm_message>Are you sure you want to do this?</confirm_message>
       </widget>
     </widget>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_10</name>
       <macros>
         <S>Comp-OpCons</S>
@@ -3104,6 +3249,10 @@
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -3336,7 +3485,7 @@
     <width>230</width>
     <height>30</height>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>   Alarms Disabled Sometimes   </name>
     <x>559</x>
     <y>239</y>

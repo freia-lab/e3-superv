@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-05-06 17:13:02 by konrad-->
+<!--Saved on 2025-09-16 13:49:14 by marek-->
 <display version="2.0.0">
   <name>IOCs</name>
   <width>1135</width>
@@ -403,9 +403,76 @@
           </widget>
         </children>
       </tab>
+      <tab>
+        <name>nuc-13</name>
+        <children>
+          <widget type="navtabs" version="2.0.0">
+            <name>Navigation Tabs_11</name>
+            <tabs>
+              <tab>
+                <name>Host</name>
+                <file>../../../../../../opt/epics/opi/bob/freia-symbols/display-builder/linstat/linStatHost.bob</file>
+                <macros>
+                  <IOC>ioc99-test</IOC>
+                  <modName>TESTmod</modName>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>Proc</name>
+                <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
+                <macros>
+                  <IOC>ioc99-test</IOC>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>NIC-lo</name>
+                <file>../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
+                <macros>
+                  <IOC>ioc99-test</IOC>
+                  <NIC>lo</NIC>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>NIC-eth</name>
+                <file>../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
+                <macros>
+                  <IOC>ioc99-test</IOC>
+                  <NIC>enp86s0</NIC>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>FS</name>
+                <file>../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <IOC>ioc99-test</IOC>
+                  <P>ioc99-test:ROOT</P>
+                  <DIR>/</DIR>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>All</name>
+                <file>linstat_test.bob</file>
+                <macros>
+                </macros>
+                <group_name></group_name>
+              </tab>
+            </tabs>
+            <x>10</x>
+            <y>10</y>
+            <width>1098</width>
+            <height>548</height>
+            <tab_width>120</tab_width>
+          </widget>
+        </children>
+      </tab>
     </tabs>
     <width>1130</width>
     <height>600</height>
-    <active_tab>3</active_tab>
+    <active_tab>6</active_tab>
   </widget>
 </display>
