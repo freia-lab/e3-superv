@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-03-14 13:37:14 by konrad-->
+<!--Saved on 2025-10-22 10:22:01 by konrad-->
 <display version="2.0.0">
   <name>services</name>
-  <width>1150</width>
-  <height>700</height>
+  <width>1500</width>
+  <height>740</height>
   <widget type="tabs" version="2.0.0">
     <name>Tabs</name>
     <tabs>
@@ -29,8 +29,8 @@
           <widget type="embedded" version="2.0.0">
             <name>Embedded Display_1</name>
             <file>tomcats.bob</file>
-            <width>1080</width>
-            <height>480</height>
+            <width>1368</width>
+            <height>682</height>
           </widget>
         </children>
       </tab>
@@ -45,16 +45,27 @@
             <file>p4p-gw.bob</file>
             <x>5</x>
             <y>10</y>
-            <width>1100</width>
-            <height>540</height>
+            <width>1383</width>
+            <height>652</height>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>Archivers</name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Embedded Display_3</name>
+            <file>archivers.bob</file>
+            <width>1368</width>
+            <height>682</height>
           </widget>
         </children>
       </tab>
     </tabs>
     <x>10</x>
     <y>10</y>
-    <width>1110</width>
-    <height>590</height>
-    <active_tab>2</active_tab>
+    <width>1400</width>
+    <height>730</height>
+    <active_tab>3</active_tab>
   </widget>
 </display>

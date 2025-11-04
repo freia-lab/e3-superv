@@ -59,15 +59,6 @@
                 <group_name></group_name>
               </tab>
               <tab>
-                <name>ioc11-gersemi</name>
-                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
-                <macros>
-                  <ioc>ioc11-gersemi</ioc>
-                  <modName>gersemi</modName>
-                </macros>
-                <group_name></group_name>
-              </tab>
-              <tab>
                 <name>ioc12-fastintrlck</name>
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
@@ -119,15 +110,6 @@
                 <group_name></group_name>
               </tab>
               <tab>
-                <name>ioc03-smb100</name>
-                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
-                <macros>
-                  <ioc>ioc03-smb100</ioc>
-                  <modName>smb100a</modName>
-                </macros>
-                <group_name></group_name>
-              </tab>
-              <tab>
                 <name>ioc04-dcbreaker</name>
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
                 <macros>
@@ -151,6 +133,15 @@
                 <macros>
                   <ioc>ioc06-maglps</ioc>
                   <modName>maglps</modName>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>ioc11-gersemi</name>
+                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+                <macros>
+                  <ioc>ioc11-gersemi</ioc>
+                  <modName>gersemi</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -367,15 +358,6 @@
           <widget type="navtabs" version="2.0.0">
             <name>Navigation Tabs_6</name>
             <tabs>
-              <tab>
-                <name>ioc24-hmp</name>
-                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
-                <macros>
-                  <ioc>ioc24-hmp</ioc>
-                  <modName>hmp40x0</modName>
-                </macros>
-                <group_name></group_name>
-              </tab>
               <tab>
                 <name>ioc26-rexroth</name>
                 <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>

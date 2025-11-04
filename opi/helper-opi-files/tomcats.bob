@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-10-14 14:17:30 by konrad-->
 <display version="2.0.0">
   <name>tomcats</name>
-  <widget type="group" version="2.0.0">
+  <width>1300</width>
+  <height>670</height>
+  <widget type="group" version="3.0.0">
     <name>Group</name>
     <macros>
       <H>freia</H>
       <HOST>freia.physics.uu.se</HOST>
     </macros>
-    <x>29</x>
-    <y>39</y>
+    <x>10</x>
+    <y>10</y>
     <width>302</width>
     <height>212</height>
     <style>2</style>
@@ -16,6 +19,10 @@
       <color name="BLUE-GROUP-BORDER" red="138" green="167" blue="167">
       </color>
     </foreground_color>
+    <line_color>
+      <color name="BLUE-GROUP-BORDER" red="138" green="167" blue="167">
+      </color>
+    </line_color>
     <transparent>true</transparent>
     <widget type="label" version="2.0.0">
       <name>Label</name>
@@ -28,7 +35,7 @@
       </font>
       <horizontal_alignment>1</horizontal_alignment>
     </widget>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Heap Memory</name>
       <macros>
         <S>-Heap</S>
@@ -40,9 +47,13 @@
       <height>162</height>
       <style>1</style>
       <foreground_color>
-        <color name="BLUE-BORDER" red="47" green="135" blue="148">
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
         </color>
       </foreground_color>
+      <line_color>
+        <color name="BLUE-BORDER" red="47" green="135" blue="148">
+        </color>
+      </line_color>
       <background_color>
         <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
         </color>
@@ -126,14 +137,14 @@
       </widget>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Group_1</name>
     <macros>
       <H>freiaDbwr</H>
       <HOST>freia-dbwr.physics.uu.se</HOST>
     </macros>
-    <x>360</x>
-    <y>39</y>
+    <x>320</x>
+    <y>10</y>
     <width>302</width>
     <height>212</height>
     <style>2</style>
@@ -141,6 +152,10 @@
       <color name="BLUE-GROUP-BORDER" red="138" green="167" blue="167">
       </color>
     </foreground_color>
+    <line_color>
+      <color name="BLUE-GROUP-BORDER" red="138" green="167" blue="167">
+      </color>
+    </line_color>
     <transparent>true</transparent>
     <widget type="label" version="2.0.0">
       <name>Label_6</name>
@@ -153,7 +168,7 @@
       </font>
       <horizontal_alignment>1</horizontal_alignment>
     </widget>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Heap Memory</name>
       <macros>
         <S>-Heap</S>
@@ -165,9 +180,13 @@
       <height>162</height>
       <style>1</style>
       <foreground_color>
-        <color name="BLUE-BORDER" red="47" green="135" blue="148">
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
         </color>
       </foreground_color>
+      <line_color>
+        <color name="BLUE-BORDER" red="47" green="135" blue="148">
+        </color>
+      </line_color>
       <background_color>
         <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
         </color>
@@ -238,6 +257,878 @@
       </widget>
       <widget type="textupdate" version="2.0.0">
         <name>Text Update_9</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):UsedPerc</pv_name>
+        <x>110</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_2</name>
+    <macros>
+      <H>arcApl2</H>
+      <HOST>freia-arcapl2.physics.uu.se</HOST>
+    </macros>
+    <x>10</x>
+    <y>230</y>
+    <width>1230</width>
+    <height>212</height>
+    <style>2</style>
+    <foreground_color>
+      <color name="BLUE-GROUP-BORDER" red="138" green="167" blue="167">
+      </color>
+    </foreground_color>
+    <line_color>
+      <color name="BLUE-GROUP-BORDER" red="138" green="167" blue="167">
+      </color>
+    </line_color>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>Label_12</name>
+      <text>Host: $(HOST)</text>
+      <x>41</x>
+      <width>299</width>
+      <height>30</height>
+      <font>
+        <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Heap Memory: $(SVC)</name>
+      <macros>
+        <S>-Heap</S>
+        <SVC>engine</SVC>
+      </macros>
+      <x>30</x>
+      <y>40</y>
+      <width>231</width>
+      <height>162</height>
+      <style>1</style>
+      <foreground_color>
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="BLUE-BORDER" red="47" green="135" blue="148">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
+        </color>
+      </background_color>
+      <widget type="label" version="2.0.0">
+        <name>Label_13</name>
+        <text>Max:</text>
+        <x>10</x>
+        <y>60</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_10</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Max</pv_name>
+        <x>110</x>
+        <y>60</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_14</name>
+        <text>Init:</text>
+        <x>10</x>
+        <y>80</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_11</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Init</pv_name>
+        <x>110</x>
+        <y>80</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_15</name>
+        <text>Committed:</text>
+        <x>10</x>
+        <y>100</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_12</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Committed</pv_name>
+        <x>110</x>
+        <y>100</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_16</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>40</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_13</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Used</pv_name>
+        <x>110</x>
+        <y>40</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_17</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_14</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):UsedPerc</pv_name>
+        <x>110</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Heap Memory: $(SVC)</name>
+      <macros>
+        <S>-Heap</S>
+        <SVC>etl</SVC>
+      </macros>
+      <x>340</x>
+      <y>40</y>
+      <width>231</width>
+      <height>162</height>
+      <style>1</style>
+      <foreground_color>
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="BLUE-BORDER" red="47" green="135" blue="148">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
+        </color>
+      </background_color>
+      <widget type="label" version="2.0.0">
+        <name>Label_24</name>
+        <text>Max:</text>
+        <x>10</x>
+        <y>60</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_20</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Max</pv_name>
+        <x>110</x>
+        <y>60</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_25</name>
+        <text>Init:</text>
+        <x>10</x>
+        <y>80</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_21</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Init</pv_name>
+        <x>110</x>
+        <y>80</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_26</name>
+        <text>Committed:</text>
+        <x>10</x>
+        <y>100</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_22</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Committed</pv_name>
+        <x>110</x>
+        <y>100</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_27</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>40</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_23</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Used</pv_name>
+        <x>110</x>
+        <y>40</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_28</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_24</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):UsedPerc</pv_name>
+        <x>110</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Heap Memory: $(SVC)</name>
+      <macros>
+        <S>-Heap</S>
+        <SVC>retrieval</SVC>
+      </macros>
+      <x>650</x>
+      <y>40</y>
+      <width>231</width>
+      <height>162</height>
+      <style>1</style>
+      <foreground_color>
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="BLUE-BORDER" red="47" green="135" blue="148">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
+        </color>
+      </background_color>
+      <widget type="label" version="2.0.0">
+        <name>Label_29</name>
+        <text>Max:</text>
+        <x>10</x>
+        <y>60</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_25</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Max</pv_name>
+        <x>110</x>
+        <y>60</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_30</name>
+        <text>Init:</text>
+        <x>10</x>
+        <y>80</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_26</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Init</pv_name>
+        <x>110</x>
+        <y>80</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_31</name>
+        <text>Committed:</text>
+        <x>10</x>
+        <y>100</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_27</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Committed</pv_name>
+        <x>110</x>
+        <y>100</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_32</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>40</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_28</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Used</pv_name>
+        <x>110</x>
+        <y>40</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_33</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_29</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):UsedPerc</pv_name>
+        <x>110</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Heap Memory: $(SVC)</name>
+      <macros>
+        <S>-Heap</S>
+        <SVC>mgmt</SVC>
+      </macros>
+      <x>960</x>
+      <y>40</y>
+      <width>231</width>
+      <height>162</height>
+      <style>1</style>
+      <foreground_color>
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="BLUE-BORDER" red="47" green="135" blue="148">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
+        </color>
+      </background_color>
+      <widget type="label" version="2.0.0">
+        <name>Label_34</name>
+        <text>Max:</text>
+        <x>10</x>
+        <y>60</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_30</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Max</pv_name>
+        <x>110</x>
+        <y>60</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_35</name>
+        <text>Init:</text>
+        <x>10</x>
+        <y>80</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_31</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Init</pv_name>
+        <x>110</x>
+        <y>80</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_36</name>
+        <text>Committed:</text>
+        <x>10</x>
+        <y>100</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_32</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Committed</pv_name>
+        <x>110</x>
+        <y>100</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_37</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>40</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_33</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Used</pv_name>
+        <x>110</x>
+        <y>40</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_38</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_34</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):UsedPerc</pv_name>
+        <x>110</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_3</name>
+    <macros>
+      <H>arcApl3</H>
+      <HOST>freia-arcapl3.physics.uu.se</HOST>
+    </macros>
+    <x>10</x>
+    <y>450</y>
+    <width>1230</width>
+    <height>212</height>
+    <style>2</style>
+    <foreground_color>
+      <color name="BLUE-GROUP-BORDER" red="138" green="167" blue="167">
+      </color>
+    </foreground_color>
+    <line_color>
+      <color name="BLUE-GROUP-BORDER" red="138" green="167" blue="167">
+      </color>
+    </line_color>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>Label_18</name>
+      <text>Host: $(HOST)</text>
+      <x>41</x>
+      <width>299</width>
+      <height>30</height>
+      <font>
+        <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Heap Memory: $(SVC)</name>
+      <macros>
+        <S>-Heap</S>
+        <SVC>engine</SVC>
+      </macros>
+      <x>30</x>
+      <y>40</y>
+      <width>231</width>
+      <height>162</height>
+      <style>1</style>
+      <foreground_color>
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="BLUE-BORDER" red="47" green="135" blue="148">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
+        </color>
+      </background_color>
+      <widget type="label" version="2.0.0">
+        <name>Label_19</name>
+        <text>Max:</text>
+        <x>10</x>
+        <y>60</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_15</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Max</pv_name>
+        <x>110</x>
+        <y>60</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_20</name>
+        <text>Init:</text>
+        <x>10</x>
+        <y>80</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_16</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Init</pv_name>
+        <x>110</x>
+        <y>80</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_21</name>
+        <text>Committed:</text>
+        <x>10</x>
+        <y>100</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_17</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Committed</pv_name>
+        <x>110</x>
+        <y>100</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_22</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>40</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_18</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Used</pv_name>
+        <x>110</x>
+        <y>40</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_23</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_19</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):UsedPerc</pv_name>
+        <x>110</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Heap Memory: $(SVC)</name>
+      <macros>
+        <S>-Heap</S>
+        <SVC>etl</SVC>
+      </macros>
+      <x>340</x>
+      <y>40</y>
+      <width>231</width>
+      <height>162</height>
+      <style>1</style>
+      <foreground_color>
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="BLUE-BORDER" red="47" green="135" blue="148">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
+        </color>
+      </background_color>
+      <widget type="label" version="2.0.0">
+        <name>Label_39</name>
+        <text>Max:</text>
+        <x>10</x>
+        <y>60</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_35</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Max</pv_name>
+        <x>110</x>
+        <y>60</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_40</name>
+        <text>Init:</text>
+        <x>10</x>
+        <y>80</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_36</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Init</pv_name>
+        <x>110</x>
+        <y>80</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_41</name>
+        <text>Committed:</text>
+        <x>10</x>
+        <y>100</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_37</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Committed</pv_name>
+        <x>110</x>
+        <y>100</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_42</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>40</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_38</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Used</pv_name>
+        <x>110</x>
+        <y>40</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_43</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_39</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):UsedPerc</pv_name>
+        <x>110</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Heap Memory: $(SVC)</name>
+      <macros>
+        <S>-Heap</S>
+        <SVC>retrieval</SVC>
+      </macros>
+      <x>650</x>
+      <y>40</y>
+      <width>231</width>
+      <height>162</height>
+      <style>1</style>
+      <foreground_color>
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="BLUE-BORDER" red="47" green="135" blue="148">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
+        </color>
+      </background_color>
+      <widget type="label" version="2.0.0">
+        <name>Label_44</name>
+        <text>Max:</text>
+        <x>10</x>
+        <y>60</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_40</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Max</pv_name>
+        <x>110</x>
+        <y>60</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_45</name>
+        <text>Init:</text>
+        <x>10</x>
+        <y>80</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_41</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Init</pv_name>
+        <x>110</x>
+        <y>80</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_46</name>
+        <text>Committed:</text>
+        <x>10</x>
+        <y>100</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_42</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Committed</pv_name>
+        <x>110</x>
+        <y>100</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_47</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>40</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_43</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Used</pv_name>
+        <x>110</x>
+        <y>40</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_48</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_44</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):UsedPerc</pv_name>
+        <x>110</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Heap Memory: $(SVC)</name>
+      <macros>
+        <S>-Heap</S>
+        <SVC>mgmt</SVC>
+      </macros>
+      <x>960</x>
+      <y>40</y>
+      <width>231</width>
+      <height>162</height>
+      <style>1</style>
+      <foreground_color>
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="BLUE-BORDER" red="47" green="135" blue="148">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
+        </color>
+      </background_color>
+      <widget type="label" version="2.0.0">
+        <name>Label_49</name>
+        <text>Max:</text>
+        <x>10</x>
+        <y>60</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_45</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Max</pv_name>
+        <x>110</x>
+        <y>60</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_50</name>
+        <text>Init:</text>
+        <x>10</x>
+        <y>80</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_46</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Init</pv_name>
+        <x>110</x>
+        <y>80</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_51</name>
+        <text>Committed:</text>
+        <x>10</x>
+        <y>100</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_47</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Committed</pv_name>
+        <x>110</x>
+        <y>100</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_52</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>40</y>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_48</name>
+        <pv_name>Ctrl-$(H):$(SVC)$(S):Used</pv_name>
+        <x>110</x>
+        <y>40</y>
+        <horizontal_alignment>2</horizontal_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_53</name>
+        <text>Used:</text>
+        <x>10</x>
+        <y>10</y>
+        <height>25</height>
+        <font>
+          <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_49</name>
         <pv_name>Ctrl-$(H):$(SVC)$(S):UsedPerc</pv_name>
         <x>110</x>
         <y>10</y>

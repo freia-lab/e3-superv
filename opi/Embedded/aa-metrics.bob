@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-10-22 12:00:54 by konrad-->
+<display version="2.0.0">
+  <name>aa-metrics</name>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>Status:</text>
+    <x>10</x>
+    <y>30</y>
+    <width>60</width>
+  </widget>
+  <widget type="multi_state_led" version="2.0.0">
+    <name>LED (Multi State)</name>
+    <pv_name>$(P)sStatus</pv_name>
+    <x>70</x>
+    <y>28</y>
+    <width>110</width>
+    <height>25</height>
+    <square>true</square>
+    <states>
+      <state>
+        <value>0</value>
+        <label>Unknown</label>
+        <color>
+          <color name="WARNING" red="252" green="242" blue="17">
+          </color>
+        </color>
+      </state>
+      <state>
+        <value>1</value>
+        <label>Working</label>
+        <color>
+          <color name="On" red="70" green="255" blue="70">
+          </color>
+        </color>
+      </state>
+    </states>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>PV Count:</text>
+    <x>200</x>
+    <y>30</y>
+    <width>70</width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>$(P)PVcount</pv_name>
+    <x>280</x>
+    <y>30</y>
+    <width>50</width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_2</name>
+    <class>HEADER3</class>
+    <text>Metrics:</text>
+    <x>10</x>
+    <width>90</width>
+    <font use_class="true">
+      <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
+      </font>
+    </font>
+    <background_color use_class="true">
+      <color name="Background" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <transparent use_class="true">true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_3</name>
+    <text>Disconnected PV:</text>
+    <x>340</x>
+    <y>30</y>
+    <width>130</width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_1</name>
+    <pv_name>$(P)disconnectedPV</pv_name>
+    <x>470</x>
+    <y>30</y>
+    <width>50</width>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group</name>
+    <macros>
+      <pv>$(P)eventRt</pv>
+    </macros>
+    <x>10</x>
+    <y>55</y>
+    <width>370</width>
+    <height>20</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_2</name>
+      <pv_name>$(pv).DESC</pv_name>
+      <width>270</width>
+      <background_color>
+        <color name="Background" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+      <wrap_words>false</wrap_words>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_3</name>
+      <pv_name>$(pv)</pv_name>
+      <x>270</x>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_1</name>
+    <macros>
+      <pv>$(P)dataRt</pv>
+    </macros>
+    <x>10</x>
+    <y>80</y>
+    <width>370</width>
+    <height>20</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_4</name>
+      <pv_name>$(pv).DESC</pv_name>
+      <width>270</width>
+      <background_color>
+        <color name="Background" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+      <wrap_words>false</wrap_words>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_5</name>
+      <pv_name>$(pv)</pv_name>
+      <x>270</x>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_2</name>
+    <macros>
+      <pv>$(P)totalETL0Runs</pv>
+    </macros>
+    <x>10</x>
+    <y>105</y>
+    <width>370</width>
+    <height>20</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_6</name>
+      <pv_name>$(pv).DESC</pv_name>
+      <width>270</width>
+      <background_color>
+        <color name="Background" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+      <wrap_words>false</wrap_words>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_7</name>
+      <pv_name>$(pv)</pv_name>
+      <x>270</x>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_3</name>
+    <macros>
+      <pv>$(P)totalETL1Runs</pv>
+    </macros>
+    <x>10</x>
+    <y>170</y>
+    <width>370</width>
+    <height>20</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_8</name>
+      <pv_name>$(pv).DESC</pv_name>
+      <width>270</width>
+      <background_color>
+        <color name="Background" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+      <wrap_words>false</wrap_words>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_9</name>
+      <pv_name>$(pv)</pv_name>
+      <x>270</x>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_4</name>
+    <macros>
+      <pv>$(P)timeETL0Avg</pv>
+    </macros>
+    <x>10</x>
+    <y>140</y>
+    <width>370</width>
+    <height>20</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_10</name>
+      <pv_name>$(pv).DESC</pv_name>
+      <width>270</width>
+      <background_color>
+        <color name="Background" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+      <wrap_words>false</wrap_words>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_11</name>
+      <pv_name>$(pv)</pv_name>
+      <x>270</x>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_5</name>
+    <macros>
+      <pv>$(P)timeETL1Avg</pv>
+    </macros>
+    <x>10</x>
+    <y>200</y>
+    <width>370</width>
+    <height>20</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_12</name>
+      <pv_name>$(pv).DESC</pv_name>
+      <width>270</width>
+      <background_color>
+        <color name="Background" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+      <wrap_words>false</wrap_words>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_13</name>
+      <pv_name>$(pv)</pv_name>
+      <x>270</x>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_6</name>
+    <macros>
+      <pv>$(P)timeWriteSTS</pv>
+    </macros>
+    <x>10</x>
+    <y>230</y>
+    <width>370</width>
+    <height>20</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_14</name>
+      <pv_name>$(pv).DESC</pv_name>
+      <width>270</width>
+      <background_color>
+        <color name="Background" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+      <wrap_words>false</wrap_words>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_15</name>
+      <pv_name>$(pv)</pv_name>
+      <x>270</x>
+    </widget>
+  </widget>
+</display>

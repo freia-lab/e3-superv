@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-09-15 15:54:40 by marek-->
 <display version="2.0.0">
   <name>supervisor</name>
-  <width>1200</width>
+  <width>1600</width>
   <height>905</height>
   <widget type="label" version="2.0.0">
     <name>Label</name>
@@ -133,15 +132,15 @@
             <file>helper-opi-files/services.bob</file>
             <x>5</x>
             <y>5</y>
-            <width>1140</width>
-            <height>605</height>
+            <width>1443</width>
+            <height>777</height>
           </widget>
         </children>
       </tab>
     </tabs>
     <x>30</x>
     <y>70</y>
-    <width>1150</width>
-    <height>650</height>
+    <width>1500</width>
+    <height>850</height>
   </widget>
 </display>
