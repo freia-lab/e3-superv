@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-11-27 16:52:57 by marek-->
+<!--Saved on 2025-11-28 16:44:51 by marek-->
 <display version="2.0.0">
   <name>supervisor</name>
-  <width>1600</width>
-  <height>905</height>
+  <width>1500</width>
+  <height>970</height>
   <widget type="label" version="2.0.0">
     <name>Label</name>
     <class>TITLE</class>
@@ -28,7 +28,7 @@
   <widget type="tabs" version="2.0.0">
     <name>Tabs</name>
     <macros>
-      <P>MJCtrl</P>
+      <P>Ctrl</P>
     </macros>
     <tabs>
       <tab>
@@ -120,8 +120,8 @@
             <file>helper-opi-files/IOCs.bob</file>
             <x>8</x>
             <y>2</y>
-            <width>1200</width>
-            <height>605</height>
+            <width>1400</width>
+            <height>850</height>
           </widget>
         </children>
       </tab>
@@ -140,8 +140,8 @@
       </tab>
     </tabs>
     <y>80</y>
-    <width>1500</width>
-    <height>850</height>
+    <width>1490</width>
+    <height>890</height>
     <active_tab>6</active_tab>
   </widget>
 </display>
