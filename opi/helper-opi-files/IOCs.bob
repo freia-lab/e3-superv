@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-09-16 13:49:14 by marek-->
+<!--Saved on 2025-11-28 14:30:07 by marek-->
 <display version="2.0.0">
   <name>IOCs</name>
-  <width>1135</width>
-  <height>700</height>
+  <width>1250</width>
+  <height>1000</height>
   <widget type="tabs" version="2.0.0">
     <name>Tabs</name>
     <tabs>
@@ -11,7 +11,7 @@
         <name>nuc-01</name>
         <children>
           <widget type="navtabs" version="2.0.0">
-            <name>Navigation Tabs</name>
+            <name>nuc01-Navigation-Tabs</name>
             <tabs>
               <tab>
                 <name>ioc2-linde</name>
@@ -24,10 +24,9 @@
               </tab>
               <tab>
                 <name>ioc03-hnoss</name>
-                <file>../../freia-symbols/display-builder/iocstats/ioc_stats_soft.bob</file>
+                <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
-                  <ioc>ioc03-hnoss</ioc>
-                  <modName>hnoss</modName>
+                  <IOC>ioc03-hnoss</IOC>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -79,9 +78,76 @@
             </tabs>
             <x>10</x>
             <y>10</y>
-            <width>1098</width>
-            <height>540</height>
+            <width>680</width>
+            <height>700</height>
             <tab_width>120</tab_width>
+          </widget>
+          <widget type="navtabs" version="2.0.0">
+            <name>nuc01-FS-Tabs</name>
+            <tabs>
+              <tab>
+                <name>/var</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <P>Ctrl-nuc01:disk-var</P>
+                  <DIR>/var</DIR>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>/run</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <P>Ctrl-nuc01:disk-run</P>
+                  <DIR>/run</DIR>
+                </macros>
+                <group_name></group_name>
+              </tab>
+            </tabs>
+            <x>690</x>
+            <y>445</y>
+            <width>550</width>
+            <height>150</height>
+            <direction>0</direction>
+          </widget>
+          <widget type="navtabs" version="2.0.0">
+            <name>nuc01-NIC-Tabs</name>
+            <tabs>
+              <tab>
+                <name>NIC1</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
+                <macros>
+                  <IOC>Ctrl-nuc01</IOC>
+                  <NIC>eno1</NIC>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>NIC2</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
+                <macros>
+                  <IOC>Ctrl-nuc01</IOC>
+                  <NIC>enx000ec6f92147</NIC>
+                </macros>
+                <group_name></group_name>
+              </tab>
+            </tabs>
+            <x>690</x>
+            <y>602</y>
+            <width>550</width>
+            <height>200</height>
+            <direction>0</direction>
+          </widget>
+          <widget type="embedded" version="2.0.0">
+            <name>nuc01-Host-info</name>
+            <macros>
+              <IOC>Ctrl-nuc01</IOC>
+            </macros>
+            <file>../../freia-symbols/display-builder/linstat/linStatHost.bob</file>
+            <x>690</x>
+            <y>12</y>
+            <width>550</width>
+            <height>425</height>
           </widget>
         </children>
       </tab>
@@ -89,7 +155,7 @@
         <name>nuc-03</name>
         <children>
           <widget type="navtabs" version="2.0.0">
-            <name>Navigation Tabs_1</name>
+            <name>nuc03-Navigation Tabs</name>
             <tabs>
               <tab>
                 <name>ioc01-fgc</name>
@@ -175,9 +241,76 @@
             </tabs>
             <x>10</x>
             <y>10</y>
-            <width>1098</width>
-            <height>548</height>
+            <width>680</width>
+            <height>700</height>
             <tab_width>120</tab_width>
+          </widget>
+          <widget type="navtabs" version="2.0.0">
+            <name>nuc03-FS-Tabs</name>
+            <tabs>
+              <tab>
+                <name>/var</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <P>Ctrl-nuc03:disk-var</P>
+                  <DIR>/var</DIR>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>/run</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <P>Ctrl-nuc03:disk-run</P>
+                  <DIR>/run</DIR>
+                </macros>
+                <group_name></group_name>
+              </tab>
+            </tabs>
+            <x>690</x>
+            <y>445</y>
+            <width>550</width>
+            <height>150</height>
+            <direction>0</direction>
+          </widget>
+          <widget type="navtabs" version="2.0.0">
+            <name>nuc03-NIC-Tabs</name>
+            <tabs>
+              <tab>
+                <name>NIC1</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
+                <macros>
+                  <IOC>Ctrl-nuc03</IOC>
+                  <NIC>eno1</NIC>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>NIC2</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
+                <macros>
+                  <IOC>Ctrl-nuc03</IOC>
+                  <NIC>enx00249b488e2a</NIC>
+                </macros>
+                <group_name></group_name>
+              </tab>
+            </tabs>
+            <x>690</x>
+            <y>602</y>
+            <width>550</width>
+            <height>200</height>
+            <direction>0</direction>
+          </widget>
+          <widget type="embedded" version="2.0.0">
+            <name>nuc03-Host-info</name>
+            <macros>
+              <IOC>Ctrl-nuc03</IOC>
+            </macros>
+            <file>../../freia-symbols/display-builder/linstat/linStatHost.bob</file>
+            <x>690</x>
+            <y>12</y>
+            <width>550</width>
+            <height>425</height>
           </widget>
         </children>
       </tab>
@@ -185,7 +318,7 @@
         <name>nuc-05</name>
         <children>
           <widget type="navtabs" version="2.0.0">
-            <name>Navigation Tabs_2</name>
+            <name>nuc05-Navigation-Tabs</name>
             <tabs>
               <tab>
                 <name>ioc01-vat616</name>
@@ -208,9 +341,67 @@
             </tabs>
             <x>10</x>
             <y>10</y>
-            <width>1098</width>
-            <height>548</height>
+            <width>680</width>
+            <height>700</height>
             <tab_width>120</tab_width>
+          </widget>
+          <widget type="navtabs" version="2.0.0">
+            <name>nuc05-FS-Tabs</name>
+            <tabs>
+              <tab>
+                <name>/var</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <P>Ctrl-nuc05:disk-var</P>
+                  <DIR>/var</DIR>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>/run</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <P>Ctrl-nuc05:disk-run</P>
+                  <DIR>/run</DIR>
+                </macros>
+                <group_name></group_name>
+              </tab>
+            </tabs>
+            <x>690</x>
+            <y>445</y>
+            <width>550</width>
+            <height>150</height>
+            <direction>0</direction>
+          </widget>
+          <widget type="navtabs" version="2.0.0">
+            <name>nuc05-NIC-Tabs</name>
+            <tabs>
+              <tab>
+                <name>NIC1</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
+                <macros>
+                  <IOC>Ctrl-nuc05</IOC>
+                  <NIC>eno1</NIC>
+                </macros>
+                <group_name></group_name>
+              </tab>
+            </tabs>
+            <x>690</x>
+            <y>602</y>
+            <width>550</width>
+            <height>200</height>
+            <direction>0</direction>
+          </widget>
+          <widget type="embedded" version="2.0.0">
+            <name>nuc05-Host-info</name>
+            <macros>
+              <IOC>Ctrl-nuc05</IOC>
+            </macros>
+            <file>../../freia-symbols/display-builder/linstat/linStatHost.bob</file>
+            <x>690</x>
+            <y>12</y>
+            <width>550</width>
+            <height>425</height>
           </widget>
         </children>
       </tab>
@@ -218,7 +409,7 @@
         <name>nuc-08</name>
         <children>
           <widget type="navtabs" version="2.0.0">
-            <name>Navigation Tabs_4</name>
+            <name>nuc08-Navigation-Tabs</name>
             <tabs>
               <tab>
                 <name>ioc06-tpg300</name>
@@ -259,9 +450,76 @@
             </tabs>
             <x>10</x>
             <y>10</y>
-            <width>1098</width>
-            <height>548</height>
+            <width>680</width>
+            <height>700</height>
             <tab_width>120</tab_width>
+          </widget>
+          <widget type="navtabs" version="2.0.0">
+            <name>nuc08-FS-Tabs</name>
+            <tabs>
+              <tab>
+                <name>/var</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <P>Ctrl-nuc08:disk-var</P>
+                  <DIR>/var</DIR>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>/run</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <P>Ctrl-nuc08:disk-run</P>
+                  <DIR>/run</DIR>
+                </macros>
+                <group_name></group_name>
+              </tab>
+            </tabs>
+            <x>690</x>
+            <y>445</y>
+            <width>550</width>
+            <height>150</height>
+            <direction>0</direction>
+          </widget>
+          <widget type="navtabs" version="2.0.0">
+            <name>nuc08-NIC-Tabs</name>
+            <tabs>
+              <tab>
+                <name>NIC1</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
+                <macros>
+                  <IOC>Ctrl-nuc08</IOC>
+                  <NIC>eno1</NIC>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>NIC2</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
+                <macros>
+                  <IOC>Ctrl-nuc08</IOC>
+                  <NIC>enx0c0e768ff587</NIC>
+                </macros>
+                <group_name></group_name>
+              </tab>
+            </tabs>
+            <x>690</x>
+            <y>602</y>
+            <width>550</width>
+            <height>200</height>
+            <direction>0</direction>
+          </widget>
+          <widget type="embedded" version="2.0.0">
+            <name>nuc08-Host-info</name>
+            <macros>
+              <IOC>Ctrl-nuc08</IOC>
+            </macros>
+            <file>../../freia-symbols/display-builder/linstat/linStatHost.bob</file>
+            <x>690</x>
+            <y>12</y>
+            <width>550</width>
+            <height>425</height>
           </widget>
         </children>
       </tab>
@@ -269,7 +527,7 @@
         <name>nuc-09</name>
         <children>
           <widget type="navtabs" version="2.0.0">
-            <name>Navigation Tabs_3</name>
+            <name>nuc09-Navigation-Tabs</name>
             <tabs>
               <tab>
                 <name>ioc01-dpu</name>
@@ -346,9 +604,67 @@
             </tabs>
             <x>10</x>
             <y>10</y>
-            <width>1098</width>
-            <height>548</height>
+            <width>680</width>
+            <height>700</height>
             <tab_width>120</tab_width>
+          </widget>
+          <widget type="navtabs" version="2.0.0">
+            <name>nuc09-FS-Tabs</name>
+            <tabs>
+              <tab>
+                <name>/var</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <P>Ctrl-nuc09:disk-var</P>
+                  <DIR>/var</DIR>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>/run</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <P>Ctrl-nuc09:disk-run</P>
+                  <DIR>/run</DIR>
+                </macros>
+                <group_name></group_name>
+              </tab>
+            </tabs>
+            <x>690</x>
+            <y>445</y>
+            <width>550</width>
+            <height>150</height>
+            <direction>0</direction>
+          </widget>
+          <widget type="navtabs" version="2.0.0">
+            <name>nuc09-NIC-Tabs</name>
+            <tabs>
+              <tab>
+                <name>NIC1</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
+                <macros>
+                  <IOC>Ctrl-nuc09</IOC>
+                  <NIC>eno1</NIC>
+                </macros>
+                <group_name></group_name>
+              </tab>
+            </tabs>
+            <x>690</x>
+            <y>602</y>
+            <width>550</width>
+            <height>200</height>
+            <direction>0</direction>
+          </widget>
+          <widget type="embedded" version="2.0.0">
+            <name>nuc09-Host-info</name>
+            <macros>
+              <IOC>Ctrl-nuc09</IOC>
+            </macros>
+            <file>../../freia-symbols/display-builder/linstat/linStatHost.bob</file>
+            <x>690</x>
+            <y>12</y>
+            <width>550</width>
+            <height>425</height>
           </widget>
         </children>
       </tab>
@@ -356,7 +672,7 @@
         <name>nuc-12</name>
         <children>
           <widget type="navtabs" version="2.0.0">
-            <name>Navigation Tabs_6</name>
+            <name>nuc12-Navigation-Tabs</name>
             <tabs>
               <tab>
                 <name>ioc26-rexroth</name>
@@ -379,9 +695,67 @@
             </tabs>
             <x>10</x>
             <y>10</y>
-            <width>1098</width>
-            <height>548</height>
+            <width>680</width>
+            <height>700</height>
             <tab_width>120</tab_width>
+          </widget>
+          <widget type="navtabs" version="2.0.0">
+            <name>nuc12-FS-Tabs</name>
+            <tabs>
+              <tab>
+                <name>/var</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <P>Ctrl-nuc12:disk-var</P>
+                  <DIR>/var</DIR>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>/run</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <P>Ctrl-nuc12:disk-run</P>
+                  <DIR>/run</DIR>
+                </macros>
+                <group_name></group_name>
+              </tab>
+            </tabs>
+            <x>690</x>
+            <y>445</y>
+            <width>550</width>
+            <height>150</height>
+            <direction>0</direction>
+          </widget>
+          <widget type="navtabs" version="2.0.0">
+            <name>nuc12-NIC-Tabs</name>
+            <tabs>
+              <tab>
+                <name>NIC1</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
+                <macros>
+                  <IOC>Ctrl-nuc12</IOC>
+                  <NIC>eno1</NIC>
+                </macros>
+                <group_name></group_name>
+              </tab>
+            </tabs>
+            <x>690</x>
+            <y>602</y>
+            <width>550</width>
+            <height>200</height>
+            <direction>0</direction>
+          </widget>
+          <widget type="embedded" version="2.0.0">
+            <name>nuc12-Host-info</name>
+            <macros>
+              <IOC>Ctrl-nuc12</IOC>
+            </macros>
+            <file>../../freia-symbols/display-builder/linstat/linStatHost.bob</file>
+            <x>690</x>
+            <y>12</y>
+            <width>550</width>
+            <height>425</height>
           </widget>
         </children>
       </tab>
@@ -389,19 +763,10 @@
         <name>nuc-13</name>
         <children>
           <widget type="navtabs" version="2.0.0">
-            <name>Navigation Tabs_11</name>
+            <name>nuc13-Navigation Tabs</name>
             <tabs>
               <tab>
-                <name>Host</name>
-                <file>../../../../../../opt/epics/opi/bob/freia-symbols/display-builder/linstat/linStatHost.bob</file>
-                <macros>
-                  <IOC>ioc99-test</IOC>
-                  <modName>TESTmod</modName>
-                </macros>
-                <group_name></group_name>
-              </tab>
-              <tab>
-                <name>Proc</name>
+                <name>Processes</name>
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc99-test</IOC>
@@ -409,36 +774,8 @@
                 <group_name></group_name>
               </tab>
               <tab>
-                <name>NIC-lo</name>
-                <file>../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
-                <macros>
-                  <IOC>ioc99-test</IOC>
-                  <NIC>lo</NIC>
-                </macros>
-                <group_name></group_name>
-              </tab>
-              <tab>
-                <name>NIC-eth</name>
-                <file>../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
-                <macros>
-                  <IOC>ioc99-test</IOC>
-                  <NIC>enp86s0</NIC>
-                </macros>
-                <group_name></group_name>
-              </tab>
-              <tab>
-                <name>FS</name>
-                <file>../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
-                <macros>
-                  <IOC>ioc99-test</IOC>
-                  <P>ioc99-test:ROOT</P>
-                  <DIR>/</DIR>
-                </macros>
-                <group_name></group_name>
-              </tab>
-              <tab>
-                <name>All</name>
-                <file>linstat_test.bob</file>
+                <name>Tab 2</name>
+                <file></file>
                 <macros>
                 </macros>
                 <group_name></group_name>
@@ -446,15 +783,73 @@
             </tabs>
             <x>10</x>
             <y>10</y>
-            <width>1098</width>
-            <height>548</height>
+            <width>680</width>
+            <height>700</height>
             <tab_width>120</tab_width>
+          </widget>
+          <widget type="navtabs" version="2.0.0">
+            <name>nuc13-FS-Tabs</name>
+            <tabs>
+              <tab>
+                <name>/var</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <P>Ctrl-nuc13:disk-var</P>
+                  <DIR>/var</DIR>
+                </macros>
+                <group_name></group_name>
+              </tab>
+              <tab>
+                <name>/run</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <P>Ctrl-nuc13:disk-run</P>
+                  <DIR>/run</DIR>
+                </macros>
+                <group_name></group_name>
+              </tab>
+            </tabs>
+            <x>690</x>
+            <y>445</y>
+            <width>550</width>
+            <height>150</height>
+            <direction>0</direction>
+          </widget>
+          <widget type="navtabs" version="2.0.0">
+            <name>nuc13-NIC-Tabs</name>
+            <tabs>
+              <tab>
+                <name>NIC1</name>
+                <file>../../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
+                <macros>
+                  <IOC>Ctrl-nuc13</IOC>
+                  <NIC>enp86s0</NIC>
+                </macros>
+                <group_name></group_name>
+              </tab>
+            </tabs>
+            <x>690</x>
+            <y>602</y>
+            <width>550</width>
+            <height>200</height>
+            <direction>0</direction>
+          </widget>
+          <widget type="embedded" version="2.0.0">
+            <name>nuc13-Host-info</name>
+            <macros>
+              <IOC>Ctrl-nuc13</IOC>
+            </macros>
+            <file>../../freia-symbols/display-builder/linstat/linStatHost.bob</file>
+            <x>690</x>
+            <y>12</y>
+            <width>550</width>
+            <height>425</height>
           </widget>
         </children>
       </tab>
     </tabs>
-    <width>1130</width>
-    <height>600</height>
+    <width>1250</width>
+    <height>850</height>
     <active_tab>6</active_tab>
   </widget>
 </display>
