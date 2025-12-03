@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-12-02 10:28:00 by marek-->
+<!--Saved on 2025-12-03 13:53:39 by marek-->
 <display version="2.0.0">
   <name>IOCs</name>
   <width>1250</width>
@@ -18,6 +18,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc02-linde</IOC>
+                  <modName>linde</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -26,6 +27,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc03-hnoss</IOC>
+                  <modName>hnoss</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -34,6 +36,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc04-wtrvac</IOC>
+                  <modName>wtrvac</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -42,6 +45,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc07-dbe</IOC>
+                  <modName>dbe</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -50,6 +54,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc08-misc</IOC>
+                  <modName>miscfreia</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -58,6 +63,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc12-fastintrlck</IOC>
+                  <modName>fastintrick</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -66,6 +72,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc17-cm</IOC>
+                  <modName>cm</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -73,7 +80,7 @@
             <x>10</x>
             <y>10</y>
             <width>680</width>
-            <height>700</height>
+            <height>750</height>
             <tab_width>120</tab_width>
           </widget>
           <widget type="navtabs" version="2.0.0">
@@ -98,7 +105,7 @@
                 <group_name></group_name>
               </tab>
             </tabs>
-            <x>690</x>
+            <x>695</x>
             <y>445</y>
             <width>550</width>
             <height>150</height>
@@ -126,7 +133,7 @@
                 <group_name></group_name>
               </tab>
             </tabs>
-            <x>690</x>
+            <x>695</x>
             <y>602</y>
             <width>550</width>
             <height>200</height>
@@ -156,6 +163,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc01-fgc</IOC>
+                  <modName>fgcepics</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -164,6 +172,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc02-dpu3</IOC>
+                  <modName>dpu3</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -172,6 +181,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc04-dcbreaker</IOC>
+                  <modName>dcbreaker</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -180,6 +190,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc05-ami1700</IOC>
+                  <modName>ami1700</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -188,6 +199,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc06-maglps</IOC>
+                  <modName>maglps</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -196,6 +208,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc11-gersemi</IOC>
+                  <modName>gersemi</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -204,6 +217,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc13-bake</IOC>
+                  <modName>bakeout</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -212,6 +226,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc14-cow</IOC>
+                  <modName>cow</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -220,6 +235,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc15-pdsgo2</IOC>
+                  <modName>pdsgo2</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -227,7 +243,7 @@
             <x>10</x>
             <y>10</y>
             <width>680</width>
-            <height>700</height>
+            <height>750</height>
             <tab_width>120</tab_width>
           </widget>
           <widget type="navtabs" version="2.0.0">
@@ -252,7 +268,7 @@
                 <group_name></group_name>
               </tab>
             </tabs>
-            <x>690</x>
+            <x>695</x>
             <y>445</y>
             <width>550</width>
             <height>150</height>
@@ -279,8 +295,17 @@
                 </macros>
                 <group_name></group_name>
               </tab>
+              <tab>
+                <name>NIC3</name>
+                <file>../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
+                <macros>
+                  <IOC>Ctrl-nuc03</IOC>
+                  <NIC>enx00249b488e29</NIC>
+                </macros>
+                <group_name></group_name>
+              </tab>
             </tabs>
-            <x>690</x>
+            <x>695</x>
             <y>602</y>
             <width>550</width>
             <height>200</height>
@@ -310,6 +335,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc01-vat616</IOC>
+                  <modName>vat616</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -318,6 +344,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc02-pnan5221</IOC>
+                  <modName>pnan5221</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -325,7 +352,7 @@
             <x>10</x>
             <y>10</y>
             <width>680</width>
-            <height>700</height>
+            <height>750</height>
             <tab_width>120</tab_width>
           </widget>
           <widget type="navtabs" version="2.0.0">
@@ -350,7 +377,7 @@
                 <group_name></group_name>
               </tab>
             </tabs>
-            <x>690</x>
+            <x>695</x>
             <y>445</y>
             <width>550</width>
             <height>150</height>
@@ -369,7 +396,7 @@
                 <group_name></group_name>
               </tab>
             </tabs>
-            <x>690</x>
+            <x>695</x>
             <y>602</y>
             <width>550</width>
             <height>200</height>
@@ -399,6 +426,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc06-tpg300</IOC>
+                  <modName>tpg300</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -407,6 +435,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc18-hevol</IOC>
+                  <modName>hevol</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -415,6 +444,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc20-laser</IOC>
+                  <modName>laser</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -423,6 +453,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc29-llrfmobile</IOC>
+                  <modName>mobilellrf</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -430,7 +461,7 @@
             <x>10</x>
             <y>10</y>
             <width>680</width>
-            <height>700</height>
+            <height>750</height>
             <tab_width>120</tab_width>
           </widget>
           <widget type="navtabs" version="2.0.0">
@@ -455,7 +486,7 @@
                 <group_name></group_name>
               </tab>
             </tabs>
-            <x>690</x>
+            <x>695</x>
             <y>445</y>
             <width>550</width>
             <height>150</height>
@@ -483,7 +514,7 @@
                 <group_name></group_name>
               </tab>
             </tabs>
-            <x>690</x>
+            <x>695</x>
             <y>602</y>
             <width>550</width>
             <height>200</height>
@@ -513,6 +544,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc01-dpu</IOC>
+                  <modName>dpu</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -521,6 +553,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc03-service</IOC>
+                  <modName>superv</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -529,6 +562,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc09-superv</IOC>
+                  <modName>superv</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -537,6 +571,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc10-rfleak</IOC>
+                  <modName>rfleakdet</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -545,6 +580,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc21-tvscreens</IOC>
+                  <modName>tvscreens</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -553,6 +589,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc22-siargo</IOC>
+                  <modName>siargo</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -561,6 +598,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc23-orkan</IOC>
+                  <modName>orkan</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -569,6 +607,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc30-dpu3</IOC>
+                  <modName>dpu3</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -576,7 +615,7 @@
             <x>10</x>
             <y>10</y>
             <width>680</width>
-            <height>700</height>
+            <height>750</height>
             <tab_width>120</tab_width>
           </widget>
           <widget type="navtabs" version="2.0.0">
@@ -601,7 +640,7 @@
                 <group_name></group_name>
               </tab>
             </tabs>
-            <x>690</x>
+            <x>695</x>
             <y>445</y>
             <width>550</width>
             <height>150</height>
@@ -620,7 +659,7 @@
                 <group_name></group_name>
               </tab>
             </tabs>
-            <x>690</x>
+            <x>695</x>
             <y>602</y>
             <width>550</width>
             <height>200</height>
@@ -650,6 +689,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc26-rexroth</IOC>
+                  <modName>rexroth</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -658,6 +698,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc27-htrctrl</IOC>
+                  <modName>heaterctrl</modName>
                 </macros>
                 <group_name></group_name>
               </tab>
@@ -665,7 +706,7 @@
             <x>10</x>
             <y>10</y>
             <width>680</width>
-            <height>700</height>
+            <height>750</height>
             <tab_width>120</tab_width>
           </widget>
           <widget type="navtabs" version="2.0.0">
@@ -690,7 +731,7 @@
                 <group_name></group_name>
               </tab>
             </tabs>
-            <x>690</x>
+            <x>695</x>
             <y>445</y>
             <width>550</width>
             <height>150</height>
@@ -704,12 +745,12 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
                 <macros>
                   <IOC>Ctrl-nuc12</IOC>
-                  <NIC>eno1</NIC>
+                  <NIC>enp88s0</NIC>
                 </macros>
                 <group_name></group_name>
               </tab>
             </tabs>
-            <x>690</x>
+            <x>695</x>
             <y>602</y>
             <width>550</width>
             <height>200</height>
@@ -731,6 +772,5 @@
     </tabs>
     <width>1250</width>
     <height>850</height>
-    <active_tab>-1</active_tab>
   </widget>
 </display>
