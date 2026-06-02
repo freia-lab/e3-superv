@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-12-03 13:53:39 by marek-->
 <display version="2.0.0">
   <name>IOCs</name>
   <width>1250</width>
@@ -21,6 +20,14 @@
                   <modName>linde</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc03-hnoss</name>
@@ -30,6 +37,14 @@
                   <modName>hnoss</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc04-wtrvac</name>
@@ -39,6 +54,14 @@
                   <modName>wtrvac</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc07-dbe</name>
@@ -48,6 +71,14 @@
                   <modName>dbe</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc08-misc</name>
@@ -57,6 +88,14 @@
                   <modName>miscfreia</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc12-fastintrlck</name>
@@ -66,6 +105,14 @@
                   <modName>fastintrick</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc17-cm</name>
@@ -75,6 +122,14 @@
                   <modName>cm</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
             </tabs>
             <x>10</x>
@@ -94,6 +149,14 @@
                   <DIR>/var</DIR>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>/run</name>
@@ -103,6 +166,14 @@
                   <DIR>/run</DIR>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
             </tabs>
             <x>695</x>
@@ -122,6 +193,14 @@
                   <NIC>eno1</NIC>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>NIC2</name>
@@ -131,6 +210,14 @@
                   <NIC>enx000ec6f92147</NIC>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
             </tabs>
             <x>695</x>
@@ -166,6 +253,14 @@
                   <modName>fgcepics</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc02-dpu3</name>
@@ -175,6 +270,14 @@
                   <modName>dpu3</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc04-dcbreaker</name>
@@ -184,6 +287,14 @@
                   <modName>dcbreaker</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc05-ami1700</name>
@@ -193,6 +304,14 @@
                   <modName>ami1700</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc06-maglps</name>
@@ -202,6 +321,14 @@
                   <modName>maglps</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc11-gersemi</name>
@@ -211,6 +338,14 @@
                   <modName>gersemi</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc13-bake</name>
@@ -220,6 +355,14 @@
                   <modName>bakeout</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc14-cow</name>
@@ -229,6 +372,14 @@
                   <modName>cow</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc15-pdsgo2</name>
@@ -238,6 +389,14 @@
                   <modName>pdsgo2</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
             </tabs>
             <x>10</x>
@@ -257,6 +416,14 @@
                   <DIR>/var</DIR>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>/run</name>
@@ -266,6 +433,14 @@
                   <DIR>/run</DIR>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
             </tabs>
             <x>695</x>
@@ -285,6 +460,14 @@
                   <NIC>eno1</NIC>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>NIC2</name>
@@ -294,6 +477,14 @@
                   <NIC>enx00249b488e2a</NIC>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>NIC3</name>
@@ -303,6 +494,14 @@
                   <NIC>enx00249b488e29</NIC>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
             </tabs>
             <x>695</x>
@@ -338,6 +537,14 @@
                   <modName>vat616</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc02-pnan5221</name>
@@ -347,6 +554,14 @@
                   <modName>pnan5221</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
             </tabs>
             <x>10</x>
@@ -366,6 +581,14 @@
                   <DIR>/var</DIR>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>/run</name>
@@ -375,6 +598,14 @@
                   <DIR>/run</DIR>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
             </tabs>
             <x>695</x>
@@ -394,6 +625,14 @@
                   <NIC>eno1</NIC>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
             </tabs>
             <x>695</x>
@@ -429,6 +668,14 @@
                   <modName>tpg300</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc18-hevol</name>
@@ -438,6 +685,14 @@
                   <modName>hevol</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc20-laser</name>
@@ -447,6 +702,14 @@
                   <modName>laser</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc29-llrfmobile</name>
@@ -456,6 +719,14 @@
                   <modName>mobilellrf</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
             </tabs>
             <x>10</x>
@@ -475,6 +746,14 @@
                   <DIR>/var</DIR>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>/run</name>
@@ -484,6 +763,14 @@
                   <DIR>/run</DIR>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
             </tabs>
             <x>695</x>
@@ -503,6 +790,14 @@
                   <NIC>eno1</NIC>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>NIC2</name>
@@ -512,6 +807,14 @@
                   <NIC>enx0c0e768ff587</NIC>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
             </tabs>
             <x>695</x>
@@ -547,6 +850,14 @@
                   <modName>dpu</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc03-service</name>
@@ -556,6 +867,14 @@
                   <modName>superv</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc09-superv</name>
@@ -565,6 +884,14 @@
                   <modName>superv</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc10-rfleak</name>
@@ -574,6 +901,14 @@
                   <modName>rfleakdet</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc21-tvscreens</name>
@@ -583,6 +918,14 @@
                   <modName>tvscreens</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc22-siargo</name>
@@ -592,6 +935,14 @@
                   <modName>siargo</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc23-orkan</name>
@@ -601,6 +952,14 @@
                   <modName>orkan</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc30-dpu3</name>
@@ -610,6 +969,14 @@
                   <modName>dpu3</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
             </tabs>
             <x>10</x>
@@ -629,6 +996,14 @@
                   <DIR>/var</DIR>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>/run</name>
@@ -638,6 +1013,14 @@
                   <DIR>/run</DIR>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
             </tabs>
             <x>695</x>
@@ -657,6 +1040,14 @@
                   <NIC>eno1</NIC>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
             </tabs>
             <x>695</x>
@@ -692,6 +1083,14 @@
                   <modName>rexroth</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
                 <name>ioc27-htrctrl</name>
@@ -701,6 +1100,14 @@
                   <modName>heaterctrl</modName>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
             </tabs>
             <x>10</x>
@@ -713,22 +1120,55 @@
             <name>nuc12-FS-Tabs</name>
             <tabs>
               <tab>
-                <name>/var</name>
+                <name>/</name>
                 <file>../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
                 <macros>
-                  <P>Ctrl-nuc12:disk-var</P>
-                  <DIR>/var</DIR>
+                  <P>Ctrl-nuc12:disk-root</P>
+                  <DIR>/</DIR>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
               <tab>
-                <name>/run</name>
+                <name>/boot</name>
                 <file>../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
                 <macros>
-                  <P>Ctrl-nuc12:disk-run</P>
-                  <DIR>/run</DIR>
+                  <P>Ctrl-nuc12:disk-boot</P>
+                  <DIR>/boot</DIR>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
+              </tab>
+              <tab>
+                <name>/boot/efi</name>
+                <file>../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <P>Ctrl-nuc12:disk-bootefi</P>
+                  <DIR>/boot/efi</DIR>
+                </macros>
+                <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
             </tabs>
             <x>695</x>
@@ -748,6 +1188,14 @@
                   <NIC>enp88s0</NIC>
                 </macros>
                 <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
               </tab>
             </tabs>
             <x>695</x>
@@ -760,6 +1208,120 @@
             <name>nuc12-Host-info</name>
             <macros>
               <IOC>Ctrl-nuc12</IOC>
+            </macros>
+            <file>../../freia-symbols/display-builder/linstat/linStatHost.bob</file>
+            <x>690</x>
+            <y>12</y>
+            <width>550</width>
+            <height>425</height>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>nuc-14</name>
+        <children>
+          <widget type="navtabs" version="2.0.0">
+            <name>nuc12-Navigation-Tabs_1</name>
+            <tabs>
+              <tab>
+                <name>ioc40-bmcgas</name>
+                <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
+                <macros>
+                  <IOC>ioc40-bmcgas</IOC>
+                  <modName>modbus</modName>
+                </macros>
+                <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
+              </tab>
+            </tabs>
+            <x>10</x>
+            <y>10</y>
+            <width>680</width>
+            <height>750</height>
+            <tab_width>120</tab_width>
+          </widget>
+          <widget type="navtabs" version="2.0.0">
+            <name>nuc12-FS-Tabs_1</name>
+            <tabs>
+              <tab>
+                <name>/</name>
+                <file>../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <P>Ctrl-nuc14:disk-root</P>
+                  <DIR>/</DIR>
+                </macros>
+                <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
+              </tab>
+              <tab>
+                <name>/boot/efi</name>
+                <file>../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <P>Ctrl-nuc14:disk-boot</P>
+                  <DIR>/boot/efi</DIR>
+                </macros>
+                <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
+              </tab>
+            </tabs>
+            <x>695</x>
+            <y>445</y>
+            <width>550</width>
+            <height>150</height>
+            <direction>0</direction>
+          </widget>
+          <widget type="navtabs" version="2.0.0">
+            <name>nuc12-NIC-Tabs_1</name>
+            <tabs>
+              <tab>
+                <name>NIC1</name>
+                <file>../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
+                <macros>
+                  <IOC>Ctrl-nuc14</IOC>
+                  <NIC>enp86s0</NIC>
+                </macros>
+                <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
+              </tab>
+            </tabs>
+            <x>692</x>
+            <y>602</y>
+            <width>550</width>
+            <height>200</height>
+            <direction>0</direction>
+          </widget>
+          <widget type="embedded" version="2.0.0">
+            <name>nuc12-Host-info_1</name>
+            <macros>
+              <IOC>Ctrl-nuc14</IOC>
             </macros>
             <file>../../freia-symbols/display-builder/linstat/linStatHost.bob</file>
             <x>690</x>
