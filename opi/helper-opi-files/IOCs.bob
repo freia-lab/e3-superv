@@ -1221,7 +1221,7 @@
         <name>nuc-14</name>
         <children>
           <widget type="navtabs" version="2.0.0">
-            <name>nuc12-Navigation-Tabs_1</name>
+            <name>nuc14-Navigation-Tabs_1</name>
             <tabs>
               <tab>
                 <name>ioc40-bmcgas</name>
@@ -1248,7 +1248,7 @@
             <tab_width>120</tab_width>
           </widget>
           <widget type="navtabs" version="2.0.0">
-            <name>nuc12-FS-Tabs_1</name>
+            <name>nuc14-FS-Tabs_1</name>
             <tabs>
               <tab>
                 <name>/</name>
@@ -1292,7 +1292,7 @@
             <direction>0</direction>
           </widget>
           <widget type="navtabs" version="2.0.0">
-            <name>nuc12-NIC-Tabs_1</name>
+            <name>nuc14-NIC-Tabs_1</name>
             <tabs>
               <tab>
                 <name>NIC1</name>
@@ -1312,16 +1312,164 @@
                 </deselected_color>
               </tab>
             </tabs>
-            <x>692</x>
+            <x>695</x>
             <y>602</y>
             <width>550</width>
             <height>200</height>
             <direction>0</direction>
           </widget>
           <widget type="embedded" version="2.0.0">
-            <name>nuc12-Host-info_1</name>
+            <name>nuc14-Host-info_1</name>
             <macros>
               <IOC>Ctrl-nuc14</IOC>
+            </macros>
+            <file>../../freia-symbols/display-builder/linstat/linStatHost.bob</file>
+            <x>690</x>
+            <y>12</y>
+            <width>550</width>
+            <height>425</height>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>oldpc-05</name>
+        <children>
+          <widget type="navtabs" version="2.0.0">
+            <name>oldpc05-Navigation-Tabs_3</name>
+            <tabs>
+              <tab>
+                <name>ioc31-ssa</name>
+                <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
+                <macros>
+                  <IOC>ioc31-ssa</IOC>
+                  <modName>myrrha_ssa</modName>
+                </macros>
+                <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
+              </tab>
+            </tabs>
+            <x>10</x>
+            <y>10</y>
+            <width>680</width>
+            <height>750</height>
+            <tab_width>120</tab_width>
+          </widget>
+          <widget type="navtabs" version="2.0.0">
+            <name>oldpc05-FS-Tabs_3</name>
+            <tabs>
+              <tab>
+                <name>/</name>
+                <file>../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <P>Ctrl-oldpc05:disk-root</P>
+                  <DIR>/</DIR>
+                </macros>
+                <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
+              </tab>
+              <tab>
+                <name>/boot/efi</name>
+                <file>../../freia-symbols/display-builder/linstat/linStatFS.bob</file>
+                <macros>
+                  <P>Ctrl-oldpc05:disk-bootefi</P>
+                  <DIR>/boot/efi</DIR>
+                </macros>
+                <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
+              </tab>
+            </tabs>
+            <x>695</x>
+            <y>445</y>
+            <width>550</width>
+            <height>150</height>
+            <direction>0</direction>
+          </widget>
+          <widget type="navtabs" version="2.0.0">
+            <name>oldpc05-NIC-Tabs_3</name>
+            <tabs>
+              <tab>
+                <name>NIC1</name>
+                <file>../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
+                <macros>
+                  <IOC>Ctrl-oldpc05</IOC>
+                  <NIC>eno1</NIC>
+                </macros>
+                <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
+              </tab>
+              <tab>
+                <name>NIC2</name>
+                <file>../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
+                <macros>
+                  <IOC>Ctrl-oldpc05</IOC>
+                  <NIC>enp4s0</NIC>
+                </macros>
+                <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
+              </tab>
+              <tab>
+                <name>Ethercat</name>
+                <file>../../freia-symbols/display-builder/linstat/linStatNIC.bob</file>
+                <macros>
+                  <IOC>Ctrl-oldpc05</IOC>
+                  <NIC>enp3s2</NIC>
+                </macros>
+                <group_name></group_name>
+                <selected_color>
+                  <color red="236" green="236" blue="236">
+                  </color>
+                </selected_color>
+                <deselected_color>
+                  <color red="200" green="200" blue="200">
+                  </color>
+                </deselected_color>
+              </tab>
+            </tabs>
+            <x>695</x>
+            <y>602</y>
+            <width>550</width>
+            <height>200</height>
+            <direction>0</direction>
+          </widget>
+          <widget type="embedded" version="2.0.0">
+            <name>oldpc05-Host-info_3</name>
+            <macros>
+              <IOC>Ctrl-oldpc05</IOC>
             </macros>
             <file>../../freia-symbols/display-builder/linstat/linStatHost.bob</file>
             <x>690</x>
