@@ -27,15 +27,6 @@
         <group_name></group_name>
       </tab>
       <tab>
-        <name>freia-arcapl1</name>
-        <file>server_3partitions.bob</file>
-        <macros>
-          <P>Ctrl-arcApl1</P>
-          <PART3>data1</PART3>
-        </macros>
-        <group_name></group_name>
-      </tab>
-      <tab>
         <name>freia-arcapl2</name>
         <file>server_3partitions.bob</file>
         <macros>
