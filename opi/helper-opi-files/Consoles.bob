@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-09-06 08:49:50 by konrad-->
 <display version="2.0.0">
   <name>consoles</name>
   <width>1150</width>
@@ -14,6 +13,14 @@
           <P>Ctrl-freiaCons2</P>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
       <tab>
         <name>nuc-07</name>
@@ -22,6 +29,14 @@
           <P>Ctrl-nuc07</P>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
       <tab>
         <name>centos7-DM</name>
@@ -30,6 +45,14 @@
           <P>Ctrl-centos7DM</P>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
       <tab>
         <name>oldpc-02</name>
@@ -38,14 +61,30 @@
           <P>Ctrl-oldpc02</P>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
       <tab>
         <name>oldpc-04</name>
-        <file>server_3partitions.bob</file>
+        <file>server_2partitions.bob</file>
         <macros>
           <P>Ctrl-oldpc04</P>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
       <tab>
         <name>nuc-11</name>
@@ -55,6 +94,14 @@
           <PART3>boot_efi</PART3>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
       <tab>
         <name>nuc-12</name>
@@ -64,6 +111,14 @@
           <PART3>boot_efi</PART3>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
     </tabs>
     <width>1135</width>

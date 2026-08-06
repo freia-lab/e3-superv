@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2026-01-07 11:14:00 by konrad-->
 <display version="2.0.0">
   <name>servers</name>
   <width>1150</width>
@@ -15,6 +14,14 @@
           <PART2>data1</PART2>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
       <tab>
         <name>freia-srv2</name>
@@ -25,6 +32,14 @@
           <PART3>boot_efi</PART3>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
       <tab>
         <name>freia-arcapl2</name>
@@ -33,6 +48,14 @@
           <P>Ctrl-arcApl2</P>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
       <tab>
         <name>freia-arcapl3</name>
@@ -42,6 +65,14 @@
           <PART3>data</PART3>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
       <tab>
         <name>oldpc-01</name>
@@ -50,6 +81,14 @@
           <P>Ctrl-oldpc01</P>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
       <tab>
         <name>freia-ub3</name>
@@ -58,6 +97,14 @@
           <P>Ctrl-freiaUb3</P>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
       <tab>
         <name>phoebus-srv</name>
@@ -66,14 +113,30 @@
           <P>Ctrl-phoebusSrv</P>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
       <tab>
         <name>nuc-04</name>
-        <file>server_3partitions.bob</file>
+        <file>server_2partitions.bob</file>
         <macros>
           <P>Ctrl-nuc04</P>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
       <tab>
         <name>freia-dbwr</name>
@@ -82,6 +145,14 @@
           <P>Ctrl-freiaDbwr</P>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
       <tab>
         <name>vsrv01</name>
@@ -90,6 +161,14 @@
           <P>Ctrl-vsrv01</P>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
       <tab>
         <name>freia</name>
@@ -98,6 +177,14 @@
           <P>Ctrl-freia</P>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
       <tab>
         <name>freia-olog</name>
@@ -106,6 +193,14 @@
           <P>Ctrl-freiaOlog</P>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
       <tab>
         <name>freia-ub2</name>
@@ -114,6 +209,14 @@
           <P>Ctrl-freiaUb2</P>
         </macros>
         <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
       </tab>
     </tabs>
     <width>1135</width>
