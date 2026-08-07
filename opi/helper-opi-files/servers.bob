@@ -91,6 +91,40 @@
         </deselected_color>
       </tab>
       <tab>
+        <name>centos-srv1</name>
+        <file>server_3partitions.bob</file>
+        <macros>
+          <P>Ctrl-centosSrv1</P>
+          <PART3>data1</PART3>
+        </macros>
+        <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
+      </tab>
+      <tab>
+        <name>ubuntu-srv1</name>
+        <file>server_3partitions.bob</file>
+        <macros>
+          <P>Ctrl-ubuntuSrv1</P>
+          <PART3>data1</PART3>
+        </macros>
+        <group_name></group_name>
+        <selected_color>
+          <color red="236" green="236" blue="236">
+          </color>
+        </selected_color>
+        <deselected_color>
+          <color red="200" green="200" blue="200">
+          </color>
+        </deselected_color>
+      </tab>
+      <tab>
         <name>freia-ub3</name>
         <file>server_2partitions.bob</file>
         <macros>

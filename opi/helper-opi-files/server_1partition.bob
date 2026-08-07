@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-11-14 17:21:09 by konrad-->
 <display version="2.0.0">
   <name>server_1p</name>
   <width>1000</width>
@@ -13,9 +12,9 @@
   <widget type="textupdate" version="2.0.0">
     <name>Text Update</name>
     <pv_name>$(P):System:Name</pv_name>
-    <x>19</x>
+    <x>20</x>
     <y>14</y>
-    <width>160</width>
+    <width>307</width>
     <font>
       <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
@@ -39,10 +38,10 @@
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_1</name>
-    <pv_name>$(P):System:Descr</pv_name>
-    <x>196</x>
-    <y>14</y>
-    <width>659</width>
+    <pv_name>=concat(`$(P):System:Descr`)</pv_name>
+    <x>20</x>
+    <y>44</y>
+    <width>790</width>
     <foreground_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -51,6 +50,8 @@
       <color name="WHITE" red="255" green="255" blue="255">
       </color>
     </background_color>
+    <precision>80</precision>
+    <show_units>false</show_units>
     <vertical_alignment>1</vertical_alignment>
     <wrap_words>false</wrap_words>
     <actions>
@@ -62,8 +63,8 @@
   </widget>
   <widget type="group" version="3.0.0">
     <name>Grouping Container</name>
-    <x>24</x>
-    <y>53</y>
+    <x>20</x>
+    <y>74</y>
     <width>640</width>
     <height>20</height>
     <style>3</style>
@@ -218,8 +219,8 @@
   </widget>
   <widget type="group" version="3.0.0">
     <name>Grouping Container_1</name>
-    <x>24</x>
-    <y>84</y>
+    <x>20</x>
+    <y>105</y>
     <width>496</width>
     <height>20</height>
     <style>3</style>
@@ -345,8 +346,8 @@
   </widget>
   <widget type="group" version="3.0.0">
     <name>Grouping Container_6</name>
-    <x>31</x>
-    <y>131</y>
+    <x>20</x>
+    <y>136</y>
     <width>350</width>
     <height>20</height>
     <style>3</style>
@@ -527,7 +528,7 @@
   </widget>
   <widget type="group" version="3.0.0">
     <name>Grouping Container_7</name>
-    <x>19</x>
+    <x>20</x>
     <y>168</y>
     <width>390</width>
     <height>39</height>
