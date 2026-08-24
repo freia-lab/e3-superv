@@ -76,16 +76,32 @@ class ArcaplMonitor:
         return self.data.get("capacityUtilized") if self.data else None
 
     def getTotalETLRuns0(self):
-        return int(self.data.get("totalETLRuns(0)")) if self.data else None
+        data = self.data.get("totalETLRuns(0)")
+        if data == None:            
+            # AA V >= 2.4.1
+            data = self.data.get("totalETLRuns(MTS)")
+        return int(data) if self.data else None
 
     def getTotalETLRuns1(self):
-        return int(self.data.get("totalETLRuns(1)")) if self.data else None
+        data = self.data.get("totalETLRuns(1)")
+        if data == None:            
+            # AA V >= 2.4.1
+            data = self.data.get("totalETLRuns(LTS)")
+        return int(data) if self.data else None
 
     def getTimeForOverallETLInSeconds0(self):
-        return int(self.data.get("timeForOverallETLInSeconds(0)")) if self.data else None
+        data = self.data.get("timeForOverallETLInSeconds(0)")
+        if data == None:            
+            # AA V >= 2.4.1
+            data = self.data.get("timeForOverallETLInSeconds(MTS)")
+        return int(data) if self.data else None
 
     def getTimeForOverallETLInSeconds1(self):
-        return int(self.data.get("timeForOverallETLInSeconds(1)")) if self.data else None
+        data = self.data.get("timeForOverallETLInSeconds(1)")
+        if data == None:            
+            # AA V >= 2.4.1
+            data = self.data.get("timeForOverallETLInSeconds(LTS)")
+        return int(data) if self.data else None
 
     def getFormattedWriteThreadSeconds(self):
         return locale.atof(self.data.get("formattedWriteThreadSeconds")) if self.data else None

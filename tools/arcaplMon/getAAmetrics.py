@@ -8,10 +8,10 @@ import sys
 import json
 
 def main():
-    print('*** AA metrics on freia-arcapl1.physics.uu.se ***')
-    aa = ArcaplMonitor("http://freia-arcapl1.physics.uu.se:17665/mgmt/bpl/getApplianceMetrics")
-    aa.debug = 0
-    runTest(aa)
+    # print('*** AA metrics on freia-arcapl1.physics.uu.se ***')
+    # aa = ArcaplMonitor("http://freia-arcapl1.physics.uu.se:17665/mgmt/bpl/getApplianceMetrics")
+    # aa.debug = 0
+    # runTest(aa)
     print('*** AA metrics on freia-arcapl2.physics.uu.se ***')
     aa = ArcaplMonitor("http://freia-arcapl2.physics.uu.se:17665/mgmt/bpl/getApplianceMetrics")
     aa.debug = 1
@@ -20,8 +20,16 @@ def main():
     aa = ArcaplMonitor("http://freia-arcapl3.physics.uu.se:17665/mgmt/bpl/getApplianceMetrics")
     aa.debug = 0
     runTest(aa)
-    print('*** AA metrics on oldpc-01.freia.local ***')
-    aa = ArcaplMonitor("http://oldpc-01.freia.local:17665/mgmt/bpl/getApplianceMetrics")
+    print('*** AA metrics on oldpc-01.freia.internal.uu.se ***')
+    aa = ArcaplMonitor("http://oldpc-01.freia.internal.uu.se:17665/mgmt/bpl/getApplianceMetrics")
+    aa.debug = 0
+    runTest(aa)
+    print('*** AA metrics on oldpc-01.freia.internal.uu.se ***')
+    aa = ArcaplMonitor("http://oldpc-01.freia.internal.uu.se:17665/mgmt/bpl/getApplianceMetrics")
+    aa.debug = 0
+    runTest(aa)
+    print('*** AA metrics on oldpc-04.freia.internal.uu.se ***')
+    aa = ArcaplMonitor("http://oldpc-04.freia.internal.uu.se:17665/mgmt/bpl/getApplianceMetrics")
     aa.debug = 0
     runTest(aa)
 
@@ -35,10 +43,12 @@ def runTest(aa):
     print ('Disconnected PVs:\t%12d' % aa.getDisconnectedPVCount())
     print ('Event rate [1/s] :\t\t%.2f' %  aa.getEventRate())
     print ('Data rate [byte/s] :\t\t%.2f' %  aa.getDataRate())
-    print ('Total ETL runs (0->1) :\t%12d' %  aa.getTotalETLRuns0())
+    print ('Total ETL runs (0->1) :\t%.2f' %  aa.getTotalETLRuns0())
+    print ('Time for Overall ETL(MTS) :\t%12d' %  aa.getTimeForOverallETLInSeconds0())
     print ('Total ETL runs (1->2) :\t%12d' %  aa.getTotalETLRuns1())
+    print ('Time for Overall ETL(LTS) :\t%12d' %  aa.getTimeForOverallETLInSeconds1())
     print ('Average time spent in ETL (0->1):\t%.2f' % aa.getAvgTimeETL0())
-    print ('Average time spent in ETL (1->2):\t%.2f' % aa.getAvgTimeETL0())
+    print ('Average time spent in ETL (1->2):\t%.2f' % aa.getAvgTimeETL1())
     print ('Time spent in writing to STS:\t%.2f' % aa.getSecondsConsumedByWriter())
     
     return

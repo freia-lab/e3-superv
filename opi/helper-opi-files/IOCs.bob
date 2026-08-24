@@ -102,7 +102,7 @@
                 <file>../../freia-symbols/display-builder/linstat/linStatProc.bob</file>
                 <macros>
                   <IOC>ioc12-fastintrlck</IOC>
-                  <modName>fastintrick</modName>
+                  <modName>fastintrlck</modName>
                 </macros>
                 <group_name></group_name>
                 <selected_color>

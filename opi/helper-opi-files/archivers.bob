@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-10-22 10:42:39 by konrad-->
 <display version="2.0.0">
   <name>archivers</name>
   <width>1300</width>
@@ -59,5 +58,34 @@
     <x>600</x>
     <y>30</y>
     <width>550</width>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_2</name>
+    <macros>
+      <P>Ctrl-oldpc04:aa-metrics:</P>
+    </macros>
+    <file>../Embedded/aa-metrics.bob</file>
+    <x>30</x>
+    <y>340</y>
+    <width>550</width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_2</name>
+    <class>HEADER2</class>
+    <text>Short-term</text>
+    <x>50</x>
+    <y>310</y>
+    <width>530</width>
+    <height>30</height>
+    <font use_class="true">
+      <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+      </font>
+    </font>
+    <background_color use_class="true">
+      <color name="Background" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <transparent use_class="true">true</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
   </widget>
 </display>
