@@ -55,10 +55,10 @@
         </deselected_color>
       </tab>
       <tab>
-        <name>oldpc-02</name>
-        <file>server_1partition.bob</file>
+        <name>oldpc-01</name>
+        <file>server_2partitions.bob</file>
         <macros>
-          <P>Ctrl-oldpc02</P>
+          <P>Ctrl-oldpc01</P>
         </macros>
         <group_name></group_name>
         <selected_color>
@@ -71,10 +71,10 @@
         </deselected_color>
       </tab>
       <tab>
-        <name>oldpc-04</name>
-        <file>server_2partitions.bob</file>
+        <name>oldpc-02</name>
+        <file>server_1partition.bob</file>
         <macros>
-          <P>Ctrl-oldpc04</P>
+          <P>Ctrl-oldpc02</P>
         </macros>
         <group_name></group_name>
         <selected_color>

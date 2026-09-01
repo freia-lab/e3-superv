@@ -75,10 +75,10 @@
         </deselected_color>
       </tab>
       <tab>
-        <name>oldpc-01</name>
-        <file>server_3partitions.bob</file>
+        <name>oldpc-04</name>
+        <file>server_2partitions.bob</file>
         <macros>
-          <P>Ctrl-oldpc01</P>
+          <P>Ctrl-oldpc04</P>
         </macros>
         <group_name></group_name>
         <selected_color>
